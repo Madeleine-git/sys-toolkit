@@ -30,15 +30,12 @@ class NetworkDevice:
     hostname, ip y mac.
 
     CONCEPTO — __init__:
-      Es el constructor. Se ejecuta automáticamente cada vez
-      que creas un objeto de esta clase. Recibe los datos
+      Es el constructor. Se ejecuta automáticamente cada vez que creas un objeto de esta clase. Recibe los datos
       iniciales y los guarda como atributos del objeto.
 
     CONCEPTO — self:
-      Es una referencia al propio objeto. Cuando escribes
-      self.hostname = hostname, estás diciendo "guarda este
-      valor EN ESTE objeto específico". Cada objeto tiene
-      sus propios valores aunque sean de la misma clase.
+      Es una referencia al propio objeto. Cuando escribes self.hostname = hostname, estás diciendo "guarda este
+      valor EN ESTE objeto específico". Cada objeto tiene sus propios valores aunque sean de la misma clase.
     """
 
     def __init__(self, hostname: str, ip: str, mac: str) -> None:
@@ -71,8 +68,7 @@ class NetworkDevice:
     def audit_device(self) -> None:
         """
         Método de auditoría base.
-        Las clases hijas lo sobreescriben con sus propias
-        directrices de seguridad (polimorfismo).
+        Las clases hijas lo sobreescriben con sus propias directrices de seguridad (polimorfismo).
         """
         print(f"\n  [AUDIT] Dispositivo: {self.hostname}")
         print(f"  [AUDIT] IP:          {self.ip}")
@@ -100,14 +96,12 @@ class Router(NetworkDevice):
     Hereda de NetworkDevice y añade atributos específicos.
 
     CONCEPTO — Herencia (Router hereda de NetworkDevice):
-      Router tiene automáticamente hostname, ip y mac
-      sin necesidad de redefinirlos. Solo añade lo suyo:
+      Router tiene automáticamente hostname, ip y mac sin necesidad de redefinirlos. Solo añade lo suyo:
       interfaces y gateway.
 
     CONCEPTO — super():
       Llama al constructor del padre (NetworkDevice).
-      Evita repetir el código de inicialización de
-      hostname, ip y mac.
+      Evita repetir el código de inicialización de hostname, ip y mac.
     """
 
     def __init__(
@@ -155,8 +149,7 @@ class Router(NetworkDevice):
     def audit_device(self) -> None:
         """
         CONCEPTO — Polimorfismo:
-          Este método tiene el MISMO nombre que en NetworkDevice
-          pero hace algo DIFERENTE. Muestra directrices
+          Este método tiene el MISMO nombre que en NetworkDevice pero hace algo DIFERENTE. Muestra directrices
           específicas de seguridad para routers.
           Python sabe qué versión usar según el tipo de objeto.
         """
@@ -235,8 +228,7 @@ class Server(NetworkDevice):
     def audit_device(self) -> None:
         """
         Versión del método audit_device() para servidores.
-        Muestra directrices específicas de seguridad
-        para servidores, distintas a las del router.
+        Muestra directrices específicas de seguridad para servidores, distintas a las del router.
         """
         servicios_str: str = ", ".join(self.servicios)
         print(f"\n  {'═' * 45}")
