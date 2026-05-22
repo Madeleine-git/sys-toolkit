@@ -4,6 +4,7 @@ sys_toolkit.py
 Kit de herramientas para administradores de sistemas.
 Menú interactivo CLI.
 """
+import network_models
 import os_utils
 import log_parser
 import sys
@@ -33,12 +34,12 @@ def mostrar_menu() -> None:
     print("  1.  Automatización del sistema operativo")
     print("  2.  Auditor de seguridad SSH")
     print("  3.  Analizador de logs SSH")
-    print("  4.  Procesador de inventario CSV → Excel")
-    print("  5.  Geolocalizador de IPs sospechosas")
-    print("  6.  Acerca de este toolkit")
+    print("  4.  Modelos de red (POO)")
+    print("  5.  Procesador de inventario CSV → Excel")
+    print("  6.  Geolocalizador de IPs sospechosas")
+    print("  7.  Acerca de este toolkit")
     print("  0.  Salir")
     print("──────────────────────────────────────────────")
-
 
 def mostrar_info() -> None:
     """Muestra información sobre el toolkit."""
@@ -61,6 +62,11 @@ def ejecutar_auditor_ssh() -> None:
 def ejecutar_log_parser() -> None:
     """Módulo 3 – Analizador de logs SSH."""
     log_parser.menu_log_parser()
+
+
+def ejecutar_network_models() -> None:
+    """Módulo 4 – Modelos de red con POO."""
+    network_models.menu_network_models()
 
 
 def ejecutar_procesador_csv() -> None:
@@ -104,12 +110,15 @@ def main() -> None:
             ejecutar_log_parser()
 
         elif opcion == "4":
-            ejecutar_procesador_csv()
+            ejecutar_network_models()
 
         elif opcion == "5":
-            ejecutar_geoip()
+            ejecutar_procesador_csv()
 
         elif opcion == "6":
+            ejecutar_geoip()
+
+        elif opcion == "7":
             mostrar_info()
 
         elif opcion == "0":
@@ -118,8 +127,6 @@ def main() -> None:
 
         else:
             print(f"\n  [!] Opción '{opcion}' no reconocida. Intenta de nuevo.")
-
-
 # Solo arranca main() si ejecutas ESTE fichero directamente
 if __name__ == "__main__":
     main()
