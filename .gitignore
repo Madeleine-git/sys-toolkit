@@ -1,0 +1,17 @@
+# Entorno virtual - nunca se sube a GitHub
+venv/
+
+# Ficheros compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ficheros de configuración de VS Code
+.vscode/
+
+# Ficheros temporales de Windows
+Thumbs.db
+desktop.ini
+
+# Ficheros de mypy
+.mypy_cache/
