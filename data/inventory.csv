@@ -1,0 +1,1001 @@
+id,hostname,ip,mac,sistema_operativo,ram_gb,cpu_cores,departamento,rol,estado,fecha_instalacion,ultimo_backup
+1,WIN-SRV-0001,24.44.128.149,d4:83:d0:c8:79:e1,Windows Server 2022,8,2,Base de Datos,Application Server,Mantenimiento,2022-05-13,2026-02-16
+2,linux-srv-0002,131.109.51.191,aa:ef:85:aa:42:20,Red Hat Enterprise Linux 8,4,2,Base de Datos,Monitoring Server,Mantenimiento,2020-03-21,2026-02-16
+3,WIN-SRV-0003,58.182.61.15,50:b4:e3:bb:b3:1d,Windows Server 2019,8,16,Seguridad,Web Server,Activo,2023-12-17,2026-02-18
+4,WIN-SRV-0004,156.233.213.68,10:96:43:eb:81:6f,Windows Server 2019,128,2,Seguridad,DNS Server,Mantenimiento,2023-04-15,2026-01-09
+5,WIN-SRV-0005,52.152.175.192,4a:1e:b9:89:88:6f,Windows Server 2019,32,16,Seguridad,Database Server,Apagado,2020-04-17,2026-03-16
+6,linux-srv-0006,145.146.109.155,8a:77:9c:2d:24:40,CentOS 7,16,8,Operaciones,Application Server,Apagado,2026-03-26,2026-03-23
+7,linux-srv-0007,205.134.207.47,3a:d6:bc:fa:7f:87,Debian 11,32,4,RRHH,DNS Server,Apagado,2023-09-21,2026-01-21
+8,linux-srv-0008,206.232.240.251,30:cc:86:b8:84:5a,Ubuntu 20.04 LTS,4,4,Operaciones,Backup Server,Activo,2022-10-18,2026-03-05
+9,linux-srv-0009,89.210.145.251,3e:a7:f8:aa:5f:0b,Debian 11,8,16,Base de Datos,Database Server,Apagado,2022-10-23,2026-03-04
+10,linux-srv-0010,167.51.69.94,30:03:3d:4f:a5:ad,Red Hat Enterprise Linux 8,128,32,Infraestructura,Mail Server,Activo,2020-02-15,2026-01-08
+11,linux-srv-0011,49.52.44.235,be:e3:4d:d5:94:34,Ubuntu 22.04 LTS,8,16,Base de Datos,File Server,Mantenimiento,2021-02-08,2026-01-09
+12,linux-srv-0012,115.253.76.78,1c:b5:99:86:79:37,Debian 11,8,16,Seguridad,Web Server,Apagado,2023-09-02,2026-03-20
+13,linux-srv-0013,109.69.211.53,12:cf:b1:e7:86:f9,Debian 11,8,2,Finanzas,Database Server,Apagado,2023-05-27,2026-05-19
+14,linux-srv-0014,166.82.88.149,ea:a1:cd:62:95:65,Debian 11,16,2,Operaciones,Backup Server,Activo,2021-06-07,2026-03-20
+15,WIN-SRV-0015,180.187.234.213,12:45:85:65:9e:91,Windows Server 2022,16,4,Base de Datos,DNS Server,Mantenimiento,2024-03-30,2026-05-24
+16,linux-srv-0016,103.109.112.204,a8:aa:17:92:d6:0e,Ubuntu 22.04 LTS,128,32,Infraestructura,Monitoring Server,Activo,2021-10-24,2026-03-01
+17,linux-srv-0017,209.195.9.168,ea:fd:b1:ea:5c:01,CentOS 7,16,8,Redes,Mail Server,Mantenimiento,2023-10-07,2026-03-30
+18,linux-srv-0018,150.44.129.29,bc:33:08:7e:d5:5b,Ubuntu 22.04 LTS,64,16,Base de Datos,Mail Server,Mantenimiento,2020-06-10,2026-04-10
+19,WIN-SRV-0019,135.164.27.195,48:96:e6:3b:31:27,Windows Server 2022,4,8,Desarrollo,File Server,Apagado,2025-10-15,2026-05-13
+20,linux-srv-0020,97.21.2.226,02:b9:82:4b:6a:37,Red Hat Enterprise Linux 8,16,16,RRHH,DNS Server,Apagado,2022-03-23,2026-03-08
+21,linux-srv-0021,74.86.25.91,aa:0d:48:47:14:55,CentOS 7,16,2,Redes,Web Server,Activo,2023-05-24,2026-04-16
+22,linux-srv-0022,133.87.168.125,54:ac:8b:b1:87:0a,Ubuntu 20.04 LTS,16,2,RRHH,Monitoring Server,Apagado,2020-11-02,2026-01-06
+23,linux-srv-0023,28.82.94.52,d4:68:c6:19:b2:49,Debian 11,32,16,Seguridad,Application Server,Apagado,2025-06-21,2026-03-17
+24,linux-srv-0024,61.15.251.76,70:f0:0a:68:f0:f4,Red Hat Enterprise Linux 8,16,2,Seguridad,Web Server,Activo,2022-07-08,2026-01-12
+25,WIN-SRV-0025,23.83.229.119,96:e0:64:f4:34:fd,Windows Server 2022,32,2,Finanzas,Database Server,Apagado,2023-05-27,2026-03-20
+26,WIN-SRV-0026,85.188.251.225,c8:e9:b2:e8:bf:91,Windows Server 2019,32,4,Finanzas,Monitoring Server,Apagado,2025-12-17,2026-03-27
+27,linux-srv-0027,166.111.241.73,ee:6e:97:a1:e2:bf,Ubuntu 20.04 LTS,64,16,Finanzas,Database Server,Apagado,2022-06-17,2026-03-05
+28,WIN-SRV-0028,202.188.33.128,8c:9e:81:38:1a:06,Windows Server 2019,128,2,Infraestructura,File Server,Activo,2022-01-08,2026-04-29
+29,linux-srv-0029,213.161.20.211,76:1b:24:15:91:9d,CentOS 7,32,32,Desarrollo,Backup Server,Activo,2024-09-07,2026-02-13
+30,linux-srv-0030,120.183.172.215,6e:f9:fc:cb:28:de,Ubuntu 20.04 LTS,16,32,Infraestructura,DNS Server,Activo,2021-08-22,2026-05-03
+31,linux-srv-0031,76.189.248.142,e8:59:b5:0d:ac:dc,Ubuntu 22.04 LTS,4,4,Base de Datos,Web Server,Mantenimiento,2023-08-10,2026-04-21
+32,WIN-SRV-0032,34.174.95.185,e0:44:3e:d8:86:18,Windows Server 2022,2,32,Redes,Database Server,Mantenimiento,2025-11-14,2026-01-05
+33,WIN-SRV-0033,95.110.14.179,8e:2a:45:0f:3e:e2,Windows Server 2022,4,4,Base de Datos,Application Server,Activo,2024-12-10,2026-04-07
+34,linux-srv-0034,8.247.188.8,94:b1:ee:31:5f:a0,Red Hat Enterprise Linux 8,64,4,RRHH,DNS Server,Activo,2024-08-09,2026-03-17
+35,linux-srv-0035,20.204.145.69,a8:a2:ec:55:36:57,CentOS 7,2,2,Desarrollo,Backup Server,Apagado,2025-05-14,2026-01-14
+36,linux-srv-0036,212.53.107.245,30:85:d2:d5:3a:a9,Ubuntu 22.04 LTS,32,8,RRHH,Monitoring Server,Apagado,2022-07-29,2026-02-08
+37,linux-srv-0037,107.219.133.88,b6:8b:57:5c:06:38,Debian 11,128,16,RRHH,Application Server,Mantenimiento,2023-07-18,2026-02-08
+38,linux-srv-0038,181.151.246.101,9e:e0:9a:be:77:c8,Red Hat Enterprise Linux 8,2,2,Finanzas,Mail Server,Apagado,2025-10-12,2026-02-05
+39,WIN-SRV-0039,96.194.135.166,d2:3a:27:23:8c:0c,Windows Server 2022,64,32,Operaciones,Web Server,Activo,2024-12-31,2026-01-23
+40,linux-srv-0040,216.145.87.150,4e:e0:8e:b0:8c:f5,Ubuntu 22.04 LTS,4,8,Finanzas,Database Server,Mantenimiento,2024-10-05,2026-05-08
+41,WIN-SRV-0041,26.252.153.154,a6:cf:41:ed:b4:f2,Windows Server 2022,8,8,Base de Datos,Mail Server,Mantenimiento,2022-12-15,2026-02-20
+42,linux-srv-0042,38.55.229.217,76:f1:96:0f:73:81,Red Hat Enterprise Linux 8,2,2,Seguridad,Web Server,Apagado,2023-12-26,2026-03-26
+43,WIN-SRV-0043,75.209.7.78,6c:5c:8b:b3:49:0a,Windows Server 2022,4,2,Redes,DNS Server,Mantenimiento,2021-09-24,2026-04-14
+44,linux-srv-0044,78.232.15.180,a2:2d:f0:87:73:5e,CentOS 7,128,4,Finanzas,Monitoring Server,Activo,2025-04-22,2026-03-24
+45,linux-srv-0045,10.20.88.86,02:bc:bf:b0:2e:67,Ubuntu 22.04 LTS,32,16,Seguridad,Database Server,Activo,2021-11-09,2026-02-16
+46,linux-srv-0046,74.53.38.179,6e:dc:a2:40:0e:ed,Red Hat Enterprise Linux 8,64,4,RRHH,Database Server,Activo,2024-01-20,2026-05-10
+47,linux-srv-0047,46.23.179.139,ac:e4:8e:7f:f6:5f,Red Hat Enterprise Linux 8,128,8,RRHH,Mail Server,Apagado,2021-05-24,2026-01-12
+48,linux-srv-0048,45.226.93.78,dc:b8:9c:4f:65:9c,Ubuntu 20.04 LTS,32,2,Seguridad,Database Server,Mantenimiento,2021-08-27,2026-03-11
+49,linux-srv-0049,215.98.160.242,cc:38:e4:8a:de:b0,Ubuntu 20.04 LTS,64,2,Infraestructura,Backup Server,Mantenimiento,2021-01-28,2026-03-28
+50,linux-srv-0050,214.210.142.168,26:41:dc:ff:1e:65,CentOS 7,8,32,Infraestructura,File Server,Apagado,2022-08-20,2026-05-01
+51,linux-srv-0051,194.143.163.9,88:80:6a:24:e2:67,Debian 11,16,2,RRHH,Backup Server,Activo,2022-12-12,2026-04-09
+52,linux-srv-0052,87.119.102.102,5c:d3:da:16:6e:77,Red Hat Enterprise Linux 8,2,16,Seguridad,Mail Server,Activo,2024-08-26,2026-04-17
+53,WIN-SRV-0053,162.111.103.240,54:09:bb:d8:91:af,Windows Server 2019,2,16,Finanzas,DNS Server,Activo,2024-09-28,2026-01-14
+54,linux-srv-0054,218.249.31.147,b8:38:27:41:00:12,CentOS 7,32,8,Infraestructura,Web Server,Mantenimiento,2023-09-25,2026-01-11
+55,linux-srv-0055,3.88.180.80,ee:c7:68:d3:0a:a9,Red Hat Enterprise Linux 8,128,16,Base de Datos,Backup Server,Activo,2021-09-01,2026-02-02
+56,linux-srv-0056,210.107.10.48,d6:8e:7e:9c:e1:d3,Ubuntu 20.04 LTS,4,2,Finanzas,File Server,Mantenimiento,2023-12-28,2026-04-19
+57,linux-srv-0057,55.234.108.8,04:e6:8b:37:61:48,CentOS 7,4,32,Base de Datos,Mail Server,Mantenimiento,2023-02-03,2026-05-07
+58,linux-srv-0058,77.181.9.103,ac:0f:a9:d3:ff:c0,Debian 11,2,4,Base de Datos,Application Server,Apagado,2022-12-07,2026-04-18
+59,linux-srv-0059,190.178.90.68,8e:4e:3c:a5:7b:b0,Ubuntu 22.04 LTS,16,8,Operaciones,Application Server,Apagado,2023-11-08,2026-03-17
+60,linux-srv-0060,130.225.13.226,cc:a5:63:88:02:8e,Ubuntu 22.04 LTS,64,32,Operaciones,Monitoring Server,Apagado,2025-03-15,2026-05-09
+61,linux-srv-0061,6.232.31.64,92:14:1a:b3:5d:ce,Red Hat Enterprise Linux 8,16,32,Redes,File Server,Apagado,2021-06-11,2026-03-30
+62,linux-srv-0062,32.27.63.106,f6:5f:43:39:10:8e,Debian 11,32,32,Redes,Mail Server,Mantenimiento,2024-06-27,2026-03-09
+63,WIN-SRV-0063,119.204.204.77,c8:f9:38:ae:25:21,Windows Server 2019,2,4,Base de Datos,File Server,Apagado,2026-04-19,2026-03-14
+64,linux-srv-0064,31.199.176.140,8e:77:41:20:63:06,CentOS 7,4,16,Finanzas,Mail Server,Activo,2025-09-09,2026-02-20
+65,linux-srv-0065,181.30.68.186,82:ea:4e:6f:29:a9,CentOS 7,16,32,Operaciones,DNS Server,Activo,2021-04-21,2026-02-22
+66,linux-srv-0066,159.6.0.8,56:7f:9b:1b:31:f9,Red Hat Enterprise Linux 8,8,8,Base de Datos,File Server,Mantenimiento,2026-02-22,2026-01-23
+67,linux-srv-0067,146.157.93.250,f6:d8:6a:ad:7a:13,Red Hat Enterprise Linux 8,16,8,RRHH,Monitoring Server,Mantenimiento,2024-01-08,2026-04-29
+68,linux-srv-0068,48.22.61.57,0e:48:d4:e2:23:ca,Ubuntu 20.04 LTS,64,4,Seguridad,File Server,Mantenimiento,2021-05-11,2026-04-11
+69,WIN-SRV-0069,186.220.192.142,e6:cd:1b:da:5d:00,Windows Server 2019,16,32,Operaciones,DNS Server,Apagado,2022-03-30,2026-04-21
+70,WIN-SRV-0070,102.67.96.131,e2:70:7e:b0:ee:5e,Windows Server 2019,4,16,Seguridad,Database Server,Activo,2020-02-28,2026-05-21
+71,linux-srv-0071,142.50.47.42,c2:02:ad:3d:2e:03,Ubuntu 22.04 LTS,2,16,Seguridad,Application Server,Mantenimiento,2025-12-15,2026-03-25
+72,WIN-SRV-0072,35.245.23.33,04:ec:dc:82:c0:40,Windows Server 2022,64,32,Base de Datos,Monitoring Server,Activo,2024-05-29,2026-04-18
+73,linux-srv-0073,195.212.71.92,1e:4f:46:23:f2:a4,Debian 11,32,32,Desarrollo,Application Server,Mantenimiento,2024-08-29,2026-04-22
+74,linux-srv-0074,13.5.198.28,76:31:1f:78:0a:1a,Debian 11,32,32,Base de Datos,Mail Server,Activo,2026-03-09,2026-02-28
+75,linux-srv-0075,212.93.196.116,4e:be:fa:45:08:7f,Ubuntu 20.04 LTS,4,2,Desarrollo,Web Server,Apagado,2023-03-24,2026-02-23
+76,linux-srv-0076,152.82.190.19,e6:bc:a3:ac:c3:4e,Debian 11,32,8,RRHH,Web Server,Activo,2023-01-31,2026-04-21
+77,WIN-SRV-0077,100.23.74.159,32:d4:9c:0e:2c:88,Windows Server 2022,4,8,Finanzas,Web Server,Activo,2023-07-09,2026-01-01
+78,linux-srv-0078,23.239.90.102,34:cb:21:7b:9d:cc,Ubuntu 20.04 LTS,32,4,Operaciones,Mail Server,Activo,2022-07-25,2026-02-17
+79,WIN-SRV-0079,52.4.174.35,90:82:8e:c8:ee:1c,Windows Server 2022,128,4,RRHH,Monitoring Server,Mantenimiento,2022-03-14,2026-02-23
+80,linux-srv-0080,114.210.221.206,22:6c:20:8b:97:77,Debian 11,64,32,Infraestructura,Backup Server,Apagado,2021-05-10,2026-03-04
+81,WIN-SRV-0081,163.162.176.186,92:f3:71:39:75:24,Windows Server 2019,32,4,Infraestructura,Backup Server,Apagado,2021-05-01,2026-05-14
+82,linux-srv-0082,101.186.91.161,7c:f8:4a:f2:fc:57,Red Hat Enterprise Linux 8,4,4,Infraestructura,Backup Server,Activo,2026-02-16,2026-02-02
+83,linux-srv-0083,78.249.198.184,68:80:3c:5c:89:fd,Debian 11,2,4,Operaciones,Application Server,Mantenimiento,2023-08-24,2026-04-01
+84,linux-srv-0084,14.71.69.250,ec:a2:46:33:00:c2,Red Hat Enterprise Linux 8,8,4,Seguridad,DNS Server,Mantenimiento,2025-04-12,2026-01-04
+85,linux-srv-0085,50.163.153.70,b0:d2:d6:4d:67:e2,Debian 11,16,4,Redes,File Server,Apagado,2023-09-22,2026-03-30
+86,linux-srv-0086,174.69.165.219,6e:e5:40:b8:47:cf,Ubuntu 20.04 LTS,128,2,Desarrollo,Database Server,Activo,2020-02-18,2026-04-15
+87,WIN-SRV-0087,88.233.210.19,58:65:e4:ee:0b:5b,Windows Server 2019,64,4,Operaciones,DNS Server,Apagado,2026-04-30,2026-04-05
+88,linux-srv-0088,153.208.115.112,1a:b4:01:09:28:69,Red Hat Enterprise Linux 8,32,2,Finanzas,Backup Server,Activo,2025-07-02,2026-01-28
+89,linux-srv-0089,174.233.55.170,ca:1a:99:80:4a:60,Red Hat Enterprise Linux 8,32,2,Redes,Web Server,Apagado,2022-10-09,2026-05-19
+90,linux-srv-0090,192.251.74.86,d2:ce:c9:17:de:7f,Red Hat Enterprise Linux 8,128,8,Operaciones,Backup Server,Mantenimiento,2022-05-15,2026-03-17
+91,WIN-SRV-0091,100.209.166.110,ca:c0:3d:c3:c8:2d,Windows Server 2022,16,8,Finanzas,Database Server,Apagado,2022-09-05,2026-01-15
+92,WIN-SRV-0092,8.32.193.94,68:03:91:2b:0f:06,Windows Server 2019,8,4,RRHH,DNS Server,Activo,2024-11-29,2026-02-10
+93,linux-srv-0093,148.128.179.82,ae:46:f7:bc:79:a1,Ubuntu 20.04 LTS,64,32,RRHH,Monitoring Server,Mantenimiento,2025-05-18,2026-05-20
+94,WIN-SRV-0094,205.54.24.121,f0:1c:df:59:b9:7d,Windows Server 2022,8,4,Seguridad,File Server,Mantenimiento,2022-12-01,2026-04-02
+95,linux-srv-0095,125.249.4.65,c0:45:82:e0:da:9c,Debian 11,32,16,Desarrollo,DNS Server,Apagado,2020-09-07,2026-01-14
+96,linux-srv-0096,123.109.4.33,2e:6a:99:fe:b5:49,Ubuntu 20.04 LTS,128,8,Seguridad,Monitoring Server,Mantenimiento,2025-08-11,2026-04-19
+97,linux-srv-0097,183.187.112.56,96:e8:4b:73:45:6f,CentOS 7,2,8,Infraestructura,Web Server,Apagado,2020-06-24,2026-03-01
+98,WIN-SRV-0098,106.193.132.101,38:48:58:9a:a7:e6,Windows Server 2022,32,4,Redes,Web Server,Activo,2020-03-26,2026-01-16
+99,WIN-SRV-0099,87.143.135.248,80:bf:53:92:bf:a3,Windows Server 2019,4,8,Base de Datos,Monitoring Server,Apagado,2020-08-14,2026-02-17
+100,linux-srv-0100,60.170.180.179,48:b4:72:37:a9:86,Red Hat Enterprise Linux 8,128,16,Base de Datos,Monitoring Server,Activo,2021-10-12,2026-01-09
+101,linux-srv-0101,221.177.234.163,2c:8c:c5:8c:d4:b4,Red Hat Enterprise Linux 8,128,2,Desarrollo,Monitoring Server,Apagado,2025-07-03,2026-04-04
+102,linux-srv-0102,120.106.103.52,7a:58:65:68:24:28,Ubuntu 20.04 LTS,32,8,Infraestructura,Database Server,Mantenimiento,2020-12-05,2026-03-08
+103,linux-srv-0103,212.153.224.249,8a:29:30:2b:b2:7c,Ubuntu 22.04 LTS,4,2,RRHH,Database Server,Activo,2022-01-24,2026-02-13
+104,linux-srv-0104,163.17.248.84,04:06:50:07:ce:b9,CentOS 7,2,2,Desarrollo,Application Server,Apagado,2021-11-18,2026-03-17
+105,linux-srv-0105,163.202.251.250,44:d5:d1:f9:5b:28,Red Hat Enterprise Linux 8,64,4,Desarrollo,Web Server,Apagado,2025-03-15,2026-02-17
+106,WIN-SRV-0106,122.158.253.181,58:16:a7:9c:8c:96,Windows Server 2019,32,8,Desarrollo,File Server,Activo,2025-01-15,2026-05-04
+107,WIN-SRV-0107,200.120.111.53,04:43:6b:0b:b5:aa,Windows Server 2022,8,4,Seguridad,Application Server,Mantenimiento,2021-05-21,2026-01-14
+108,linux-srv-0108,87.236.66.135,0e:ee:a6:df:b2:15,Ubuntu 20.04 LTS,2,32,Infraestructura,Monitoring Server,Mantenimiento,2021-02-17,2026-05-11
+109,linux-srv-0109,92.204.26.67,ca:cf:09:f2:a3:79,Ubuntu 22.04 LTS,8,32,Redes,Web Server,Apagado,2020-03-19,2026-02-26
+110,linux-srv-0110,32.225.82.53,70:aa:dd:0b:5d:26,Debian 11,4,16,Seguridad,Monitoring Server,Apagado,2023-05-14,2026-03-14
+111,linux-srv-0111,72.100.248.58,f4:80:04:cc:5f:70,Ubuntu 20.04 LTS,8,16,Infraestructura,Web Server,Mantenimiento,2024-08-23,2026-03-30
+112,WIN-SRV-0112,41.249.86.4,ae:59:2b:04:9a:f7,Windows Server 2022,8,16,Infraestructura,File Server,Apagado,2020-03-07,2026-03-03
+113,WIN-SRV-0113,191.65.136.252,d0:38:14:54:1b:58,Windows Server 2022,8,32,Infraestructura,Monitoring Server,Mantenimiento,2025-08-19,2026-04-15
+114,linux-srv-0114,7.111.242.55,d0:2b:d0:56:96:fa,Debian 11,4,16,RRHH,DNS Server,Activo,2020-01-31,2026-04-13
+115,linux-srv-0115,84.158.235.115,3c:b6:dc:a8:e5:70,Debian 11,2,8,Operaciones,DNS Server,Mantenimiento,2021-11-13,2026-03-11
+116,linux-srv-0116,56.179.101.225,1a:4e:3a:c5:e6:2b,Ubuntu 22.04 LTS,32,2,RRHH,Database Server,Apagado,2021-04-12,2026-04-19
+117,linux-srv-0117,94.157.4.32,a6:38:fb:3b:83:dd,Debian 11,2,4,Finanzas,Monitoring Server,Activo,2025-07-29,2026-03-15
+118,WIN-SRV-0118,65.110.22.22,b8:c9:37:a6:4d:8b,Windows Server 2022,32,32,Finanzas,Application Server,Activo,2022-05-04,2026-01-23
+119,WIN-SRV-0119,55.170.152.124,46:d2:10:6f:08:60,Windows Server 2019,128,8,Operaciones,Mail Server,Activo,2025-04-06,2026-04-12
+120,WIN-SRV-0120,217.219.147.48,ba:f7:4d:a2:e4:f1,Windows Server 2022,32,8,Redes,Application Server,Activo,2020-04-25,2026-01-20
+121,linux-srv-0121,105.42.99.20,be:34:b2:1d:3c:d4,Red Hat Enterprise Linux 8,128,32,Infraestructura,DNS Server,Activo,2023-09-04,2026-04-06
+122,WIN-SRV-0122,95.121.134.145,aa:64:ed:49:71:6b,Windows Server 2022,16,8,Base de Datos,DNS Server,Mantenimiento,2021-09-18,2026-02-05
+123,WIN-SRV-0123,90.70.193.28,9c:11:cf:be:13:ba,Windows Server 2022,128,4,Desarrollo,Mail Server,Activo,2024-07-27,2026-04-27
+124,linux-srv-0124,143.235.95.242,ae:33:de:05:78:2f,CentOS 7,32,16,Finanzas,Backup Server,Activo,2024-02-08,2026-01-03
+125,WIN-SRV-0125,53.57.141.27,78:9a:82:e6:d5:81,Windows Server 2022,128,4,Seguridad,Monitoring Server,Activo,2021-11-27,2026-01-16
+126,WIN-SRV-0126,200.203.213.166,56:02:84:1c:6e:16,Windows Server 2022,16,32,Base de Datos,Database Server,Mantenimiento,2025-08-28,2026-05-20
+127,linux-srv-0127,121.54.34.170,84:7f:86:11:5f:75,CentOS 7,16,2,Operaciones,Database Server,Mantenimiento,2022-11-20,2026-05-02
+128,linux-srv-0128,78.211.43.81,1c:96:6d:33:d5:d0,CentOS 7,128,4,Finanzas,Database Server,Activo,2025-10-08,2026-01-23
+129,linux-srv-0129,199.104.185.143,42:8a:cf:5c:67:0c,Debian 11,2,2,RRHH,Application Server,Apagado,2024-02-28,2026-02-09
+130,linux-srv-0130,83.228.91.14,12:a0:8c:6b:8b:ef,Ubuntu 22.04 LTS,16,16,Seguridad,File Server,Apagado,2023-03-30,2026-01-14
+131,linux-srv-0131,144.201.43.83,f6:c0:0f:34:f1:62,Debian 11,16,8,Seguridad,Database Server,Apagado,2023-08-29,2026-02-14
+132,WIN-SRV-0132,214.225.61.57,d8:62:9b:be:e1:9a,Windows Server 2019,128,2,Finanzas,File Server,Apagado,2026-03-28,2026-04-15
+133,linux-srv-0133,109.101.32.80,b0:7c:40:5a:70:26,Red Hat Enterprise Linux 8,16,16,Desarrollo,DNS Server,Apagado,2023-07-28,2026-02-12
+134,linux-srv-0134,220.21.204.93,6e:16:27:fa:04:e4,Ubuntu 20.04 LTS,2,32,Infraestructura,Database Server,Mantenimiento,2025-07-25,2026-03-03
+135,linux-srv-0135,194.86.86.18,e0:6c:39:b9:44:6a,CentOS 7,64,4,Finanzas,File Server,Mantenimiento,2023-11-02,2026-01-23
+136,linux-srv-0136,189.29.239.51,d2:2d:9e:c2:d8:f9,Ubuntu 22.04 LTS,64,16,RRHH,File Server,Activo,2025-06-26,2026-04-17
+137,linux-srv-0137,41.206.112.45,72:32:61:db:42:1f,Red Hat Enterprise Linux 8,2,32,Base de Datos,Application Server,Mantenimiento,2020-07-31,2026-02-15
+138,linux-srv-0138,8.234.241.181,7a:ec:67:a0:fe:cb,CentOS 7,128,8,Operaciones,DNS Server,Apagado,2024-06-13,2026-02-03
+139,WIN-SRV-0139,68.69.154.255,40:fc:ad:2c:d1:16,Windows Server 2019,16,32,Base de Datos,Backup Server,Mantenimiento,2024-09-02,2026-02-02
+140,linux-srv-0140,92.78.31.110,b4:c5:03:07:1d:b8,Ubuntu 20.04 LTS,8,2,Seguridad,Database Server,Mantenimiento,2020-11-16,2026-02-22
+141,linux-srv-0141,190.27.230.13,60:38:d8:e1:59:88,Debian 11,4,4,Desarrollo,Mail Server,Activo,2026-03-12,2026-01-13
+142,linux-srv-0142,163.90.223.107,ba:d4:06:c6:2b:a5,Ubuntu 20.04 LTS,4,32,Seguridad,Application Server,Apagado,2022-12-05,2026-04-02
+143,linux-srv-0143,125.91.8.59,ee:00:c1:08:44:da,Debian 11,64,8,RRHH,Database Server,Activo,2023-04-19,2026-04-28
+144,linux-srv-0144,151.249.174.187,34:fc:9a:9c:6c:77,Ubuntu 20.04 LTS,8,4,Desarrollo,Backup Server,Activo,2025-03-19,2026-03-26
+145,linux-srv-0145,210.148.83.126,bc:ae:73:7e:7b:a5,Red Hat Enterprise Linux 8,4,4,Base de Datos,Monitoring Server,Activo,2022-02-10,2026-01-26
+146,WIN-SRV-0146,52.176.111.103,bc:1a:6f:56:6c:58,Windows Server 2022,16,4,RRHH,DNS Server,Mantenimiento,2021-08-02,2026-01-21
+147,WIN-SRV-0147,99.61.246.208,26:51:b7:42:d1:08,Windows Server 2022,2,32,Finanzas,DNS Server,Apagado,2021-11-25,2026-03-22
+148,WIN-SRV-0148,129.140.178.101,3a:01:f2:58:81:fa,Windows Server 2019,8,8,RRHH,Web Server,Mantenimiento,2022-08-02,2026-04-14
+149,linux-srv-0149,64.183.163.93,6c:99:ac:66:a7:70,Ubuntu 22.04 LTS,16,32,Seguridad,File Server,Mantenimiento,2024-06-09,2026-05-23
+150,linux-srv-0150,220.232.14.80,e4:45:b6:6c:35:72,Debian 11,4,32,Desarrollo,Application Server,Apagado,2023-08-09,2026-01-17
+151,linux-srv-0151,70.199.72.147,18:45:1f:29:0e:47,Ubuntu 22.04 LTS,64,2,Seguridad,Mail Server,Mantenimiento,2026-01-14,2026-05-17
+152,WIN-SRV-0152,111.140.48.162,4e:c9:a9:f4:21:f2,Windows Server 2019,2,2,Desarrollo,Database Server,Apagado,2023-05-06,2026-01-28
+153,linux-srv-0153,106.201.32.44,94:b4:a5:bf:a9:2b,CentOS 7,4,16,Finanzas,Application Server,Apagado,2021-10-10,2026-02-12
+154,linux-srv-0154,99.219.122.146,58:17:2e:af:42:fd,Ubuntu 22.04 LTS,64,4,Base de Datos,File Server,Activo,2022-10-08,2026-01-02
+155,linux-srv-0155,173.47.24.171,18:71:97:14:50:b5,Red Hat Enterprise Linux 8,32,8,Finanzas,Monitoring Server,Activo,2021-02-04,2026-03-30
+156,linux-srv-0156,188.180.49.194,5a:97:47:cb:cc:9f,CentOS 7,64,32,RRHH,Monitoring Server,Apagado,2020-04-25,2026-03-15
+157,WIN-SRV-0157,23.78.192.164,e2:68:97:51:76:86,Windows Server 2019,2,32,Operaciones,Application Server,Mantenimiento,2024-06-05,2026-01-17
+158,WIN-SRV-0158,167.217.126.110,6e:50:ef:f5:83:62,Windows Server 2022,64,2,Desarrollo,Database Server,Activo,2022-07-13,2026-03-20
+159,linux-srv-0159,142.201.229.3,00:60:4f:7b:6e:98,Debian 11,8,16,Finanzas,File Server,Activo,2026-01-18,2026-01-24
+160,WIN-SRV-0160,156.195.106.196,c2:45:9b:53:df:ab,Windows Server 2019,8,2,Infraestructura,Monitoring Server,Mantenimiento,2022-02-11,2026-03-06
+161,linux-srv-0161,169.159.165.50,dc:b5:dd:91:5f:3f,Ubuntu 22.04 LTS,32,32,Base de Datos,Backup Server,Apagado,2022-02-24,2026-04-18
+162,WIN-SRV-0162,26.44.167.27,02:14:07:71:58:36,Windows Server 2022,64,16,Operaciones,File Server,Apagado,2022-12-21,2026-03-17
+163,linux-srv-0163,156.181.41.113,4a:ea:32:0e:4d:40,Ubuntu 20.04 LTS,8,16,Seguridad,Application Server,Mantenimiento,2025-03-23,2026-01-17
+164,linux-srv-0164,3.191.69.151,5c:47:2e:4b:d3:d6,Red Hat Enterprise Linux 8,4,4,Finanzas,Monitoring Server,Mantenimiento,2020-02-02,2026-01-08
+165,WIN-SRV-0165,81.97.102.222,ce:c8:b1:73:0e:a0,Windows Server 2019,8,16,Finanzas,DNS Server,Activo,2024-07-10,2026-05-02
+166,linux-srv-0166,52.30.243.154,ca:4b:a5:19:be:04,Ubuntu 22.04 LTS,2,32,Operaciones,Mail Server,Apagado,2020-07-16,2026-01-06
+167,linux-srv-0167,18.172.205.201,4a:1e:94:4f:f2:fb,CentOS 7,16,4,Infraestructura,Web Server,Mantenimiento,2020-11-28,2026-03-10
+168,linux-srv-0168,111.30.255.14,20:f2:b1:f1:26:8d,Debian 11,4,32,Redes,Mail Server,Mantenimiento,2021-07-24,2026-05-24
+169,WIN-SRV-0169,62.95.128.89,b8:31:a9:36:7c:d4,Windows Server 2019,2,4,Finanzas,Backup Server,Mantenimiento,2023-08-24,2026-03-27
+170,linux-srv-0170,2.58.240.28,70:75:a5:b7:8d:55,Red Hat Enterprise Linux 8,8,16,Seguridad,Monitoring Server,Apagado,2025-12-30,2026-01-03
+171,linux-srv-0171,100.188.67.125,f6:f3:b2:0e:52:b4,Red Hat Enterprise Linux 8,64,32,Base de Datos,Web Server,Activo,2020-11-27,2026-03-23
+172,WIN-SRV-0172,178.158.215.37,c4:28:14:d9:28:98,Windows Server 2022,128,8,Redes,Mail Server,Apagado,2020-06-11,2026-04-22
+173,linux-srv-0173,49.3.33.142,de:e5:f0:d9:0f:80,Debian 11,128,8,Finanzas,Application Server,Mantenimiento,2021-06-02,2026-03-31
+174,linux-srv-0174,80.83.67.30,a6:ff:80:6e:99:f4,Red Hat Enterprise Linux 8,64,8,Base de Datos,Application Server,Apagado,2020-01-03,2026-03-19
+175,WIN-SRV-0175,183.35.111.102,1a:16:c1:bd:60:2c,Windows Server 2022,128,8,Infraestructura,Database Server,Activo,2024-10-25,2026-05-08
+176,WIN-SRV-0176,11.184.8.55,0c:43:5b:d0:80:97,Windows Server 2019,8,8,Finanzas,Web Server,Apagado,2025-01-08,2026-01-25
+177,WIN-SRV-0177,70.224.198.187,6c:32:1d:ae:6e:5e,Windows Server 2019,4,8,Base de Datos,Backup Server,Mantenimiento,2024-12-27,2026-03-22
+178,linux-srv-0178,99.223.5.86,c4:40:bc:9a:f4:7c,Red Hat Enterprise Linux 8,16,8,Infraestructura,Database Server,Activo,2024-02-21,2026-04-29
+179,linux-srv-0179,151.133.61.237,c8:98:f3:6d:b5:ad,Ubuntu 22.04 LTS,8,2,Infraestructura,DNS Server,Activo,2023-07-01,2026-02-24
+180,WIN-SRV-0180,95.153.0.154,02:3d:ea:01:50:77,Windows Server 2019,32,4,Redes,Database Server,Apagado,2021-04-30,2026-04-08
+181,linux-srv-0181,214.145.196.172,d8:97:c7:58:4b:c1,Debian 11,16,16,Desarrollo,DNS Server,Activo,2020-07-19,2026-02-06
+182,linux-srv-0182,182.155.123.67,ae:22:8a:4e:26:7f,Debian 11,2,8,Operaciones,Web Server,Apagado,2022-08-17,2026-04-09
+183,WIN-SRV-0183,217.203.78.100,7c:0b:2b:35:e2:d6,Windows Server 2022,8,2,Operaciones,Backup Server,Mantenimiento,2022-12-20,2026-01-21
+184,linux-srv-0184,76.20.94.215,0c:84:9d:32:02:c8,Ubuntu 20.04 LTS,4,2,Operaciones,Backup Server,Apagado,2023-10-03,2026-03-05
+185,linux-srv-0185,217.57.127.41,a4:2b:3a:44:f2:f5,Ubuntu 22.04 LTS,16,2,Desarrollo,Mail Server,Apagado,2023-07-06,2026-02-14
+186,linux-srv-0186,102.99.55.24,cc:3d:c0:1d:54:38,Debian 11,32,32,Finanzas,File Server,Activo,2023-03-09,2026-04-12
+187,WIN-SRV-0187,65.189.179.174,ee:cd:04:22:59:9a,Windows Server 2019,2,4,Base de Datos,Database Server,Mantenimiento,2024-07-05,2026-03-13
+188,linux-srv-0188,174.137.8.2,4c:9b:ef:d2:ff:f0,Ubuntu 20.04 LTS,2,8,Operaciones,Mail Server,Mantenimiento,2022-05-15,2026-01-20
+189,linux-srv-0189,104.38.140.15,26:bf:d4:6a:3c:39,Ubuntu 20.04 LTS,8,32,Operaciones,File Server,Activo,2025-08-17,2026-01-11
+190,linux-srv-0190,57.125.115.48,90:31:6c:c5:44:7c,Ubuntu 22.04 LTS,4,4,Redes,Database Server,Apagado,2020-11-18,2026-04-29
+191,linux-srv-0191,200.247.216.36,32:44:ad:28:88:24,Red Hat Enterprise Linux 8,2,2,Base de Datos,DNS Server,Mantenimiento,2026-03-10,2026-01-13
+192,linux-srv-0192,33.184.6.101,6e:f4:b4:a3:df:b3,Ubuntu 22.04 LTS,16,8,RRHH,Monitoring Server,Activo,2020-12-08,2026-05-14
+193,linux-srv-0193,122.168.209.155,ce:cb:e8:f0:b5:e4,CentOS 7,16,2,Infraestructura,Database Server,Mantenimiento,2020-11-11,2026-03-06
+194,linux-srv-0194,25.114.227.129,d6:9c:7d:31:5f:dc,Debian 11,4,2,RRHH,Database Server,Apagado,2020-03-17,2026-02-10
+195,linux-srv-0195,22.147.220.221,de:5d:e5:ac:a5:c5,Debian 11,4,32,Redes,Monitoring Server,Activo,2024-01-02,2026-04-24
+196,linux-srv-0196,48.113.100.179,52:5e:42:5c:b9:7a,Ubuntu 22.04 LTS,16,32,Desarrollo,DNS Server,Apagado,2023-08-03,2026-01-04
+197,linux-srv-0197,99.44.200.71,32:d4:fb:60:26:58,Ubuntu 20.04 LTS,2,16,Operaciones,Monitoring Server,Activo,2023-07-31,2026-03-03
+198,linux-srv-0198,41.18.241.183,1e:af:c4:35:7d:d7,Ubuntu 22.04 LTS,2,4,Seguridad,Backup Server,Activo,2022-04-18,2026-03-26
+199,linux-srv-0199,45.129.16.14,0e:5c:5d:3e:0f:1a,Ubuntu 20.04 LTS,16,2,Operaciones,Backup Server,Apagado,2021-05-07,2026-03-18
+200,linux-srv-0200,49.2.243.96,c4:4f:8a:c8:1d:79,Red Hat Enterprise Linux 8,2,2,Operaciones,Monitoring Server,Apagado,2021-05-24,2026-04-09
+201,linux-srv-0201,96.139.173.245,6e:46:b3:ab:64:6d,CentOS 7,64,2,Infraestructura,Monitoring Server,Apagado,2020-08-07,2026-05-04
+202,linux-srv-0202,24.56.163.174,46:5c:2d:cc:1e:c1,Debian 11,16,16,Desarrollo,Web Server,Apagado,2023-05-05,2026-04-29
+203,linux-srv-0203,57.59.212.8,1e:38:08:ca:f9:c7,CentOS 7,64,16,Desarrollo,DNS Server,Apagado,2021-03-04,2026-02-06
+204,linux-srv-0204,197.167.13.40,76:ff:3a:57:9f:1a,Ubuntu 22.04 LTS,64,16,Redes,Backup Server,Activo,2023-01-24,2026-02-13
+205,WIN-SRV-0205,194.90.21.175,58:2a:45:8f:0e:be,Windows Server 2019,8,2,Base de Datos,Monitoring Server,Activo,2020-02-25,2026-01-30
+206,linux-srv-0206,164.78.117.149,64:53:9f:ce:f3:1f,Red Hat Enterprise Linux 8,4,16,RRHH,Database Server,Apagado,2024-10-02,2026-02-07
+207,WIN-SRV-0207,219.141.88.82,1a:04:f5:92:aa:50,Windows Server 2022,128,16,RRHH,File Server,Apagado,2026-04-22,2026-04-20
+208,linux-srv-0208,61.34.75.6,5c:e5:93:f9:a6:84,Ubuntu 20.04 LTS,8,4,Desarrollo,Application Server,Apagado,2022-09-09,2026-03-18
+209,linux-srv-0209,40.38.58.22,84:fe:79:6c:6e:2b,Red Hat Enterprise Linux 8,64,8,Finanzas,Backup Server,Apagado,2021-01-30,2026-05-07
+210,linux-srv-0210,51.185.250.85,32:0a:94:bd:5d:34,Ubuntu 22.04 LTS,64,8,Finanzas,DNS Server,Apagado,2021-09-25,2026-05-16
+211,linux-srv-0211,176.142.80.93,0a:53:41:a7:dd:e9,Ubuntu 22.04 LTS,128,32,Operaciones,DNS Server,Apagado,2021-11-07,2026-01-26
+212,linux-srv-0212,133.35.79.171,4e:24:a3:1a:e1:62,CentOS 7,8,2,Infraestructura,Web Server,Apagado,2024-08-19,2026-02-13
+213,linux-srv-0213,55.62.153.102,fc:f1:a1:24:28:6a,Ubuntu 20.04 LTS,128,2,Finanzas,Monitoring Server,Mantenimiento,2024-03-05,2026-01-17
+214,linux-srv-0214,155.15.215.203,3e:dc:4c:1e:00:1e,Ubuntu 22.04 LTS,8,32,Base de Datos,Application Server,Mantenimiento,2022-07-06,2026-03-30
+215,linux-srv-0215,17.49.217.63,46:bd:13:a5:10:10,Debian 11,16,2,Desarrollo,Web Server,Activo,2020-07-24,2026-03-19
+216,linux-srv-0216,76.54.109.98,d8:52:a1:25:ad:91,Ubuntu 22.04 LTS,128,2,Seguridad,File Server,Apagado,2022-11-20,2026-05-05
+217,linux-srv-0217,1.190.132.79,82:a9:9f:97:01:53,CentOS 7,64,16,Base de Datos,Monitoring Server,Activo,2024-04-09,2026-02-03
+218,linux-srv-0218,53.216.197.185,2c:6c:df:12:9d:8d,CentOS 7,4,32,RRHH,DNS Server,Mantenimiento,2022-05-08,2026-05-04
+219,WIN-SRV-0219,184.60.172.153,d4:6b:78:d4:fd:62,Windows Server 2019,8,2,Infraestructura,Database Server,Apagado,2022-02-05,2026-02-03
+220,linux-srv-0220,164.74.193.15,dc:88:90:17:ae:9f,Red Hat Enterprise Linux 8,2,8,Seguridad,Database Server,Activo,2020-09-27,2026-05-20
+221,linux-srv-0221,71.144.186.83,a8:18:15:5f:d8:e3,CentOS 7,8,4,Seguridad,Monitoring Server,Mantenimiento,2023-04-08,2026-04-07
+222,WIN-SRV-0222,128.162.15.38,64:73:8c:9d:06:01,Windows Server 2019,16,4,Base de Datos,Web Server,Apagado,2022-05-27,2026-01-04
+223,WIN-SRV-0223,50.53.204.208,cc:c1:ab:e1:c6:8b,Windows Server 2019,2,2,Redes,File Server,Mantenimiento,2024-07-22,2026-01-13
+224,linux-srv-0224,75.178.170.111,16:a6:2b:33:7c:46,Debian 11,4,32,Operaciones,Backup Server,Mantenimiento,2021-10-20,2026-04-13
+225,WIN-SRV-0225,137.222.103.62,2c:a1:e5:55:ce:0c,Windows Server 2019,4,2,Operaciones,Application Server,Apagado,2021-05-08,2026-04-27
+226,linux-srv-0226,198.205.245.81,3a:95:8f:cc:dc:f2,Red Hat Enterprise Linux 8,8,4,Seguridad,Mail Server,Apagado,2023-04-03,2026-05-05
+227,linux-srv-0227,57.93.172.113,e4:81:7b:8e:ba:1f,Ubuntu 22.04 LTS,128,16,Desarrollo,DNS Server,Mantenimiento,2021-09-29,2026-02-22
+228,WIN-SRV-0228,64.43.165.148,48:d2:72:30:7a:23,Windows Server 2019,8,16,Base de Datos,DNS Server,Activo,2021-10-09,2026-03-16
+229,WIN-SRV-0229,15.18.20.1,58:39:f0:ef:de:88,Windows Server 2022,16,32,Base de Datos,Monitoring Server,Activo,2022-01-17,2026-03-12
+230,WIN-SRV-0230,35.232.18.71,e8:c1:2f:58:c2:7a,Windows Server 2022,32,2,Infraestructura,Mail Server,Activo,2025-07-21,2026-01-11
+231,WIN-SRV-0231,173.184.76.89,ae:ef:f0:90:e8:9d,Windows Server 2022,8,8,Operaciones,File Server,Mantenimiento,2023-10-19,2026-03-06
+232,WIN-SRV-0232,186.94.51.245,bc:11:34:43:f9:22,Windows Server 2022,4,4,Operaciones,Monitoring Server,Mantenimiento,2023-08-09,2026-03-01
+233,WIN-SRV-0233,208.94.125.35,60:2a:ae:71:f6:63,Windows Server 2022,2,32,Base de Datos,Backup Server,Apagado,2024-07-24,2026-04-20
+234,WIN-SRV-0234,64.136.171.84,28:0e:35:9b:0d:0d,Windows Server 2019,4,4,Finanzas,Backup Server,Apagado,2023-11-05,2026-03-23
+235,linux-srv-0235,183.105.251.245,58:47:1f:1d:5a:9b,Red Hat Enterprise Linux 8,128,16,Infraestructura,Monitoring Server,Apagado,2024-06-22,2026-01-30
+236,linux-srv-0236,8.124.24.183,6e:61:eb:f6:c9:d4,Ubuntu 20.04 LTS,2,32,Desarrollo,Application Server,Activo,2025-06-10,2026-01-18
+237,linux-srv-0237,108.2.80.199,b0:e2:cd:31:60:93,CentOS 7,64,4,Base de Datos,Backup Server,Apagado,2022-04-23,2026-04-24
+238,WIN-SRV-0238,136.192.204.32,5a:86:58:5c:9b:51,Windows Server 2019,32,2,Finanzas,Web Server,Mantenimiento,2023-06-27,2026-01-23
+239,linux-srv-0239,175.140.232.176,a0:30:d0:ae:a7:2c,CentOS 7,8,8,Base de Datos,File Server,Mantenimiento,2022-08-30,2026-04-25
+240,WIN-SRV-0240,159.138.35.21,e4:df:c9:9f:06:1b,Windows Server 2019,32,16,Desarrollo,Web Server,Activo,2025-10-28,2026-02-02
+241,linux-srv-0241,117.214.5.127,86:84:c3:92:13:c9,Red Hat Enterprise Linux 8,128,2,Operaciones,Monitoring Server,Mantenimiento,2023-06-26,2026-03-16
+242,linux-srv-0242,223.66.37.186,e8:7c:bd:46:19:74,Debian 11,2,2,Infraestructura,Application Server,Apagado,2021-08-01,2026-03-28
+243,linux-srv-0243,219.168.165.254,c4:a3:64:77:f5:e9,Debian 11,2,4,Redes,Web Server,Mantenimiento,2023-03-16,2026-02-19
+244,linux-srv-0244,29.1.95.78,8a:a1:75:93:68:09,CentOS 7,8,8,Operaciones,DNS Server,Apagado,2021-08-23,2026-02-11
+245,linux-srv-0245,165.0.103.81,54:91:e9:ae:18:ea,Debian 11,8,4,Operaciones,DNS Server,Apagado,2022-03-16,2026-04-09
+246,linux-srv-0246,16.5.80.253,02:61:64:6c:dd:f9,CentOS 7,16,2,Operaciones,Monitoring Server,Activo,2020-06-28,2026-03-18
+247,linux-srv-0247,180.78.184.0,aa:95:28:c1:94:3e,Red Hat Enterprise Linux 8,2,8,Operaciones,Database Server,Activo,2024-06-16,2026-01-03
+248,linux-srv-0248,222.49.190.84,a6:38:78:ca:71:df,Debian 11,16,16,Infraestructura,Web Server,Apagado,2024-03-13,2026-05-08
+249,WIN-SRV-0249,25.251.225.208,f2:d5:76:f8:ce:de,Windows Server 2019,2,8,Infraestructura,Backup Server,Apagado,2020-06-13,2026-03-11
+250,linux-srv-0250,182.3.179.244,54:a0:ec:f3:5b:eb,Ubuntu 20.04 LTS,128,32,Finanzas,Application Server,Apagado,2021-04-11,2026-05-14
+251,linux-srv-0251,205.57.12.153,20:34:13:39:d9:a4,Ubuntu 20.04 LTS,2,8,Operaciones,Mail Server,Mantenimiento,2025-05-10,2026-04-08
+252,linux-srv-0252,191.202.61.223,26:36:ac:c9:57:29,Ubuntu 20.04 LTS,32,32,Finanzas,File Server,Mantenimiento,2025-06-06,2026-03-02
+253,WIN-SRV-0253,159.86.22.220,8c:30:c2:2c:56:3e,Windows Server 2022,4,16,Finanzas,Database Server,Activo,2025-06-27,2026-02-14
+254,WIN-SRV-0254,180.68.132.221,a2:66:ae:a6:c2:03,Windows Server 2019,128,16,Seguridad,Database Server,Mantenimiento,2021-01-11,2026-05-15
+255,linux-srv-0255,16.224.82.214,26:49:f1:76:b1:81,Debian 11,16,4,Seguridad,Application Server,Apagado,2021-02-28,2026-01-22
+256,linux-srv-0256,182.125.194.147,10:a0:73:27:e7:1d,Red Hat Enterprise Linux 8,32,16,Operaciones,Backup Server,Mantenimiento,2020-11-06,2026-04-06
+257,linux-srv-0257,153.212.132.150,16:a5:db:13:21:3b,Ubuntu 22.04 LTS,64,4,Seguridad,Web Server,Apagado,2023-09-12,2026-03-19
+258,WIN-SRV-0258,52.225.11.217,e8:a3:dc:ad:59:69,Windows Server 2022,2,32,Operaciones,Monitoring Server,Activo,2025-10-25,2026-03-04
+259,WIN-SRV-0259,30.253.31.242,b4:5c:9e:df:a4:b0,Windows Server 2019,64,32,Finanzas,File Server,Apagado,2026-05-03,2026-03-22
+260,linux-srv-0260,35.91.162.91,9e:2e:d9:d7:26:3a,Ubuntu 20.04 LTS,128,32,Infraestructura,DNS Server,Apagado,2023-12-28,2026-03-16
+261,linux-srv-0261,160.38.215.69,9a:da:94:aa:f3:02,Ubuntu 20.04 LTS,4,8,Infraestructura,DNS Server,Mantenimiento,2023-03-12,2026-02-09
+262,linux-srv-0262,40.149.109.14,04:9f:3f:d4:5c:20,Red Hat Enterprise Linux 8,4,16,Redes,Monitoring Server,Apagado,2021-06-22,2026-02-08
+263,linux-srv-0263,202.36.199.63,92:30:53:74:a3:0e,Ubuntu 22.04 LTS,16,2,Base de Datos,Application Server,Activo,2024-05-07,2026-02-27
+264,linux-srv-0264,28.77.68.134,28:ef:d7:3e:00:3d,Ubuntu 20.04 LTS,8,16,Seguridad,Monitoring Server,Apagado,2021-02-10,2026-03-03
+265,linux-srv-0265,20.187.73.55,ae:cf:58:5a:84:cc,Ubuntu 20.04 LTS,4,4,RRHH,Backup Server,Mantenimiento,2026-03-07,2026-04-18
+266,WIN-SRV-0266,202.60.110.118,da:7f:74:f6:69:85,Windows Server 2022,128,32,Redes,DNS Server,Mantenimiento,2021-04-30,2026-04-08
+267,linux-srv-0267,114.218.69.223,bc:11:2b:72:99:1b,Ubuntu 20.04 LTS,32,4,Desarrollo,Web Server,Mantenimiento,2023-01-03,2026-03-09
+268,WIN-SRV-0268,35.118.200.95,e8:16:27:d5:53:dd,Windows Server 2022,64,4,Seguridad,Mail Server,Mantenimiento,2026-04-14,2026-03-20
+269,linux-srv-0269,41.145.219.139,8e:50:c7:09:07:d7,Ubuntu 20.04 LTS,8,2,Redes,DNS Server,Activo,2024-09-29,2026-03-02
+270,WIN-SRV-0270,50.152.237.155,f8:1c:f5:74:4f:7d,Windows Server 2019,16,16,Operaciones,Mail Server,Mantenimiento,2025-06-27,2026-05-08
+271,WIN-SRV-0271,44.145.176.43,08:52:18:b2:d9:71,Windows Server 2022,32,32,Redes,File Server,Activo,2020-08-31,2026-01-10
+272,linux-srv-0272,208.228.246.88,7c:0f:ee:f9:32:21,Ubuntu 20.04 LTS,32,16,Redes,Monitoring Server,Mantenimiento,2025-04-21,2026-03-19
+273,linux-srv-0273,165.67.75.37,74:fb:64:18:63:f0,Debian 11,64,4,Desarrollo,File Server,Mantenimiento,2022-06-28,2026-05-08
+274,linux-srv-0274,97.115.162.39,c6:37:db:c9:7b:2c,Red Hat Enterprise Linux 8,128,32,Operaciones,Application Server,Mantenimiento,2020-12-01,2026-04-06
+275,WIN-SRV-0275,89.199.74.157,68:1d:e0:c8:cb:89,Windows Server 2019,128,32,Seguridad,DNS Server,Mantenimiento,2021-05-05,2026-02-09
+276,WIN-SRV-0276,164.43.192.52,46:30:8d:ac:7a:bf,Windows Server 2019,2,2,Operaciones,Mail Server,Mantenimiento,2023-10-12,2026-01-06
+277,linux-srv-0277,67.88.0.253,54:dd:73:43:f5:57,Ubuntu 22.04 LTS,16,4,Desarrollo,File Server,Mantenimiento,2023-01-31,2026-04-01
+278,linux-srv-0278,85.219.101.144,b4:ab:2c:72:86:69,CentOS 7,128,16,Infraestructura,Web Server,Activo,2020-10-12,2026-04-29
+279,linux-srv-0279,140.151.233.15,72:87:92:02:27:43,CentOS 7,8,16,Base de Datos,Mail Server,Activo,2023-05-26,2026-01-31
+280,linux-srv-0280,136.97.97.73,da:c3:c2:6f:c6:e0,Debian 11,8,8,Base de Datos,Database Server,Apagado,2023-01-15,2026-05-13
+281,WIN-SRV-0281,187.2.206.120,a2:ce:60:4f:19:55,Windows Server 2019,16,32,Operaciones,File Server,Mantenimiento,2023-10-22,2026-05-05
+282,linux-srv-0282,210.206.99.17,98:12:02:b7:3c:82,Red Hat Enterprise Linux 8,2,16,Base de Datos,Mail Server,Activo,2020-03-16,2026-03-02
+283,linux-srv-0283,55.143.229.186,46:e8:3b:9d:79:a7,Red Hat Enterprise Linux 8,16,32,Base de Datos,Monitoring Server,Apagado,2024-07-18,2026-03-09
+284,linux-srv-0284,157.242.143.3,f8:75:32:cc:ad:a0,CentOS 7,64,8,Seguridad,Application Server,Activo,2022-06-06,2026-05-24
+285,linux-srv-0285,132.72.139.179,56:ff:a9:02:5f:9b,CentOS 7,64,4,Operaciones,Application Server,Activo,2020-06-23,2026-03-14
+286,WIN-SRV-0286,149.3.114.26,ca:05:e3:cd:44:4f,Windows Server 2019,64,16,Infraestructura,Mail Server,Activo,2023-12-26,2026-04-20
+287,linux-srv-0287,52.162.39.243,a4:f4:20:e7:4b:7d,Ubuntu 22.04 LTS,128,4,Base de Datos,Application Server,Activo,2024-12-12,2026-01-15
+288,linux-srv-0288,7.134.83.73,dc:56:22:3b:82:78,CentOS 7,32,16,RRHH,Application Server,Apagado,2024-12-15,2026-01-26
+289,WIN-SRV-0289,187.161.135.108,96:f1:4b:2f:89:e7,Windows Server 2019,32,32,Redes,File Server,Mantenimiento,2022-06-14,2026-04-17
+290,linux-srv-0290,195.16.218.229,f2:0a:07:98:b2:7b,Debian 11,4,2,Redes,Backup Server,Activo,2023-01-26,2026-01-12
+291,linux-srv-0291,5.220.128.184,24:34:04:39:2c:1d,Red Hat Enterprise Linux 8,64,4,Finanzas,File Server,Mantenimiento,2026-02-25,2026-02-23
+292,WIN-SRV-0292,29.163.54.203,16:17:a0:88:97:45,Windows Server 2022,8,32,Base de Datos,Database Server,Mantenimiento,2023-11-11,2026-01-15
+293,linux-srv-0293,89.24.114.233,9e:c4:07:97:e3:58,Red Hat Enterprise Linux 8,16,16,Redes,DNS Server,Apagado,2021-08-25,2026-02-21
+294,WIN-SRV-0294,162.64.251.13,38:79:d6:a5:78:4c,Windows Server 2019,64,4,Redes,Database Server,Mantenimiento,2025-10-26,2026-01-24
+295,linux-srv-0295,85.86.240.182,18:72:96:bf:97:69,Ubuntu 20.04 LTS,32,8,Finanzas,DNS Server,Mantenimiento,2022-09-02,2026-02-17
+296,linux-srv-0296,178.59.228.177,8a:76:7f:b7:e5:ef,Red Hat Enterprise Linux 8,4,8,Infraestructura,Application Server,Apagado,2022-02-06,2026-04-03
+297,linux-srv-0297,187.185.246.164,3a:33:4e:ff:d6:01,Ubuntu 22.04 LTS,32,8,Desarrollo,Web Server,Mantenimiento,2021-02-06,2026-01-17
+298,WIN-SRV-0298,203.136.20.38,aa:5a:a8:b2:bc:51,Windows Server 2019,32,4,Operaciones,Mail Server,Apagado,2020-08-04,2026-03-10
+299,linux-srv-0299,178.67.102.248,d4:75:23:de:62:09,Red Hat Enterprise Linux 8,32,32,Infraestructura,Web Server,Mantenimiento,2022-08-11,2026-03-04
+300,linux-srv-0300,12.47.84.229,30:75:d7:1f:f3:ce,CentOS 7,32,8,Operaciones,Database Server,Activo,2021-06-04,2026-02-23
+301,linux-srv-0301,40.98.158.1,52:36:ae:b4:db:88,Red Hat Enterprise Linux 8,2,32,Operaciones,Mail Server,Mantenimiento,2026-04-08,2026-02-16
+302,WIN-SRV-0302,40.245.144.98,34:4c:1d:8a:1f:43,Windows Server 2019,64,8,Desarrollo,Mail Server,Mantenimiento,2024-06-04,2026-04-18
+303,linux-srv-0303,68.57.84.69,04:1f:9d:5a:29:78,Debian 11,4,16,Redes,Database Server,Activo,2020-03-07,2026-01-28
+304,linux-srv-0304,137.155.202.22,4e:06:d1:b8:6e:39,CentOS 7,64,4,Infraestructura,Backup Server,Activo,2022-02-18,2026-03-30
+305,WIN-SRV-0305,105.136.220.54,02:d9:bc:cb:ee:f9,Windows Server 2022,4,16,Operaciones,Mail Server,Mantenimiento,2025-02-05,2026-03-28
+306,linux-srv-0306,121.188.206.170,ba:17:22:9e:29:b6,CentOS 7,8,4,Base de Datos,File Server,Apagado,2022-10-21,2026-01-04
+307,WIN-SRV-0307,65.196.212.220,10:06:fb:ed:38:51,Windows Server 2019,16,8,Finanzas,Backup Server,Mantenimiento,2022-07-26,2026-01-18
+308,linux-srv-0308,19.222.186.187,10:4f:3b:ef:0e:66,Red Hat Enterprise Linux 8,128,8,Seguridad,Monitoring Server,Activo,2026-03-14,2026-04-23
+309,linux-srv-0309,91.34.0.161,20:03:cd:fa:d4:60,Ubuntu 20.04 LTS,128,32,Infraestructura,Database Server,Apagado,2025-05-05,2026-02-21
+310,linux-srv-0310,139.114.109.165,48:12:64:91:d1:6a,Ubuntu 20.04 LTS,64,8,Seguridad,File Server,Apagado,2023-07-21,2026-03-03
+311,linux-srv-0311,202.28.72.3,86:5e:df:13:ff:17,Ubuntu 20.04 LTS,8,2,RRHH,DNS Server,Activo,2023-01-12,2026-05-06
+312,WIN-SRV-0312,199.209.75.55,c4:27:26:b2:95:f1,Windows Server 2019,64,2,Operaciones,Application Server,Activo,2021-08-11,2026-03-16
+313,linux-srv-0313,16.203.44.101,c2:57:98:69:f9:17,Red Hat Enterprise Linux 8,4,4,Base de Datos,Backup Server,Mantenimiento,2023-03-06,2026-04-03
+314,WIN-SRV-0314,57.252.53.56,3a:7b:c9:d9:6e:d8,Windows Server 2019,4,16,Desarrollo,Application Server,Apagado,2021-10-04,2026-04-22
+315,linux-srv-0315,180.29.59.201,58:0f:7e:bc:39:5c,Debian 11,128,32,Seguridad,Web Server,Mantenimiento,2022-04-23,2026-01-12
+316,linux-srv-0316,188.245.116.205,e8:4d:77:cb:04:42,Red Hat Enterprise Linux 8,32,16,Redes,Backup Server,Activo,2025-06-09,2026-02-22
+317,linux-srv-0317,41.240.238.116,6e:ea:8e:b1:b7:24,Ubuntu 20.04 LTS,16,2,RRHH,Web Server,Activo,2026-02-06,2026-05-18
+318,WIN-SRV-0318,60.211.154.15,b2:e2:fc:56:72:13,Windows Server 2019,128,16,Operaciones,Database Server,Activo,2024-12-22,2026-01-25
+319,linux-srv-0319,135.170.218.154,14:5c:58:82:8b:d7,Red Hat Enterprise Linux 8,2,4,RRHH,Web Server,Mantenimiento,2025-12-13,2026-01-28
+320,linux-srv-0320,8.234.99.28,ec:87:91:df:e7:21,CentOS 7,2,16,Base de Datos,File Server,Activo,2024-11-12,2026-04-15
+321,WIN-SRV-0321,192.28.221.12,6e:f1:88:14:0d:5d,Windows Server 2019,4,32,Seguridad,Web Server,Mantenimiento,2022-09-29,2026-05-05
+322,linux-srv-0322,54.1.237.126,74:e9:70:22:06:82,Debian 11,2,16,Infraestructura,Web Server,Mantenimiento,2024-11-20,2026-05-18
+323,WIN-SRV-0323,103.87.183.45,fc:19:e6:aa:ac:48,Windows Server 2019,2,16,Seguridad,Backup Server,Activo,2025-10-04,2026-02-10
+324,WIN-SRV-0324,57.254.118.168,c0:b5:01:b6:0c:d7,Windows Server 2022,8,8,Infraestructura,Mail Server,Apagado,2023-10-24,2026-05-03
+325,WIN-SRV-0325,181.92.168.31,5c:6d:f1:74:b4:5f,Windows Server 2019,4,16,Infraestructura,Mail Server,Mantenimiento,2024-11-21,2026-01-26
+326,linux-srv-0326,95.80.29.253,dc:15:ee:82:28:6a,Ubuntu 20.04 LTS,32,4,RRHH,File Server,Mantenimiento,2022-04-30,2026-05-11
+327,linux-srv-0327,9.165.150.112,92:ef:59:4a:a4:6f,Red Hat Enterprise Linux 8,64,32,Desarrollo,Web Server,Activo,2024-08-10,2026-01-29
+328,WIN-SRV-0328,1.139.242.150,62:00:51:be:ea:29,Windows Server 2019,64,32,Desarrollo,DNS Server,Mantenimiento,2024-04-10,2026-01-01
+329,WIN-SRV-0329,202.36.144.82,74:f2:f6:4a:96:dc,Windows Server 2022,32,8,Infraestructura,Backup Server,Apagado,2025-12-23,2026-04-17
+330,linux-srv-0330,42.103.146.72,c8:6e:c9:17:3e:81,CentOS 7,2,4,Base de Datos,Monitoring Server,Apagado,2021-04-28,2026-02-08
+331,WIN-SRV-0331,68.121.182.28,74:8c:2b:f3:26:1e,Windows Server 2019,128,4,RRHH,Backup Server,Activo,2021-11-16,2026-01-03
+332,linux-srv-0332,35.30.230.178,06:48:7f:75:cd:69,CentOS 7,2,4,RRHH,Database Server,Apagado,2024-10-13,2026-05-20
+333,linux-srv-0333,16.127.185.144,30:05:b9:ed:8f:3a,Debian 11,32,32,RRHH,DNS Server,Mantenimiento,2026-01-24,2026-02-02
+334,WIN-SRV-0334,183.243.241.72,d6:58:db:1e:80:5f,Windows Server 2019,16,4,Seguridad,Application Server,Apagado,2024-10-16,2026-03-08
+335,WIN-SRV-0335,221.66.44.23,16:20:30:6a:6c:c0,Windows Server 2019,8,8,Desarrollo,File Server,Mantenimiento,2020-06-11,2026-03-30
+336,WIN-SRV-0336,94.186.15.0,1a:8d:30:40:46:79,Windows Server 2019,4,2,Base de Datos,Web Server,Apagado,2021-11-21,2026-03-14
+337,linux-srv-0337,88.113.130.21,9e:e0:22:86:60:e9,Ubuntu 20.04 LTS,64,32,Base de Datos,Database Server,Mantenimiento,2024-12-11,2026-04-05
+338,WIN-SRV-0338,222.245.243.37,0a:86:f1:44:da:ce,Windows Server 2019,2,4,RRHH,Backup Server,Apagado,2020-02-10,2026-03-06
+339,linux-srv-0339,160.32.197.255,66:45:12:99:f2:53,Ubuntu 20.04 LTS,16,2,RRHH,Application Server,Apagado,2021-04-13,2026-04-05
+340,linux-srv-0340,216.167.90.233,96:e4:92:52:4d:83,Ubuntu 20.04 LTS,8,16,Base de Datos,DNS Server,Apagado,2023-04-25,2026-04-27
+341,WIN-SRV-0341,12.26.6.122,06:66:45:75:e0:a7,Windows Server 2022,2,32,Seguridad,Mail Server,Activo,2026-04-25,2026-03-10
+342,linux-srv-0342,20.212.45.62,ea:99:0e:2e:a2:70,Debian 11,2,2,Base de Datos,DNS Server,Activo,2022-01-28,2026-03-22
+343,linux-srv-0343,184.153.241.9,4c:3f:f7:7c:c7:3e,Ubuntu 22.04 LTS,4,32,Redes,File Server,Apagado,2020-08-11,2026-05-08
+344,linux-srv-0344,46.168.225.181,42:f4:e2:7f:0b:b7,Red Hat Enterprise Linux 8,128,2,Operaciones,Database Server,Activo,2023-12-12,2026-04-16
+345,linux-srv-0345,139.209.44.144,d2:3f:bf:23:7c:a5,Ubuntu 20.04 LTS,64,8,Redes,Database Server,Mantenimiento,2022-02-05,2026-05-21
+346,WIN-SRV-0346,198.141.184.244,a0:54:07:6a:fd:01,Windows Server 2022,2,16,Operaciones,Mail Server,Apagado,2021-03-14,2026-01-26
+347,WIN-SRV-0347,5.171.12.8,98:19:e0:bc:96:c5,Windows Server 2022,128,16,Infraestructura,Web Server,Mantenimiento,2021-04-09,2026-02-25
+348,WIN-SRV-0348,77.171.76.220,30:5d:ee:0d:d9:73,Windows Server 2019,128,2,Finanzas,Monitoring Server,Mantenimiento,2024-10-07,2026-04-11
+349,linux-srv-0349,184.11.172.86,18:68:3f:f0:af:b0,Ubuntu 22.04 LTS,32,8,Redes,Web Server,Apagado,2024-03-30,2026-02-19
+350,WIN-SRV-0350,31.108.222.44,aa:b7:6a:87:6a:63,Windows Server 2019,2,2,Finanzas,Backup Server,Activo,2025-06-03,2026-05-17
+351,linux-srv-0351,28.165.73.66,16:be:88:fe:00:0d,Debian 11,32,4,Redes,Backup Server,Activo,2020-06-12,2026-04-17
+352,linux-srv-0352,23.131.71.42,9a:c1:8e:31:dd:c8,Red Hat Enterprise Linux 8,2,2,RRHH,Backup Server,Apagado,2023-04-09,2026-05-07
+353,linux-srv-0353,35.220.220.90,4a:14:ee:37:6d:a2,Red Hat Enterprise Linux 8,2,2,Seguridad,DNS Server,Apagado,2023-04-23,2026-05-04
+354,WIN-SRV-0354,78.31.152.8,98:53:44:a3:dd:16,Windows Server 2022,8,16,Seguridad,Monitoring Server,Apagado,2024-02-25,2026-02-26
+355,linux-srv-0355,30.153.160.187,b4:0d:4a:75:c2:6e,Ubuntu 22.04 LTS,32,16,Redes,Mail Server,Apagado,2023-07-05,2026-05-10
+356,WIN-SRV-0356,204.68.205.47,f8:0c:f5:f3:31:5a,Windows Server 2022,4,32,Redes,Application Server,Mantenimiento,2025-01-15,2026-02-10
+357,WIN-SRV-0357,105.162.150.30,52:1a:7d:25:06:57,Windows Server 2019,128,4,Operaciones,DNS Server,Apagado,2024-05-20,2026-01-08
+358,linux-srv-0358,91.68.89.131,52:7f:87:fe:e5:2f,Ubuntu 20.04 LTS,4,16,Redes,Monitoring Server,Apagado,2025-12-02,2026-02-06
+359,linux-srv-0359,104.226.134.196,fc:49:3e:2b:6e:04,CentOS 7,4,4,RRHH,Web Server,Activo,2025-02-01,2026-01-08
+360,linux-srv-0360,58.132.58.188,4c:fd:f5:56:12:91,CentOS 7,64,16,RRHH,Web Server,Mantenimiento,2021-04-21,2026-03-19
+361,linux-srv-0361,37.77.251.166,a8:bb:b3:a3:19:82,CentOS 7,2,16,RRHH,Database Server,Mantenimiento,2026-02-10,2026-04-04
+362,WIN-SRV-0362,17.201.47.255,94:61:a7:da:14:f9,Windows Server 2019,2,8,Infraestructura,Backup Server,Activo,2026-02-12,2026-05-02
+363,linux-srv-0363,223.230.171.190,0e:05:b6:4c:4a:5d,Ubuntu 22.04 LTS,64,8,Redes,Mail Server,Apagado,2025-05-22,2026-03-07
+364,linux-srv-0364,56.68.209.43,86:e1:32:ce:f7:2e,Red Hat Enterprise Linux 8,32,32,Seguridad,Mail Server,Mantenimiento,2024-12-15,2026-05-19
+365,linux-srv-0365,191.205.248.109,ce:e4:71:16:ff:fc,CentOS 7,32,32,Base de Datos,Monitoring Server,Mantenimiento,2020-07-31,2026-04-28
+366,WIN-SRV-0366,171.64.215.152,7a:0d:99:c7:58:9e,Windows Server 2019,8,8,RRHH,Application Server,Mantenimiento,2022-12-21,2026-04-25
+367,WIN-SRV-0367,79.117.73.19,10:3b:82:7d:84:13,Windows Server 2019,128,16,Base de Datos,Backup Server,Activo,2024-04-21,2026-04-13
+368,linux-srv-0368,56.27.159.121,32:cf:50:b1:1d:f8,Debian 11,128,4,RRHH,Backup Server,Activo,2021-03-04,2026-02-19
+369,linux-srv-0369,185.209.67.28,ec:ab:8d:cb:bd:a8,Ubuntu 22.04 LTS,16,4,Operaciones,Web Server,Mantenimiento,2026-03-27,2026-04-28
+370,linux-srv-0370,129.155.107.113,38:27:f0:9f:f3:e8,Red Hat Enterprise Linux 8,4,16,Operaciones,DNS Server,Mantenimiento,2023-10-12,2026-02-02
+371,linux-srv-0371,30.216.12.51,34:9e:71:7e:8b:6b,Ubuntu 20.04 LTS,8,2,Finanzas,Backup Server,Activo,2023-07-17,2026-04-18
+372,linux-srv-0372,117.100.192.14,ea:0a:ba:c5:1d:79,Debian 11,2,8,Seguridad,Monitoring Server,Apagado,2023-09-14,2026-05-13
+373,linux-srv-0373,181.134.84.218,5a:74:f0:15:9d:d4,CentOS 7,2,2,Base de Datos,Mail Server,Mantenimiento,2025-07-04,2026-05-20
+374,linux-srv-0374,65.28.159.161,02:b7:34:56:8b:9e,Red Hat Enterprise Linux 8,16,16,Finanzas,Web Server,Apagado,2022-01-18,2026-02-04
+375,WIN-SRV-0375,131.97.220.188,3a:fa:55:bd:60:02,Windows Server 2022,2,4,Redes,Web Server,Mantenimiento,2025-10-24,2026-01-28
+376,linux-srv-0376,51.18.237.207,7a:32:9d:cd:93:19,Ubuntu 20.04 LTS,2,2,Base de Datos,Application Server,Mantenimiento,2025-08-08,2026-02-26
+377,linux-srv-0377,33.71.114.162,ce:d2:44:22:97:59,Red Hat Enterprise Linux 8,4,32,Operaciones,Application Server,Mantenimiento,2025-08-30,2026-03-19
+378,linux-srv-0378,104.128.59.60,8a:b0:71:9a:02:ea,CentOS 7,64,16,Base de Datos,DNS Server,Activo,2023-08-31,2026-01-23
+379,linux-srv-0379,94.114.9.173,dc:2b:bf:7d:89:96,Ubuntu 22.04 LTS,32,32,Operaciones,Mail Server,Mantenimiento,2022-05-07,2026-04-05
+380,linux-srv-0380,64.155.180.87,6c:f1:83:9b:43:cb,CentOS 7,32,8,Infraestructura,Mail Server,Apagado,2022-04-15,2026-03-26
+381,linux-srv-0381,27.104.129.93,66:b3:ea:0e:c5:91,Debian 11,64,32,Seguridad,Mail Server,Activo,2020-10-07,2026-01-03
+382,linux-srv-0382,74.43.73.214,36:73:90:3e:cb:f1,Debian 11,32,4,Redes,Backup Server,Activo,2022-10-14,2026-02-17
+383,linux-srv-0383,212.55.138.231,a2:41:f6:a3:4b:12,Ubuntu 22.04 LTS,8,4,Redes,File Server,Apagado,2020-11-30,2026-04-08
+384,linux-srv-0384,223.218.164.177,12:07:5a:7d:d7:75,Ubuntu 20.04 LTS,32,8,Redes,Monitoring Server,Mantenimiento,2025-06-11,2026-01-02
+385,WIN-SRV-0385,113.12.51.47,e8:d2:3b:07:ec:17,Windows Server 2022,64,16,Redes,Web Server,Mantenimiento,2021-08-15,2026-04-09
+386,linux-srv-0386,146.176.208.144,1c:97:19:ee:10:5f,Red Hat Enterprise Linux 8,2,32,Seguridad,Backup Server,Mantenimiento,2023-02-11,2026-03-21
+387,WIN-SRV-0387,99.129.101.152,b8:41:2e:df:e1:10,Windows Server 2022,64,32,Finanzas,Monitoring Server,Activo,2021-06-20,2026-01-26
+388,linux-srv-0388,207.82.94.179,48:39:63:2c:11:d3,Ubuntu 22.04 LTS,128,8,Finanzas,Backup Server,Mantenimiento,2024-03-11,2026-04-06
+389,linux-srv-0389,208.159.102.91,90:ce:d1:2e:06:c9,Ubuntu 22.04 LTS,32,4,Operaciones,Monitoring Server,Apagado,2021-02-13,2026-02-16
+390,WIN-SRV-0390,29.193.86.56,0c:2f:b1:e3:e0:d0,Windows Server 2022,2,2,Infraestructura,Database Server,Activo,2021-10-20,2026-05-21
+391,WIN-SRV-0391,115.70.201.171,a6:17:04:1a:e8:35,Windows Server 2019,128,16,Seguridad,File Server,Mantenimiento,2021-05-08,2026-02-08
+392,linux-srv-0392,216.130.177.124,3a:2a:32:dc:85:4b,Red Hat Enterprise Linux 8,4,8,Operaciones,Web Server,Apagado,2021-07-16,2026-01-22
+393,linux-srv-0393,76.217.27.104,a4:eb:dd:77:7f:15,Ubuntu 22.04 LTS,64,8,Base de Datos,Mail Server,Mantenimiento,2021-04-02,2026-01-03
+394,linux-srv-0394,80.11.125.103,20:8e:6f:3d:9b:4c,Ubuntu 22.04 LTS,64,4,Operaciones,Web Server,Activo,2025-07-31,2026-03-13
+395,WIN-SRV-0395,143.186.112.142,7c:ae:22:6c:01:de,Windows Server 2019,8,8,RRHH,Mail Server,Mantenimiento,2025-01-18,2026-02-26
+396,linux-srv-0396,97.201.159.144,56:bc:50:6b:20:1c,Ubuntu 22.04 LTS,4,2,Finanzas,Web Server,Apagado,2023-09-04,2026-04-13
+397,linux-srv-0397,164.72.36.94,28:27:c0:54:28:a2,Debian 11,128,32,Redes,DNS Server,Apagado,2024-12-05,2026-02-10
+398,linux-srv-0398,81.179.255.32,9c:b9:44:b7:4c:ae,Debian 11,2,16,Operaciones,Monitoring Server,Mantenimiento,2021-02-14,2026-04-14
+399,linux-srv-0399,158.112.103.41,b2:b7:94:87:9a:88,Ubuntu 22.04 LTS,128,8,Base de Datos,Application Server,Mantenimiento,2021-05-06,2026-05-06
+400,linux-srv-0400,36.65.246.33,e0:c5:89:30:2f:03,Ubuntu 20.04 LTS,32,8,Seguridad,Database Server,Activo,2022-10-27,2026-05-24
+401,linux-srv-0401,222.232.151.98,86:ca:93:fe:ce:88,CentOS 7,32,8,RRHH,Mail Server,Mantenimiento,2026-01-10,2026-02-22
+402,linux-srv-0402,24.60.152.48,e2:28:65:d3:19:9e,CentOS 7,16,4,Operaciones,File Server,Activo,2022-04-02,2026-05-06
+403,linux-srv-0403,190.190.73.28,12:6e:d2:b8:ad:ac,Ubuntu 20.04 LTS,16,8,Seguridad,DNS Server,Mantenimiento,2024-03-21,2026-03-11
+404,linux-srv-0404,37.152.92.102,0e:5b:55:dc:cb:c0,Debian 11,2,32,Operaciones,Application Server,Mantenimiento,2024-09-06,2026-01-29
+405,WIN-SRV-0405,77.34.118.189,24:30:a7:bb:c4:6b,Windows Server 2019,32,2,Desarrollo,Monitoring Server,Apagado,2026-05-09,2026-04-29
+406,linux-srv-0406,151.5.131.25,d2:8a:73:75:20:34,CentOS 7,8,4,Desarrollo,Database Server,Mantenimiento,2022-09-11,2026-04-07
+407,linux-srv-0407,144.43.143.110,de:e5:b8:3c:d5:bd,Ubuntu 20.04 LTS,64,4,Operaciones,Monitoring Server,Apagado,2023-09-04,2026-02-24
+408,linux-srv-0408,142.49.54.174,2a:ef:d8:36:66:ea,Debian 11,16,32,Base de Datos,Web Server,Mantenimiento,2023-10-15,2026-03-08
+409,linux-srv-0409,58.223.27.225,5e:07:79:f0:db:6c,Ubuntu 20.04 LTS,16,8,Base de Datos,Database Server,Mantenimiento,2023-08-08,2026-01-30
+410,linux-srv-0410,52.214.185.19,56:54:53:dd:7c:a4,Debian 11,64,32,Desarrollo,Web Server,Apagado,2021-10-16,2026-05-10
+411,linux-srv-0411,2.5.165.126,50:76:bd:44:40:99,Ubuntu 22.04 LTS,4,32,Redes,Backup Server,Activo,2024-04-11,2026-02-21
+412,WIN-SRV-0412,81.107.228.63,58:db:64:d2:15:80,Windows Server 2022,4,16,Finanzas,DNS Server,Mantenimiento,2024-11-05,2026-01-04
+413,linux-srv-0413,200.193.156.114,6e:fa:d3:1f:07:60,CentOS 7,4,2,RRHH,Monitoring Server,Mantenimiento,2021-10-17,2026-01-11
+414,linux-srv-0414,109.49.49.54,2a:57:c5:e1:4d:a1,Red Hat Enterprise Linux 8,2,4,Desarrollo,DNS Server,Mantenimiento,2024-07-06,2026-05-06
+415,WIN-SRV-0415,60.252.221.33,10:69:b7:4c:14:33,Windows Server 2022,2,16,Redes,Backup Server,Mantenimiento,2024-02-01,2026-01-06
+416,WIN-SRV-0416,196.198.225.73,4a:5f:67:e1:46:0d,Windows Server 2019,16,4,Operaciones,Mail Server,Apagado,2024-07-07,2026-05-01
+417,linux-srv-0417,13.215.59.225,9a:55:ce:ac:15:43,Ubuntu 22.04 LTS,32,2,Infraestructura,Web Server,Mantenimiento,2026-01-27,2026-01-28
+418,WIN-SRV-0418,174.77.131.241,72:b8:6c:49:9a:af,Windows Server 2019,32,32,Seguridad,Database Server,Apagado,2020-10-24,2026-05-21
+419,linux-srv-0419,211.92.210.136,d2:6a:b0:0f:79:f6,Ubuntu 22.04 LTS,2,32,Redes,Database Server,Mantenimiento,2025-03-20,2026-04-17
+420,linux-srv-0420,87.149.50.173,bc:59:80:0f:1e:c8,Ubuntu 22.04 LTS,32,8,Desarrollo,DNS Server,Activo,2023-07-18,2026-05-21
+421,linux-srv-0421,153.77.176.221,d2:59:90:c7:43:27,Ubuntu 20.04 LTS,128,32,Redes,DNS Server,Activo,2021-04-08,2026-04-10
+422,linux-srv-0422,160.91.213.153,a2:9a:d0:e7:e1:9c,Debian 11,16,4,Redes,Backup Server,Mantenimiento,2020-01-24,2026-05-15
+423,linux-srv-0423,49.186.215.40,b4:78:c0:58:8b:89,Debian 11,32,32,Operaciones,File Server,Activo,2023-04-02,2026-01-03
+424,linux-srv-0424,110.100.4.174,a6:0d:82:4f:69:24,Ubuntu 20.04 LTS,8,16,Redes,Mail Server,Mantenimiento,2025-05-30,2026-02-24
+425,linux-srv-0425,198.79.136.234,8e:63:7e:76:e2:d5,Ubuntu 22.04 LTS,2,4,Finanzas,File Server,Activo,2022-09-08,2026-01-16
+426,linux-srv-0426,80.38.94.31,18:af:75:2b:1e:b4,Ubuntu 22.04 LTS,64,32,Operaciones,File Server,Apagado,2021-01-23,2026-03-31
+427,linux-srv-0427,71.136.15.43,66:61:2f:f8:9c:62,Ubuntu 20.04 LTS,2,16,Redes,File Server,Mantenimiento,2025-05-01,2026-03-15
+428,WIN-SRV-0428,80.129.79.138,92:72:42:28:1e:36,Windows Server 2022,8,4,Finanzas,Web Server,Activo,2020-10-25,2026-05-09
+429,linux-srv-0429,220.117.50.64,7c:b7:18:3e:3b:f1,Ubuntu 22.04 LTS,32,16,Seguridad,Database Server,Mantenimiento,2023-11-25,2026-03-17
+430,linux-srv-0430,217.216.212.29,72:85:d0:66:5e:4c,Red Hat Enterprise Linux 8,8,2,Base de Datos,DNS Server,Apagado,2021-03-04,2026-02-03
+431,linux-srv-0431,70.15.66.104,ec:8a:9e:94:ea:55,Debian 11,4,8,Redes,Application Server,Apagado,2021-07-02,2026-02-19
+432,linux-srv-0432,13.66.95.247,50:f4:f9:57:5f:12,Red Hat Enterprise Linux 8,64,32,RRHH,Backup Server,Mantenimiento,2022-01-08,2026-02-12
+433,WIN-SRV-0433,2.208.174.141,08:6e:6d:80:c3:d6,Windows Server 2022,32,32,Seguridad,File Server,Mantenimiento,2026-05-18,2026-03-04
+434,linux-srv-0434,101.2.178.69,20:ec:cf:f5:13:22,Debian 11,2,8,Infraestructura,Backup Server,Mantenimiento,2025-02-19,2026-05-02
+435,linux-srv-0435,118.65.188.101,4a:16:b6:80:24:09,CentOS 7,4,32,Base de Datos,Mail Server,Mantenimiento,2023-03-29,2026-02-04
+436,WIN-SRV-0436,152.181.141.10,00:79:dd:c2:f8:5b,Windows Server 2022,32,2,Seguridad,Mail Server,Apagado,2024-03-11,2026-01-27
+437,linux-srv-0437,201.235.235.123,f2:67:fe:bd:9f:3d,Ubuntu 22.04 LTS,8,16,Finanzas,Database Server,Apagado,2021-08-31,2026-01-17
+438,linux-srv-0438,102.33.99.252,e6:30:9d:6a:77:14,Ubuntu 20.04 LTS,16,32,Base de Datos,DNS Server,Mantenimiento,2021-10-16,2026-02-15
+439,linux-srv-0439,135.139.191.189,68:7e:68:76:6f:da,CentOS 7,16,32,Desarrollo,Application Server,Activo,2025-08-31,2026-02-02
+440,linux-srv-0440,14.0.244.184,e4:f5:7a:aa:69:d1,Red Hat Enterprise Linux 8,4,16,Desarrollo,Backup Server,Activo,2024-03-13,2026-03-20
+441,linux-srv-0441,24.124.72.96,d2:39:8c:bc:ca:88,Ubuntu 22.04 LTS,16,8,Base de Datos,Backup Server,Activo,2023-03-23,2026-03-06
+442,linux-srv-0442,93.141.47.169,36:5e:88:34:11:87,Ubuntu 22.04 LTS,4,2,Seguridad,File Server,Apagado,2024-12-19,2026-03-29
+443,linux-srv-0443,40.248.130.154,78:a4:73:86:c7:80,Red Hat Enterprise Linux 8,8,16,Seguridad,Backup Server,Activo,2026-03-10,2026-05-07
+444,WIN-SRV-0444,210.110.184.203,3c:68:4b:e8:f6:82,Windows Server 2022,8,32,Finanzas,Application Server,Activo,2026-05-19,2026-01-08
+445,linux-srv-0445,12.96.85.95,9a:79:5d:95:45:84,Debian 11,2,4,Operaciones,Web Server,Apagado,2023-09-29,2026-05-05
+446,linux-srv-0446,155.148.70.252,84:d6:a3:c2:69:cc,Debian 11,64,16,RRHH,DNS Server,Apagado,2021-03-10,2026-05-02
+447,linux-srv-0447,216.221.146.199,0e:fc:b4:70:ef:84,Ubuntu 22.04 LTS,64,2,Finanzas,Application Server,Mantenimiento,2022-04-24,2026-03-27
+448,linux-srv-0448,23.143.16.242,16:20:cc:85:0e:6b,Ubuntu 20.04 LTS,8,8,Redes,Backup Server,Mantenimiento,2022-07-22,2026-05-13
+449,linux-srv-0449,190.36.88.236,be:f2:9f:af:b8:05,Ubuntu 20.04 LTS,32,32,Desarrollo,Monitoring Server,Apagado,2026-05-08,2026-04-30
+450,WIN-SRV-0450,197.234.153.234,ae:20:6e:a0:1a:88,Windows Server 2022,8,8,Base de Datos,Mail Server,Apagado,2021-08-10,2026-03-14
+451,linux-srv-0451,17.245.162.69,90:7a:7b:15:42:d2,Debian 11,4,8,Infraestructura,Database Server,Mantenimiento,2020-12-13,2026-05-17
+452,linux-srv-0452,165.177.238.16,cc:dd:d5:89:bd:dd,Debian 11,128,2,Infraestructura,Backup Server,Mantenimiento,2026-02-14,2026-02-07
+453,linux-srv-0453,139.79.2.165,ec:e2:87:50:44:db,Debian 11,64,2,Seguridad,Application Server,Activo,2021-06-08,2026-04-02
+454,linux-srv-0454,3.203.95.30,0a:5a:f4:15:57:99,Debian 11,2,16,Operaciones,Web Server,Mantenimiento,2020-03-26,2026-04-28
+455,WIN-SRV-0455,57.198.151.43,e6:0c:36:00:f1:a5,Windows Server 2022,8,32,Finanzas,Web Server,Apagado,2025-11-28,2026-01-29
+456,linux-srv-0456,31.165.58.128,da:b2:26:94:47:5e,Ubuntu 20.04 LTS,4,8,Finanzas,Backup Server,Apagado,2024-10-07,2026-02-08
+457,linux-srv-0457,223.60.140.170,c0:f9:b7:1c:43:02,Ubuntu 20.04 LTS,2,4,Seguridad,File Server,Activo,2021-09-19,2026-04-15
+458,linux-srv-0458,105.172.96.179,9a:31:56:4a:25:96,Ubuntu 22.04 LTS,32,32,Seguridad,Monitoring Server,Mantenimiento,2021-03-04,2026-03-28
+459,linux-srv-0459,154.219.209.166,66:c5:74:8f:b2:bc,Ubuntu 20.04 LTS,8,32,Finanzas,DNS Server,Apagado,2026-03-10,2026-04-01
+460,linux-srv-0460,105.166.17.122,52:30:f7:6a:72:47,Ubuntu 20.04 LTS,8,4,Redes,Backup Server,Apagado,2026-03-31,2026-03-05
+461,WIN-SRV-0461,195.148.156.196,8e:89:93:c8:84:ef,Windows Server 2022,4,32,RRHH,DNS Server,Activo,2020-12-02,2026-01-31
+462,linux-srv-0462,148.59.254.176,2e:9a:a4:05:35:83,Ubuntu 20.04 LTS,128,32,Seguridad,Application Server,Activo,2024-02-29,2026-04-10
+463,linux-srv-0463,222.15.16.43,ea:2e:c2:c6:d3:c6,Red Hat Enterprise Linux 8,128,4,Redes,Backup Server,Apagado,2023-09-23,2026-03-31
+464,WIN-SRV-0464,117.166.53.233,d2:20:a4:6a:8a:39,Windows Server 2022,4,4,Seguridad,Application Server,Mantenimiento,2024-12-30,2026-03-20
+465,linux-srv-0465,133.181.76.132,b4:a4:e4:06:fd:9e,Red Hat Enterprise Linux 8,4,4,RRHH,Database Server,Apagado,2021-03-14,2026-01-24
+466,linux-srv-0466,112.92.26.145,12:99:af:6e:3a:28,Ubuntu 20.04 LTS,64,32,Desarrollo,DNS Server,Apagado,2024-09-11,2026-02-11
+467,linux-srv-0467,133.226.240.117,80:a4:d7:d2:12:f6,Ubuntu 22.04 LTS,16,8,Base de Datos,File Server,Activo,2024-01-17,2026-05-07
+468,linux-srv-0468,97.244.0.91,7a:42:b5:74:41:c2,Debian 11,32,8,Redes,Database Server,Apagado,2026-04-09,2026-01-15
+469,WIN-SRV-0469,164.26.0.34,c2:76:52:54:20:ea,Windows Server 2019,16,16,Base de Datos,File Server,Activo,2026-01-27,2026-02-23
+470,linux-srv-0470,145.200.203.200,b4:d8:9c:c5:e2:35,Debian 11,32,32,Infraestructura,Monitoring Server,Activo,2020-09-28,2026-03-01
+471,linux-srv-0471,1.127.210.78,e4:64:a6:9a:d9:ae,CentOS 7,32,16,Desarrollo,Application Server,Apagado,2024-09-12,2026-03-23
+472,WIN-SRV-0472,44.26.71.26,82:7b:8f:d1:eb:1c,Windows Server 2019,8,32,Base de Datos,DNS Server,Mantenimiento,2021-06-05,2026-02-14
+473,linux-srv-0473,49.96.109.212,9e:fd:bc:b6:64:1c,Red Hat Enterprise Linux 8,64,16,Redes,DNS Server,Mantenimiento,2023-06-05,2026-05-15
+474,linux-srv-0474,166.211.147.82,e4:8e:69:4a:84:81,CentOS 7,8,32,Base de Datos,Application Server,Activo,2024-11-16,2026-01-02
+475,linux-srv-0475,43.204.23.38,2a:a8:fc:7c:fc:f2,Ubuntu 22.04 LTS,8,4,Desarrollo,DNS Server,Activo,2020-09-18,2026-01-23
+476,linux-srv-0476,138.199.124.75,46:e2:dd:9d:e8:c0,Ubuntu 20.04 LTS,32,16,Infraestructura,Web Server,Apagado,2022-07-27,2026-01-29
+477,WIN-SRV-0477,24.28.101.88,e4:be:f3:a9:2e:8b,Windows Server 2019,128,8,Base de Datos,Database Server,Activo,2020-07-23,2026-02-03
+478,linux-srv-0478,58.90.189.91,8e:d1:ce:fd:d1:c0,Red Hat Enterprise Linux 8,64,8,RRHH,Mail Server,Apagado,2020-11-09,2026-04-22
+479,linux-srv-0479,153.87.122.211,1c:5a:6e:8a:66:42,CentOS 7,16,8,Desarrollo,Backup Server,Apagado,2024-07-09,2026-02-05
+480,linux-srv-0480,120.117.226.165,7a:6e:06:dd:52:41,Ubuntu 22.04 LTS,128,32,Desarrollo,File Server,Mantenimiento,2024-11-25,2026-03-27
+481,linux-srv-0481,146.16.239.230,b6:78:46:fb:90:2c,CentOS 7,16,4,Desarrollo,Web Server,Apagado,2020-06-18,2026-01-11
+482,linux-srv-0482,96.245.139.146,2c:92:3c:73:17:4e,Debian 11,4,2,Infraestructura,File Server,Activo,2024-04-23,2026-05-23
+483,linux-srv-0483,119.75.82.6,98:49:b0:7a:f7:de,Ubuntu 22.04 LTS,4,4,Seguridad,Mail Server,Activo,2024-02-14,2026-01-28
+484,linux-srv-0484,144.49.247.70,a2:b3:f7:fe:fe:89,CentOS 7,4,16,Infraestructura,DNS Server,Apagado,2021-08-21,2026-04-07
+485,linux-srv-0485,115.52.125.167,fc:59:60:7a:73:14,Debian 11,8,2,Operaciones,File Server,Activo,2025-11-30,2026-03-17
+486,WIN-SRV-0486,98.11.151.150,7c:a2:39:36:97:15,Windows Server 2022,8,2,Seguridad,Application Server,Apagado,2023-09-10,2026-01-25
+487,linux-srv-0487,197.132.128.171,46:48:c0:5f:ad:ec,Red Hat Enterprise Linux 8,32,4,Operaciones,Monitoring Server,Apagado,2025-12-24,2026-03-16
+488,linux-srv-0488,36.233.91.128,06:21:78:55:49:91,Ubuntu 22.04 LTS,4,8,Base de Datos,Monitoring Server,Apagado,2020-08-07,2026-05-07
+489,linux-srv-0489,60.80.2.66,cc:17:d8:9b:ef:91,Ubuntu 22.04 LTS,32,32,Infraestructura,Backup Server,Mantenimiento,2021-10-21,2026-03-14
+490,linux-srv-0490,83.155.135.39,ca:ae:d5:8e:d6:91,Red Hat Enterprise Linux 8,2,2,Infraestructura,DNS Server,Activo,2020-02-08,2026-04-13
+491,linux-srv-0491,10.106.2.185,64:11:a6:77:03:12,CentOS 7,4,4,Redes,Backup Server,Mantenimiento,2022-07-19,2026-04-11
+492,linux-srv-0492,34.91.195.105,cc:2d:1a:04:21:a6,CentOS 7,16,16,Base de Datos,Application Server,Apagado,2026-02-24,2026-04-14
+493,linux-srv-0493,161.238.244.87,1c:00:02:9b:af:6b,Red Hat Enterprise Linux 8,32,32,Desarrollo,Monitoring Server,Mantenimiento,2025-12-08,2026-01-07
+494,WIN-SRV-0494,153.203.42.99,2e:2c:60:c8:49:b7,Windows Server 2022,2,32,Redes,Backup Server,Activo,2020-07-20,2026-02-28
+495,linux-srv-0495,115.164.59.205,56:6f:e2:1d:c5:8c,Debian 11,8,32,Seguridad,DNS Server,Activo,2023-10-01,2026-05-15
+496,linux-srv-0496,1.173.17.60,06:52:37:80:69:11,Debian 11,2,32,Seguridad,File Server,Apagado,2025-04-12,2026-01-07
+497,linux-srv-0497,181.73.44.223,04:fb:01:68:e9:83,Ubuntu 22.04 LTS,128,2,RRHH,File Server,Mantenimiento,2023-04-25,2026-05-11
+498,linux-srv-0498,16.96.145.6,e8:c9:47:61:ba:97,Debian 11,4,32,Desarrollo,Web Server,Activo,2026-03-06,2026-02-14
+499,linux-srv-0499,81.137.253.171,60:0b:30:a1:9c:88,CentOS 7,2,16,Base de Datos,DNS Server,Apagado,2022-12-02,2026-03-20
+500,WIN-SRV-0500,14.79.74.204,ce:2f:22:01:15:a4,Windows Server 2019,16,16,Seguridad,DNS Server,Mantenimiento,2024-07-12,2026-03-25
+501,linux-srv-0501,90.171.50.208,28:61:17:31:c0:7b,CentOS 7,16,8,RRHH,Monitoring Server,Mantenimiento,2023-01-26,2026-04-14
+502,linux-srv-0502,149.58.9.46,7e:a8:af:ed:9d:25,Debian 11,16,32,Finanzas,Application Server,Activo,2023-06-24,2026-05-09
+503,linux-srv-0503,75.142.157.142,ce:50:dc:da:93:5e,Ubuntu 22.04 LTS,64,2,Desarrollo,File Server,Mantenimiento,2026-03-01,2026-01-18
+504,WIN-SRV-0504,32.137.26.158,96:46:c3:50:00:5a,Windows Server 2019,4,32,RRHH,Mail Server,Activo,2022-07-01,2026-02-03
+505,WIN-SRV-0505,126.4.226.72,0e:24:c6:89:c7:9a,Windows Server 2019,32,16,Desarrollo,Application Server,Apagado,2025-01-16,2026-04-08
+506,WIN-SRV-0506,189.91.31.82,2c:bb:f5:6f:03:ab,Windows Server 2019,2,4,Operaciones,Database Server,Mantenimiento,2025-03-16,2026-04-12
+507,linux-srv-0507,97.4.142.22,f4:a3:3c:c6:85:c2,CentOS 7,8,4,Desarrollo,File Server,Mantenimiento,2024-05-09,2026-01-01
+508,linux-srv-0508,42.0.109.101,4e:ca:39:7b:85:96,Ubuntu 20.04 LTS,4,32,RRHH,File Server,Apagado,2024-10-23,2026-03-06
+509,WIN-SRV-0509,133.17.183.93,68:79:dd:78:f5:a2,Windows Server 2022,128,4,Operaciones,Monitoring Server,Activo,2021-04-21,2026-02-15
+510,WIN-SRV-0510,1.159.218.124,a4:4b:23:6f:64:ea,Windows Server 2019,4,4,Redes,Backup Server,Activo,2024-03-27,2026-01-18
+511,linux-srv-0511,9.18.160.93,90:74:5b:d8:9b:bf,CentOS 7,8,4,Desarrollo,Monitoring Server,Apagado,2023-10-27,2026-05-04
+512,WIN-SRV-0512,219.57.141.211,4e:c5:4e:1d:69:e9,Windows Server 2022,128,32,Seguridad,DNS Server,Activo,2026-04-10,2026-03-26
+513,WIN-SRV-0513,200.121.222.122,ce:f2:1f:3a:4a:5c,Windows Server 2019,2,16,Base de Datos,Backup Server,Activo,2020-06-17,2026-01-05
+514,linux-srv-0514,23.122.183.91,04:98:9f:a8:57:4a,Ubuntu 22.04 LTS,4,2,Base de Datos,Database Server,Apagado,2021-07-15,2026-04-24
+515,WIN-SRV-0515,194.175.4.58,96:2e:12:50:e5:a7,Windows Server 2019,4,2,Desarrollo,Web Server,Activo,2021-02-15,2026-03-02
+516,linux-srv-0516,173.159.113.1,92:0d:66:c8:bd:21,Ubuntu 20.04 LTS,8,4,Operaciones,Mail Server,Mantenimiento,2025-01-18,2026-04-05
+517,WIN-SRV-0517,22.126.163.12,06:5a:cc:fc:cc:1a,Windows Server 2022,32,2,Finanzas,DNS Server,Apagado,2025-12-30,2026-02-01
+518,linux-srv-0518,10.245.158.232,64:59:d6:2a:7b:1a,CentOS 7,64,32,Desarrollo,DNS Server,Apagado,2024-06-23,2026-04-24
+519,linux-srv-0519,17.130.103.46,78:7b:c8:46:5f:2a,Ubuntu 20.04 LTS,8,32,Base de Datos,File Server,Mantenimiento,2021-04-03,2026-02-21
+520,linux-srv-0520,212.178.253.119,66:4c:91:99:9d:52,CentOS 7,8,16,Seguridad,Backup Server,Mantenimiento,2023-06-01,2026-02-24
+521,WIN-SRV-0521,76.92.252.30,76:35:fa:ff:25:82,Windows Server 2022,2,16,Desarrollo,DNS Server,Apagado,2022-01-28,2026-04-28
+522,linux-srv-0522,78.147.2.48,a0:ae:ad:8f:61:95,Ubuntu 22.04 LTS,128,4,Infraestructura,Web Server,Activo,2022-01-22,2026-03-20
+523,linux-srv-0523,207.181.189.64,5c:16:4a:c3:e6:92,CentOS 7,16,8,Infraestructura,Backup Server,Activo,2023-01-11,2026-02-01
+524,linux-srv-0524,67.235.193.12,c4:be:a0:2b:5f:92,Ubuntu 20.04 LTS,16,8,Infraestructura,Database Server,Mantenimiento,2024-12-08,2026-02-15
+525,linux-srv-0525,193.136.33.106,68:28:8e:a3:9e:8f,Red Hat Enterprise Linux 8,128,32,Operaciones,Database Server,Activo,2025-10-05,2026-03-21
+526,linux-srv-0526,143.22.213.155,36:b3:c8:f2:c8:6b,Ubuntu 20.04 LTS,32,2,RRHH,Application Server,Mantenimiento,2020-12-05,2026-01-09
+527,linux-srv-0527,97.99.119.122,ec:3f:35:1e:b7:1b,Red Hat Enterprise Linux 8,16,2,RRHH,DNS Server,Mantenimiento,2020-02-07,2026-04-12
+528,linux-srv-0528,151.135.15.71,88:02:77:f9:c9:44,Ubuntu 20.04 LTS,8,4,Redes,DNS Server,Apagado,2024-11-03,2026-01-01
+529,linux-srv-0529,42.147.213.244,22:48:2f:e5:f8:b9,Debian 11,16,16,RRHH,Monitoring Server,Mantenimiento,2023-07-06,2026-03-26
+530,linux-srv-0530,136.153.230.224,72:e7:ee:69:69:dd,Ubuntu 20.04 LTS,32,16,Base de Datos,File Server,Apagado,2021-02-07,2026-02-28
+531,linux-srv-0531,145.21.117.83,b2:84:2b:e2:0b:3e,CentOS 7,2,32,RRHH,Backup Server,Apagado,2022-07-23,2026-01-22
+532,linux-srv-0532,5.203.237.81,20:2c:0e:22:22:a1,CentOS 7,16,4,Infraestructura,Monitoring Server,Activo,2021-01-25,2026-03-31
+533,linux-srv-0533,188.116.12.134,04:d2:18:66:c5:aa,Ubuntu 20.04 LTS,64,4,Base de Datos,Application Server,Activo,2025-12-15,2026-02-28
+534,linux-srv-0534,94.73.138.96,ae:b2:5b:c9:05:7d,CentOS 7,4,16,Redes,Web Server,Activo,2024-05-20,2026-02-28
+535,WIN-SRV-0535,103.98.134.93,56:2b:2f:a7:09:51,Windows Server 2019,2,4,Infraestructura,File Server,Mantenimiento,2020-12-18,2026-04-05
+536,linux-srv-0536,123.100.0.135,2e:ee:a1:35:84:b3,Debian 11,2,2,Infraestructura,Database Server,Activo,2021-04-27,2026-04-25
+537,linux-srv-0537,58.247.163.41,ae:50:88:12:5a:3f,Red Hat Enterprise Linux 8,8,16,Redes,File Server,Apagado,2020-12-01,2026-03-15
+538,WIN-SRV-0538,60.142.52.255,1e:c8:de:bd:0a:00,Windows Server 2019,8,2,Operaciones,Database Server,Apagado,2020-06-24,2026-01-29
+539,linux-srv-0539,77.107.42.161,c0:9a:89:17:a3:38,CentOS 7,16,8,Infraestructura,Mail Server,Activo,2024-10-27,2026-01-18
+540,WIN-SRV-0540,168.154.230.96,d6:52:7f:58:9b:e2,Windows Server 2022,128,2,RRHH,Database Server,Apagado,2025-10-09,2026-05-16
+541,linux-srv-0541,90.31.44.157,ce:b4:16:8f:d8:c1,Ubuntu 22.04 LTS,2,32,Desarrollo,Backup Server,Mantenimiento,2022-10-21,2026-03-01
+542,linux-srv-0542,70.194.213.10,0e:76:56:d8:c7:c3,Red Hat Enterprise Linux 8,64,16,Finanzas,Database Server,Apagado,2020-01-04,2026-02-24
+543,linux-srv-0543,208.199.187.22,e4:2a:65:52:0b:2b,CentOS 7,4,2,Infraestructura,DNS Server,Mantenimiento,2022-02-12,2026-03-23
+544,linux-srv-0544,12.239.175.216,62:50:01:9c:d7:8d,CentOS 7,2,4,Finanzas,File Server,Mantenimiento,2022-12-27,2026-05-17
+545,linux-srv-0545,61.82.9.176,e8:dd:c8:12:44:77,Ubuntu 20.04 LTS,64,2,Infraestructura,Web Server,Mantenimiento,2024-03-10,2026-01-09
+546,linux-srv-0546,39.179.126.196,1c:d4:02:74:b8:90,CentOS 7,32,4,RRHH,File Server,Activo,2025-08-26,2026-05-02
+547,linux-srv-0547,220.40.143.132,26:e5:7b:52:50:80,Red Hat Enterprise Linux 8,8,32,Base de Datos,Mail Server,Activo,2023-10-21,2026-02-24
+548,linux-srv-0548,84.172.77.30,60:1a:7b:3d:fd:ce,Ubuntu 22.04 LTS,128,2,Desarrollo,DNS Server,Mantenimiento,2024-12-02,2026-05-15
+549,linux-srv-0549,58.28.42.140,56:7b:fc:d2:be:ff,Red Hat Enterprise Linux 8,4,8,RRHH,DNS Server,Activo,2020-12-24,2026-04-21
+550,linux-srv-0550,73.150.51.0,4c:58:3d:41:ec:72,Debian 11,32,16,Finanzas,Database Server,Activo,2021-01-11,2026-04-09
+551,linux-srv-0551,62.102.44.17,8e:14:71:e6:07:3c,Ubuntu 22.04 LTS,64,32,Seguridad,DNS Server,Activo,2021-03-18,2026-01-11
+552,linux-srv-0552,58.251.88.137,02:9c:52:7b:6b:a3,Ubuntu 22.04 LTS,32,16,Base de Datos,Mail Server,Activo,2021-06-25,2026-01-14
+553,linux-srv-0553,217.90.128.230,6a:57:03:23:61:9b,Debian 11,8,2,Finanzas,Backup Server,Apagado,2022-04-15,2026-02-22
+554,linux-srv-0554,51.142.104.192,ba:8c:a4:47:e5:48,Red Hat Enterprise Linux 8,32,2,Operaciones,Backup Server,Apagado,2026-05-22,2026-01-08
+555,linux-srv-0555,195.240.69.180,04:86:84:56:3e:d5,Ubuntu 20.04 LTS,64,4,Finanzas,Database Server,Apagado,2023-12-03,2026-02-23
+556,WIN-SRV-0556,78.137.91.11,5a:12:f3:c5:3e:a9,Windows Server 2022,2,16,Operaciones,Backup Server,Activo,2022-08-12,2026-03-11
+557,linux-srv-0557,95.192.106.159,e2:67:ab:7e:c2:c1,Ubuntu 20.04 LTS,2,4,RRHH,Application Server,Mantenimiento,2021-01-18,2026-03-12
+558,linux-srv-0558,7.112.27.116,c4:61:cf:79:4e:95,Debian 11,2,32,Seguridad,DNS Server,Mantenimiento,2023-02-10,2026-04-19
+559,WIN-SRV-0559,204.23.80.43,86:2b:d8:0d:bb:c4,Windows Server 2019,4,32,Base de Datos,Backup Server,Apagado,2021-01-18,2026-05-05
+560,linux-srv-0560,102.211.37.223,6a:d4:13:43:8e:fd,Debian 11,16,32,Operaciones,Monitoring Server,Activo,2020-05-05,2026-01-31
+561,linux-srv-0561,99.198.48.179,76:81:fc:a1:81:6d,CentOS 7,4,2,Desarrollo,Database Server,Activo,2025-09-26,2026-05-22
+562,linux-srv-0562,202.212.40.70,aa:eb:e2:e8:b9:66,Ubuntu 22.04 LTS,64,16,Seguridad,Database Server,Activo,2023-08-20,2026-01-17
+563,linux-srv-0563,201.151.58.33,6c:19:05:5d:76:d1,Debian 11,16,16,Desarrollo,Application Server,Apagado,2023-01-04,2026-03-29
+564,linux-srv-0564,179.58.100.109,e0:79:ff:9d:3e:ef,Ubuntu 22.04 LTS,8,8,Finanzas,Mail Server,Apagado,2025-04-25,2026-05-04
+565,linux-srv-0565,41.105.83.34,22:b0:49:6e:22:96,Ubuntu 20.04 LTS,4,8,Base de Datos,DNS Server,Apagado,2020-09-21,2026-05-23
+566,linux-srv-0566,52.116.141.225,f2:8a:0f:0b:c9:b7,Ubuntu 22.04 LTS,128,32,Desarrollo,Database Server,Mantenimiento,2025-08-28,2026-04-26
+567,linux-srv-0567,7.209.151.252,e2:64:bb:bc:5f:e2,CentOS 7,32,32,Operaciones,File Server,Mantenimiento,2021-05-12,2026-01-28
+568,WIN-SRV-0568,109.149.228.24,ce:c9:20:97:42:25,Windows Server 2022,8,8,Base de Datos,Database Server,Activo,2024-06-05,2026-04-08
+569,linux-srv-0569,62.81.2.172,14:38:21:14:b1:b1,Ubuntu 20.04 LTS,4,32,Operaciones,Backup Server,Mantenimiento,2020-11-23,2026-04-20
+570,linux-srv-0570,34.185.215.34,ee:fc:7c:6c:dd:d6,Red Hat Enterprise Linux 8,128,32,Infraestructura,Application Server,Apagado,2021-09-26,2026-01-30
+571,linux-srv-0571,214.130.209.244,46:63:f1:fe:3b:a2,Ubuntu 22.04 LTS,2,8,RRHH,Monitoring Server,Apagado,2021-10-27,2026-02-04
+572,linux-srv-0572,218.137.253.77,7c:e9:57:db:f9:d0,Ubuntu 20.04 LTS,8,2,Finanzas,Backup Server,Mantenimiento,2021-06-20,2026-03-04
+573,linux-srv-0573,3.172.24.146,24:f9:70:d4:00:d3,Ubuntu 22.04 LTS,2,8,RRHH,Web Server,Mantenimiento,2026-03-03,2026-02-27
+574,linux-srv-0574,33.218.94.255,72:32:b2:4f:9d:ce,Ubuntu 20.04 LTS,8,32,Desarrollo,File Server,Apagado,2022-09-29,2026-04-11
+575,WIN-SRV-0575,203.66.100.211,b8:91:44:59:1b:4d,Windows Server 2019,32,2,RRHH,File Server,Mantenimiento,2023-08-16,2026-04-16
+576,linux-srv-0576,217.205.164.213,3c:c1:c2:6f:18:96,CentOS 7,32,4,Finanzas,Mail Server,Activo,2025-09-16,2026-02-04
+577,linux-srv-0577,19.51.214.108,ec:b2:bb:1d:70:fe,Ubuntu 20.04 LTS,32,16,Finanzas,File Server,Activo,2022-12-05,2026-01-14
+578,WIN-SRV-0578,155.23.111.94,80:f3:27:fa:4e:f4,Windows Server 2019,8,32,Redes,Mail Server,Activo,2023-11-18,2026-04-15
+579,linux-srv-0579,189.172.57.5,62:06:98:4d:ca:2b,Ubuntu 22.04 LTS,8,32,Infraestructura,Backup Server,Apagado,2026-05-02,2026-01-27
+580,linux-srv-0580,162.7.98.82,3e:19:a7:d0:48:8b,Debian 11,2,4,Seguridad,Application Server,Mantenimiento,2024-09-12,2026-02-15
+581,WIN-SRV-0581,106.129.14.57,22:1d:80:f2:df:84,Windows Server 2022,4,32,Operaciones,Mail Server,Apagado,2023-03-21,2026-02-14
+582,linux-srv-0582,193.244.192.99,a0:19:7a:00:ce:99,Ubuntu 22.04 LTS,16,8,Desarrollo,Backup Server,Apagado,2020-07-24,2026-03-10
+583,linux-srv-0583,146.110.69.107,60:7f:c0:7d:da:22,Debian 11,128,2,Operaciones,File Server,Apagado,2020-10-22,2026-04-06
+584,linux-srv-0584,88.23.245.34,84:6c:c7:eb:3d:6c,CentOS 7,64,16,Base de Datos,Mail Server,Apagado,2020-06-01,2026-02-23
+585,linux-srv-0585,155.254.91.61,30:a5:29:c0:51:16,CentOS 7,4,32,Finanzas,Web Server,Mantenimiento,2022-10-13,2026-05-21
+586,linux-srv-0586,154.245.231.232,9c:17:fa:10:f0:a0,CentOS 7,32,8,Finanzas,Database Server,Mantenimiento,2024-01-15,2026-01-23
+587,linux-srv-0587,116.133.142.46,d6:fe:b0:cb:e1:5b,Ubuntu 20.04 LTS,128,16,Base de Datos,Mail Server,Activo,2025-01-17,2026-03-10
+588,linux-srv-0588,184.248.222.242,10:e2:ae:3b:d9:a8,Debian 11,32,16,Redes,Application Server,Apagado,2025-09-04,2026-03-12
+589,WIN-SRV-0589,79.38.95.68,36:5e:77:3e:30:1a,Windows Server 2022,2,4,Redes,Web Server,Activo,2025-11-13,2026-02-06
+590,linux-srv-0590,137.73.220.33,4a:ad:e9:5e:85:b4,CentOS 7,32,16,Finanzas,Mail Server,Apagado,2024-11-24,2026-04-06
+591,linux-srv-0591,188.165.22.108,18:0c:f1:d6:8b:ef,Debian 11,32,8,Redes,File Server,Mantenimiento,2025-06-16,2026-01-28
+592,WIN-SRV-0592,97.224.72.250,70:fa:19:03:d7:81,Windows Server 2022,2,16,Finanzas,Application Server,Apagado,2020-06-15,2026-05-04
+593,linux-srv-0593,124.93.158.47,5a:31:84:9e:72:7c,Red Hat Enterprise Linux 8,16,8,Seguridad,Database Server,Apagado,2021-11-03,2026-01-18
+594,WIN-SRV-0594,156.58.151.12,4e:bb:1c:53:b7:23,Windows Server 2019,128,2,Base de Datos,DNS Server,Mantenimiento,2025-02-22,2026-03-16
+595,WIN-SRV-0595,193.223.251.80,40:bf:48:8b:73:db,Windows Server 2022,128,32,Desarrollo,Mail Server,Apagado,2023-03-02,2026-05-15
+596,linux-srv-0596,86.141.201.97,4e:33:f0:d2:66:31,Red Hat Enterprise Linux 8,2,32,RRHH,DNS Server,Mantenimiento,2022-03-19,2026-05-02
+597,linux-srv-0597,67.198.34.241,ac:d3:ba:38:8b:78,Red Hat Enterprise Linux 8,128,32,Operaciones,Monitoring Server,Mantenimiento,2020-06-29,2026-03-27
+598,linux-srv-0598,221.243.71.149,8a:76:09:0c:e6:38,Red Hat Enterprise Linux 8,32,8,Desarrollo,File Server,Activo,2021-12-08,2026-04-24
+599,WIN-SRV-0599,9.31.219.118,28:98:c8:51:03:5f,Windows Server 2022,2,32,Redes,Mail Server,Activo,2023-06-07,2026-04-12
+600,WIN-SRV-0600,26.42.132.121,7e:7b:12:50:76:2e,Windows Server 2019,8,32,Desarrollo,Monitoring Server,Mantenimiento,2020-02-07,2026-04-08
+601,linux-srv-0601,190.86.31.169,18:6c:43:59:ce:c2,Debian 11,4,16,Operaciones,Application Server,Apagado,2025-09-01,2026-05-05
+602,linux-srv-0602,50.203.138.90,bc:ce:3a:cf:93:59,Debian 11,64,8,Seguridad,Database Server,Mantenimiento,2020-07-27,2026-02-15
+603,linux-srv-0603,113.175.74.79,80:74:a2:fb:8d:5d,Red Hat Enterprise Linux 8,32,8,Base de Datos,File Server,Apagado,2022-03-18,2026-05-19
+604,WIN-SRV-0604,121.233.77.231,38:c2:8a:8d:b6:13,Windows Server 2022,64,8,Operaciones,Monitoring Server,Apagado,2023-08-15,2026-04-15
+605,linux-srv-0605,86.45.246.35,a2:e4:ca:73:b7:b6,Ubuntu 22.04 LTS,16,4,Operaciones,Web Server,Activo,2023-07-23,2026-01-05
+606,linux-srv-0606,42.255.29.111,f8:d6:91:71:6c:2f,Ubuntu 22.04 LTS,16,32,Operaciones,DNS Server,Apagado,2021-04-14,2026-02-18
+607,linux-srv-0607,126.94.34.76,18:7e:9d:7e:2d:58,Debian 11,32,4,RRHH,Mail Server,Mantenimiento,2024-08-18,2026-03-30
+608,linux-srv-0608,198.162.242.202,4e:9d:37:f8:94:5a,Ubuntu 22.04 LTS,16,32,RRHH,Web Server,Apagado,2023-11-22,2026-01-24
+609,linux-srv-0609,1.191.94.192,b4:ff:86:7d:f7:f0,Debian 11,4,2,Infraestructura,Mail Server,Apagado,2020-11-30,2026-04-21
+610,linux-srv-0610,190.232.248.93,54:fb:b6:64:22:c3,Debian 11,16,8,Base de Datos,DNS Server,Apagado,2022-11-19,2026-05-13
+611,linux-srv-0611,188.38.56.61,22:65:c4:e2:c3:66,CentOS 7,2,32,RRHH,Database Server,Apagado,2022-01-14,2026-01-11
+612,linux-srv-0612,36.139.10.242,9c:8c:0a:0a:33:b0,Red Hat Enterprise Linux 8,8,8,Redes,Web Server,Apagado,2026-05-10,2026-02-08
+613,linux-srv-0613,91.242.175.202,cc:61:72:b6:e5:87,Ubuntu 20.04 LTS,128,2,Finanzas,Application Server,Activo,2026-03-12,2026-03-06
+614,WIN-SRV-0614,14.155.75.155,68:05:12:7b:b1:8a,Windows Server 2022,32,8,Desarrollo,Application Server,Apagado,2020-04-02,2026-03-22
+615,linux-srv-0615,187.37.51.2,e4:3e:15:51:6d:7e,CentOS 7,2,2,Desarrollo,Web Server,Activo,2025-01-19,2026-01-21
+616,WIN-SRV-0616,119.136.243.162,34:50:1c:4a:86:00,Windows Server 2022,64,16,Operaciones,DNS Server,Mantenimiento,2021-12-16,2026-03-08
+617,WIN-SRV-0617,67.225.42.250,10:89:6d:45:88:a9,Windows Server 2022,2,32,RRHH,Backup Server,Apagado,2021-02-27,2026-02-23
+618,linux-srv-0618,170.63.96.174,22:c2:6b:17:81:b9,Ubuntu 22.04 LTS,128,8,Base de Datos,Database Server,Apagado,2022-09-23,2026-02-26
+619,linux-srv-0619,136.216.141.243,de:1a:e6:a7:44:cf,Ubuntu 22.04 LTS,8,8,Desarrollo,DNS Server,Apagado,2021-03-18,2026-01-02
+620,linux-srv-0620,99.54.114.187,62:91:b9:95:16:37,Ubuntu 22.04 LTS,128,16,RRHH,Application Server,Apagado,2020-06-24,2026-03-24
+621,linux-srv-0621,61.16.169.46,88:88:ed:bc:42:a9,Red Hat Enterprise Linux 8,2,2,RRHH,Web Server,Apagado,2023-11-10,2026-01-28
+622,linux-srv-0622,205.94.156.215,2a:63:48:a2:27:54,Red Hat Enterprise Linux 8,4,8,RRHH,Application Server,Apagado,2022-06-07,2026-02-19
+623,WIN-SRV-0623,194.2.200.37,00:b5:fd:2f:b2:2b,Windows Server 2019,64,2,Seguridad,Backup Server,Apagado,2020-07-20,2026-02-09
+624,WIN-SRV-0624,129.52.80.150,4c:c3:ab:46:57:c8,Windows Server 2019,2,16,Seguridad,Web Server,Activo,2024-08-31,2026-04-08
+625,linux-srv-0625,1.41.36.158,c8:b6:af:71:0a:a0,Ubuntu 22.04 LTS,4,8,RRHH,Database Server,Mantenimiento,2021-09-26,2026-03-27
+626,WIN-SRV-0626,164.132.220.151,36:b8:b4:a0:eb:74,Windows Server 2019,32,32,Infraestructura,Web Server,Mantenimiento,2024-02-28,2026-03-23
+627,linux-srv-0627,208.107.10.1,0a:bb:2b:9c:ef:bd,Ubuntu 20.04 LTS,4,8,Finanzas,File Server,Apagado,2024-01-16,2026-01-09
+628,WIN-SRV-0628,81.14.182.53,52:60:a2:23:17:91,Windows Server 2022,8,4,Seguridad,Mail Server,Apagado,2025-04-08,2026-01-31
+629,linux-srv-0629,152.227.6.34,22:68:e9:da:2c:7f,Red Hat Enterprise Linux 8,8,2,Finanzas,Backup Server,Activo,2022-10-05,2026-02-02
+630,WIN-SRV-0630,161.220.30.190,38:49:c2:a9:cc:4f,Windows Server 2019,128,8,Base de Datos,Monitoring Server,Mantenimiento,2022-02-04,2026-05-09
+631,linux-srv-0631,73.71.91.194,b6:bc:10:6d:eb:f9,Red Hat Enterprise Linux 8,128,32,RRHH,Web Server,Mantenimiento,2025-08-17,2026-04-14
+632,linux-srv-0632,183.121.139.251,d4:d6:bc:7a:d7:f5,CentOS 7,8,16,Infraestructura,Application Server,Apagado,2025-05-19,2026-05-03
+633,linux-srv-0633,84.236.107.91,22:2f:f9:50:1e:62,Ubuntu 22.04 LTS,16,4,Operaciones,Monitoring Server,Activo,2020-09-07,2026-03-26
+634,linux-srv-0634,65.224.97.214,78:59:8e:66:06:56,Red Hat Enterprise Linux 8,2,8,Finanzas,Backup Server,Activo,2023-11-18,2026-05-08
+635,linux-srv-0635,52.212.69.100,b8:a3:f5:c9:ef:5e,Debian 11,4,32,Base de Datos,Monitoring Server,Activo,2025-06-22,2026-04-13
+636,linux-srv-0636,100.129.22.33,c0:79:30:91:93:60,Ubuntu 22.04 LTS,4,32,Finanzas,Database Server,Apagado,2024-10-09,2026-03-23
+637,WIN-SRV-0637,94.41.170.217,78:97:18:d6:53:85,Windows Server 2022,8,8,Operaciones,Monitoring Server,Mantenimiento,2022-02-03,2026-04-17
+638,linux-srv-0638,54.210.213.6,4e:10:5d:a3:a0:0b,Red Hat Enterprise Linux 8,4,32,Finanzas,Database Server,Mantenimiento,2020-04-13,2026-03-06
+639,linux-srv-0639,7.218.133.100,28:4f:61:1f:94:45,Ubuntu 20.04 LTS,64,8,Infraestructura,Database Server,Mantenimiento,2024-03-09,2026-01-02
+640,linux-srv-0640,62.140.22.232,b8:9f:38:47:ac:28,Red Hat Enterprise Linux 8,2,4,RRHH,File Server,Apagado,2024-04-06,2026-02-21
+641,linux-srv-0641,181.71.82.27,4a:e1:a8:e5:ee:f9,Red Hat Enterprise Linux 8,32,32,Base de Datos,DNS Server,Apagado,2022-11-06,2026-02-27
+642,linux-srv-0642,119.172.48.103,04:ef:d6:ec:87:38,Ubuntu 20.04 LTS,2,16,Desarrollo,Backup Server,Mantenimiento,2024-01-03,2026-03-07
+643,WIN-SRV-0643,14.198.144.9,6c:55:27:cc:a9:15,Windows Server 2019,32,8,Base de Datos,File Server,Activo,2024-08-26,2026-02-07
+644,linux-srv-0644,175.1.237.206,ee:fc:4f:cd:7f:44,Ubuntu 20.04 LTS,2,8,Desarrollo,File Server,Apagado,2025-08-30,2026-03-07
+645,WIN-SRV-0645,205.45.136.0,72:42:a5:d5:16:0f,Windows Server 2019,16,16,Operaciones,Backup Server,Apagado,2026-01-03,2026-02-07
+646,WIN-SRV-0646,104.40.21.167,82:32:25:57:11:50,Windows Server 2022,8,16,RRHH,Backup Server,Activo,2025-11-15,2026-05-11
+647,WIN-SRV-0647,98.123.172.130,18:60:00:df:a6:1f,Windows Server 2022,8,8,Redes,Monitoring Server,Activo,2021-07-22,2026-04-15
+648,linux-srv-0648,88.16.87.249,40:76:91:3f:f1:bf,CentOS 7,16,2,Desarrollo,Backup Server,Mantenimiento,2021-04-02,2026-03-29
+649,linux-srv-0649,215.77.186.186,bc:fc:61:6d:27:77,Ubuntu 22.04 LTS,64,16,Redes,Backup Server,Apagado,2022-02-06,2026-03-27
+650,linux-srv-0650,102.238.157.176,42:86:9d:28:5a:2a,Ubuntu 22.04 LTS,16,16,Desarrollo,DNS Server,Mantenimiento,2025-11-08,2026-03-09
+651,linux-srv-0651,172.78.164.184,0c:3f:2d:8e:b5:38,Red Hat Enterprise Linux 8,64,8,RRHH,Mail Server,Activo,2021-07-22,2026-05-09
+652,WIN-SRV-0652,23.148.95.89,aa:39:50:61:ca:52,Windows Server 2022,32,2,Infraestructura,DNS Server,Apagado,2021-05-01,2026-05-14
+653,linux-srv-0653,219.218.229.193,68:f6:2e:f0:35:99,Ubuntu 22.04 LTS,4,4,Base de Datos,DNS Server,Mantenimiento,2022-01-31,2026-03-23
+654,WIN-SRV-0654,128.129.48.22,d8:dd:9a:db:ac:bf,Windows Server 2022,4,32,Base de Datos,Backup Server,Mantenimiento,2020-11-15,2026-05-08
+655,linux-srv-0655,137.217.117.29,92:84:95:a8:37:43,Red Hat Enterprise Linux 8,4,16,Base de Datos,File Server,Mantenimiento,2022-03-29,2026-02-03
+656,linux-srv-0656,4.74.174.27,c4:11:3c:97:54:3c,Debian 11,2,8,Desarrollo,Backup Server,Apagado,2026-05-21,2026-02-16
+657,linux-srv-0657,153.7.64.188,16:44:ea:5a:c1:b2,Red Hat Enterprise Linux 8,32,16,Redes,Mail Server,Activo,2026-03-02,2026-03-06
+658,linux-srv-0658,176.146.124.210,9e:78:23:89:c2:c0,Red Hat Enterprise Linux 8,2,4,Operaciones,Monitoring Server,Activo,2025-10-27,2026-05-09
+659,linux-srv-0659,187.144.67.103,cc:e9:69:af:71:d0,Red Hat Enterprise Linux 8,32,4,Finanzas,File Server,Apagado,2026-03-05,2026-05-06
+660,linux-srv-0660,93.216.14.222,7e:56:9d:09:ce:4a,Red Hat Enterprise Linux 8,16,32,Desarrollo,Web Server,Activo,2023-02-08,2026-04-22
+661,linux-srv-0661,15.184.187.95,a2:7f:91:0f:2b:f0,Ubuntu 22.04 LTS,16,2,Infraestructura,DNS Server,Activo,2020-02-21,2026-02-07
+662,linux-srv-0662,36.22.64.102,e0:93:97:97:12:36,Debian 11,16,2,Infraestructura,Database Server,Mantenimiento,2022-01-17,2026-01-13
+663,linux-srv-0663,211.76.94.236,18:1f:6e:b9:fe:0f,CentOS 7,32,16,Base de Datos,DNS Server,Activo,2025-03-31,2026-02-03
+664,linux-srv-0664,43.106.175.146,f6:a8:6a:ec:52:3e,Red Hat Enterprise Linux 8,32,4,Seguridad,Mail Server,Activo,2022-09-29,2026-03-29
+665,linux-srv-0665,2.13.251.29,b8:00:b0:ee:77:ce,Ubuntu 20.04 LTS,16,32,Desarrollo,Monitoring Server,Mantenimiento,2021-01-03,2026-02-07
+666,WIN-SRV-0666,120.47.94.125,94:91:32:c8:78:28,Windows Server 2019,8,2,Infraestructura,File Server,Mantenimiento,2025-09-01,2026-04-09
+667,WIN-SRV-0667,200.106.210.195,ea:7e:54:83:e3:61,Windows Server 2022,16,16,RRHH,Database Server,Mantenimiento,2020-10-29,2026-01-23
+668,linux-srv-0668,120.7.244.172,58:8c:f2:6a:e6:99,Ubuntu 20.04 LTS,64,8,RRHH,Application Server,Apagado,2025-02-16,2026-03-18
+669,linux-srv-0669,177.246.104.30,92:a6:33:5a:93:80,CentOS 7,32,8,Infraestructura,DNS Server,Mantenimiento,2024-04-21,2026-03-08
+670,linux-srv-0670,80.99.222.129,68:df:f7:09:85:07,CentOS 7,32,4,Infraestructura,Backup Server,Activo,2023-09-21,2026-01-07
+671,linux-srv-0671,17.26.57.23,38:e3:ff:4a:d1:29,Ubuntu 20.04 LTS,8,4,Seguridad,DNS Server,Mantenimiento,2023-06-30,2026-04-09
+672,linux-srv-0672,157.117.130.28,96:ad:eb:3b:5d:b6,Ubuntu 20.04 LTS,128,16,Redes,Application Server,Activo,2020-02-15,2026-03-18
+673,WIN-SRV-0673,81.237.196.167,9c:c9:e4:ad:08:45,Windows Server 2019,8,32,Operaciones,Application Server,Activo,2025-12-01,2026-02-14
+674,linux-srv-0674,43.150.110.78,6a:4d:ef:8f:36:8a,Ubuntu 22.04 LTS,2,16,Redes,DNS Server,Mantenimiento,2020-09-03,2026-05-08
+675,linux-srv-0675,146.49.59.236,0a:0f:2b:e2:2a:99,CentOS 7,32,32,Seguridad,DNS Server,Mantenimiento,2020-08-02,2026-04-24
+676,linux-srv-0676,222.98.5.177,72:a1:6a:dc:9f:48,Red Hat Enterprise Linux 8,32,8,RRHH,DNS Server,Activo,2023-11-22,2026-03-12
+677,linux-srv-0677,69.90.210.218,00:2b:cf:3a:42:f7,Red Hat Enterprise Linux 8,2,32,Infraestructura,Mail Server,Mantenimiento,2022-12-16,2026-02-16
+678,linux-srv-0678,48.8.29.216,26:59:f8:c5:d9:03,CentOS 7,32,2,Desarrollo,Monitoring Server,Mantenimiento,2025-10-19,2026-01-25
+679,linux-srv-0679,66.206.109.181,92:48:fa:02:be:ca,Red Hat Enterprise Linux 8,128,2,Base de Datos,File Server,Apagado,2024-12-11,2026-01-14
+680,linux-srv-0680,116.166.151.121,12:23:c4:5c:81:44,Ubuntu 20.04 LTS,128,16,Operaciones,Web Server,Apagado,2022-06-10,2026-02-05
+681,linux-srv-0681,180.252.180.142,b2:4f:38:81:6c:ca,Red Hat Enterprise Linux 8,32,32,Desarrollo,File Server,Apagado,2023-12-18,2026-02-27
+682,WIN-SRV-0682,218.87.70.47,9e:c7:a3:4d:e9:4f,Windows Server 2019,16,2,RRHH,Database Server,Activo,2023-12-12,2026-02-05
+683,linux-srv-0683,216.220.120.226,9a:5e:59:01:31:7f,Ubuntu 22.04 LTS,64,4,Finanzas,File Server,Mantenimiento,2021-08-28,2026-05-17
+684,linux-srv-0684,115.212.95.46,70:dd:c2:f8:f0:16,Ubuntu 22.04 LTS,4,2,Seguridad,Application Server,Activo,2025-08-14,2026-04-08
+685,linux-srv-0685,61.223.232.174,08:58:f5:fc:95:25,Red Hat Enterprise Linux 8,2,2,RRHH,Backup Server,Apagado,2022-03-21,2026-04-18
+686,WIN-SRV-0686,167.179.3.84,60:14:c7:98:2a:27,Windows Server 2022,128,4,RRHH,Web Server,Mantenimiento,2023-12-09,2026-03-12
+687,linux-srv-0687,88.142.8.99,14:4a:4c:85:41:21,Ubuntu 20.04 LTS,8,2,RRHH,Web Server,Mantenimiento,2025-10-16,2026-03-17
+688,linux-srv-0688,223.126.59.183,aa:77:17:ba:eb:65,Ubuntu 20.04 LTS,64,4,Infraestructura,Database Server,Activo,2020-02-27,2026-02-25
+689,linux-srv-0689,70.253.104.99,d0:e2:fb:20:b9:7b,Red Hat Enterprise Linux 8,64,4,Seguridad,Database Server,Mantenimiento,2022-10-10,2026-04-06
+690,linux-srv-0690,200.72.46.6,7c:39:45:0f:21:c7,Ubuntu 22.04 LTS,2,32,Finanzas,Monitoring Server,Apagado,2022-10-04,2026-01-21
+691,linux-srv-0691,109.36.47.11,08:74:82:38:9c:a6,Debian 11,32,4,Infraestructura,Application Server,Activo,2022-11-22,2026-01-03
+692,WIN-SRV-0692,199.183.166.150,be:26:99:54:3d:71,Windows Server 2019,8,2,Desarrollo,File Server,Mantenimiento,2023-08-24,2026-05-17
+693,WIN-SRV-0693,100.158.85.225,ae:64:b9:4f:fd:14,Windows Server 2022,128,2,Redes,Mail Server,Mantenimiento,2024-09-27,2026-03-16
+694,WIN-SRV-0694,173.215.232.131,7c:18:c5:09:21:26,Windows Server 2022,128,8,Finanzas,File Server,Activo,2021-04-15,2026-03-26
+695,linux-srv-0695,204.233.228.15,ce:99:43:e8:fc:5f,Ubuntu 22.04 LTS,4,8,Desarrollo,Monitoring Server,Apagado,2020-06-25,2026-01-09
+696,linux-srv-0696,115.120.24.237,5e:52:26:55:9f:03,CentOS 7,64,8,Redes,Backup Server,Apagado,2020-09-05,2026-03-31
+697,linux-srv-0697,153.236.175.230,a8:e5:9c:8f:67:6b,Ubuntu 20.04 LTS,64,2,Desarrollo,Backup Server,Apagado,2026-03-20,2026-02-15
+698,linux-srv-0698,143.188.105.244,04:f4:c9:95:b0:95,CentOS 7,4,4,Operaciones,DNS Server,Apagado,2021-04-26,2026-01-27
+699,linux-srv-0699,168.135.206.178,ce:ef:a5:9f:2c:9e,Debian 11,2,32,Desarrollo,File Server,Mantenimiento,2025-11-05,2026-01-08
+700,linux-srv-0700,71.105.160.152,be:d3:e9:fc:eb:83,Debian 11,2,32,Infraestructura,File Server,Activo,2020-09-22,2026-01-27
+701,linux-srv-0701,133.244.3.199,4a:36:9f:ed:ab:15,Ubuntu 22.04 LTS,32,16,Infraestructura,Monitoring Server,Activo,2020-07-31,2026-03-16
+702,linux-srv-0702,162.224.9.113,a8:82:fc:42:ab:d4,Red Hat Enterprise Linux 8,16,8,Seguridad,Database Server,Mantenimiento,2023-11-21,2026-04-05
+703,linux-srv-0703,177.237.119.41,a4:7e:d3:27:97:ee,Ubuntu 22.04 LTS,4,32,Operaciones,Web Server,Apagado,2025-08-21,2026-02-17
+704,linux-srv-0704,223.93.103.92,e8:d4:d9:01:dd:cb,CentOS 7,4,8,RRHH,DNS Server,Mantenimiento,2023-05-30,2026-02-16
+705,linux-srv-0705,171.157.60.198,48:d0:54:ec:84:33,Debian 11,2,2,Operaciones,DNS Server,Activo,2024-05-22,2026-02-22
+706,linux-srv-0706,37.221.89.52,2c:64:8a:0e:cf:4f,Red Hat Enterprise Linux 8,8,8,Seguridad,Web Server,Apagado,2025-09-29,2026-01-26
+707,WIN-SRV-0707,193.125.4.242,66:3e:fb:ff:a1:5a,Windows Server 2022,4,2,Finanzas,Backup Server,Activo,2020-11-26,2026-05-02
+708,WIN-SRV-0708,25.91.218.41,7a:9a:98:10:82:55,Windows Server 2022,8,2,Infraestructura,Backup Server,Mantenimiento,2022-01-07,2026-02-17
+709,linux-srv-0709,24.165.189.222,ae:57:a6:ed:8d:2a,Ubuntu 20.04 LTS,32,32,Redes,Monitoring Server,Mantenimiento,2020-10-31,2026-01-16
+710,linux-srv-0710,104.84.11.124,bc:90:3a:34:d1:dc,Ubuntu 22.04 LTS,4,2,Infraestructura,Backup Server,Mantenimiento,2024-02-06,2026-01-08
+711,linux-srv-0711,177.153.245.181,66:7b:9a:b6:2e:d5,Red Hat Enterprise Linux 8,64,16,RRHH,Monitoring Server,Apagado,2026-03-11,2026-02-02
+712,linux-srv-0712,121.227.97.164,26:42:9a:92:96:ea,Debian 11,2,8,Operaciones,DNS Server,Apagado,2020-01-01,2026-05-02
+713,linux-srv-0713,22.167.205.224,42:02:ab:99:15:30,Ubuntu 22.04 LTS,4,4,Base de Datos,Backup Server,Apagado,2024-08-18,2026-01-28
+714,linux-srv-0714,164.209.88.43,3c:62:93:d8:f9:d8,Debian 11,64,8,RRHH,Application Server,Mantenimiento,2023-01-23,2026-04-03
+715,linux-srv-0715,146.252.37.19,c8:9a:38:77:be:e6,Ubuntu 20.04 LTS,16,32,Redes,DNS Server,Activo,2025-02-21,2026-02-16
+716,WIN-SRV-0716,207.240.85.212,c0:50:59:39:c4:2a,Windows Server 2022,32,32,Seguridad,Database Server,Activo,2021-08-28,2026-02-06
+717,linux-srv-0717,64.80.32.229,54:36:aa:6a:d7:60,CentOS 7,64,16,Base de Datos,Mail Server,Mantenimiento,2020-08-01,2026-01-24
+718,linux-srv-0718,4.242.30.172,a0:05:07:cb:1e:c8,Ubuntu 20.04 LTS,2,32,Seguridad,Database Server,Mantenimiento,2020-11-02,2026-05-05
+719,linux-srv-0719,77.31.103.26,5c:4c:2c:4a:67:4d,Ubuntu 22.04 LTS,32,4,Desarrollo,Application Server,Mantenimiento,2023-09-09,2026-03-20
+720,linux-srv-0720,125.136.187.53,40:1c:27:65:7c:36,CentOS 7,128,4,Operaciones,Web Server,Mantenimiento,2022-08-24,2026-02-01
+721,linux-srv-0721,31.108.45.246,de:5a:e0:9c:2c:35,Ubuntu 22.04 LTS,128,2,RRHH,Mail Server,Apagado,2024-07-04,2026-04-25
+722,WIN-SRV-0722,211.173.96.193,62:89:da:f1:26:b6,Windows Server 2022,16,32,Redes,Backup Server,Activo,2021-02-10,2026-03-18
+723,linux-srv-0723,180.245.129.116,c0:40:3f:09:8e:3f,Red Hat Enterprise Linux 8,2,8,Operaciones,Mail Server,Apagado,2025-10-10,2026-01-10
+724,linux-srv-0724,78.105.49.93,4a:5e:d9:90:f3:fe,Red Hat Enterprise Linux 8,8,16,RRHH,Mail Server,Activo,2023-04-06,2026-03-25
+725,WIN-SRV-0725,167.166.47.78,78:5d:9d:ac:14:4e,Windows Server 2019,32,8,Redes,DNS Server,Mantenimiento,2020-02-03,2026-03-06
+726,WIN-SRV-0726,221.49.190.235,ce:99:90:52:2a:8c,Windows Server 2022,16,8,Redes,Database Server,Mantenimiento,2022-02-11,2026-04-12
+727,linux-srv-0727,167.206.211.91,0c:05:99:03:21:b1,Ubuntu 22.04 LTS,4,32,Seguridad,Backup Server,Activo,2026-02-25,2026-02-24
+728,linux-srv-0728,12.26.106.133,a6:cc:a5:4a:01:f7,Red Hat Enterprise Linux 8,32,16,Finanzas,DNS Server,Mantenimiento,2023-03-09,2026-04-01
+729,linux-srv-0729,211.136.113.234,c6:73:f0:12:3f:b0,Red Hat Enterprise Linux 8,64,32,Seguridad,Monitoring Server,Apagado,2021-04-18,2026-01-20
+730,linux-srv-0730,76.125.85.109,a4:44:8f:dd:14:57,Red Hat Enterprise Linux 8,2,32,Infraestructura,Mail Server,Apagado,2024-05-13,2026-01-21
+731,linux-srv-0731,43.226.218.123,28:72:1c:c7:2b:a4,Ubuntu 22.04 LTS,32,2,Seguridad,DNS Server,Activo,2021-03-28,2026-03-01
+732,linux-srv-0732,19.188.174.14,88:33:a7:a4:c5:09,Debian 11,128,16,Base de Datos,File Server,Activo,2022-06-01,2026-03-14
+733,linux-srv-0733,93.251.54.25,38:d4:47:39:35:9a,Ubuntu 22.04 LTS,64,2,Finanzas,DNS Server,Apagado,2021-01-22,2026-04-06
+734,WIN-SRV-0734,211.127.228.213,8a:95:71:5c:77:0e,Windows Server 2019,4,8,RRHH,Web Server,Mantenimiento,2021-12-29,2026-01-07
+735,linux-srv-0735,3.18.66.163,bc:3f:18:89:04:2d,Ubuntu 20.04 LTS,2,16,Seguridad,File Server,Activo,2025-10-30,2026-02-27
+736,linux-srv-0736,51.99.70.150,3c:eb:9b:41:ed:9c,Debian 11,4,2,Redes,Application Server,Mantenimiento,2021-06-20,2026-05-24
+737,WIN-SRV-0737,74.205.216.197,a6:0e:52:c3:3a:4d,Windows Server 2022,32,8,Desarrollo,Web Server,Apagado,2025-06-04,2026-01-09
+738,linux-srv-0738,6.48.155.226,de:01:ec:86:c1:ec,Ubuntu 22.04 LTS,4,8,Base de Datos,Backup Server,Mantenimiento,2024-11-03,2026-03-14
+739,WIN-SRV-0739,7.202.189.12,6e:21:d2:5e:82:28,Windows Server 2022,4,2,RRHH,Application Server,Mantenimiento,2021-10-25,2026-01-27
+740,linux-srv-0740,187.56.204.11,ce:2e:54:c6:4c:bd,CentOS 7,4,16,Finanzas,DNS Server,Activo,2025-08-28,2026-01-28
+741,WIN-SRV-0741,172.255.246.73,ae:46:e3:95:7b:62,Windows Server 2019,4,4,RRHH,Web Server,Mantenimiento,2021-09-04,2026-03-29
+742,linux-srv-0742,198.205.73.59,62:68:16:33:93:c0,Debian 11,16,8,RRHH,DNS Server,Activo,2024-05-03,2026-05-22
+743,linux-srv-0743,31.200.130.217,ee:04:76:3a:ec:19,Ubuntu 20.04 LTS,128,4,RRHH,File Server,Apagado,2024-02-05,2026-04-06
+744,linux-srv-0744,43.62.243.126,02:8c:21:d3:fe:cc,Red Hat Enterprise Linux 8,16,8,Desarrollo,Mail Server,Apagado,2025-08-11,2026-01-01
+745,linux-srv-0745,222.91.76.211,a6:2e:06:be:dd:a8,Ubuntu 22.04 LTS,32,4,RRHH,Mail Server,Mantenimiento,2024-06-17,2026-02-04
+746,WIN-SRV-0746,216.2.61.49,64:5d:2f:eb:8b:a8,Windows Server 2022,128,2,Seguridad,Database Server,Mantenimiento,2020-10-08,2026-04-01
+747,WIN-SRV-0747,148.179.172.4,14:0e:cc:14:e1:3e,Windows Server 2019,64,2,RRHH,DNS Server,Activo,2021-08-12,2026-05-22
+748,linux-srv-0748,187.218.27.207,18:d1:ac:72:5d:89,Ubuntu 22.04 LTS,64,32,Base de Datos,Application Server,Apagado,2025-03-22,2026-02-05
+749,linux-srv-0749,48.16.151.40,72:f3:57:9e:77:15,CentOS 7,128,32,RRHH,Web Server,Activo,2021-02-07,2026-03-14
+750,linux-srv-0750,30.127.44.244,92:19:5c:5f:7a:26,Ubuntu 22.04 LTS,128,8,Operaciones,Application Server,Apagado,2026-02-10,2026-05-20
+751,linux-srv-0751,141.72.105.147,8e:1e:eb:db:0c:31,CentOS 7,8,2,RRHH,Backup Server,Mantenimiento,2024-10-19,2026-03-12
+752,linux-srv-0752,21.138.199.120,ac:36:8c:2c:56:33,Ubuntu 22.04 LTS,2,16,Seguridad,Mail Server,Activo,2025-03-31,2026-05-09
+753,linux-srv-0753,13.13.132.164,66:08:f3:e6:df:76,Ubuntu 20.04 LTS,64,2,Base de Datos,Monitoring Server,Mantenimiento,2020-08-14,2026-03-25
+754,linux-srv-0754,56.96.96.150,8c:46:06:70:9b:da,CentOS 7,16,8,Operaciones,Mail Server,Activo,2021-06-18,2026-02-16
+755,linux-srv-0755,208.30.241.101,e2:ba:90:2e:19:23,Debian 11,64,32,Finanzas,File Server,Mantenimiento,2020-10-02,2026-02-11
+756,linux-srv-0756,18.35.205.125,f4:da:f5:2a:93:b7,CentOS 7,16,4,Desarrollo,File Server,Mantenimiento,2026-04-18,2026-03-24
+757,linux-srv-0757,77.36.144.86,b2:ca:61:67:78:94,CentOS 7,128,4,Base de Datos,Backup Server,Apagado,2020-03-26,2026-03-17
+758,linux-srv-0758,21.240.189.16,26:c4:29:7e:0a:d3,Ubuntu 20.04 LTS,64,16,Finanzas,File Server,Mantenimiento,2020-09-25,2026-04-05
+759,linux-srv-0759,148.153.46.58,80:30:0c:db:b7:7e,Red Hat Enterprise Linux 8,16,2,Seguridad,Web Server,Activo,2023-11-03,2026-01-23
+760,linux-srv-0760,149.61.182.248,16:ce:40:08:bd:cb,Ubuntu 20.04 LTS,16,8,Operaciones,Mail Server,Activo,2020-03-03,2026-01-05
+761,linux-srv-0761,107.33.232.253,dc:84:c8:49:a7:f6,CentOS 7,128,2,Infraestructura,Database Server,Mantenimiento,2023-01-07,2026-03-24
+762,linux-srv-0762,222.207.211.146,3e:d7:dd:9b:c4:a9,Ubuntu 22.04 LTS,16,8,Desarrollo,Web Server,Apagado,2024-06-17,2026-02-10
+763,linux-srv-0763,167.121.129.215,0c:93:4b:c4:b3:fa,Red Hat Enterprise Linux 8,32,4,Base de Datos,File Server,Activo,2025-03-05,2026-03-09
+764,linux-srv-0764,159.232.69.198,80:92:60:d2:60:0e,Ubuntu 22.04 LTS,128,4,Seguridad,Backup Server,Apagado,2020-01-21,2026-02-20
+765,linux-srv-0765,17.63.125.78,b8:32:64:89:00:14,CentOS 7,128,4,Seguridad,Application Server,Mantenimiento,2026-05-02,2026-02-13
+766,WIN-SRV-0766,212.166.46.183,aa:bf:5c:09:63:ce,Windows Server 2022,32,2,Infraestructura,File Server,Mantenimiento,2023-12-29,2026-05-09
+767,WIN-SRV-0767,171.205.23.42,bc:a9:f8:5a:96:b7,Windows Server 2019,8,32,Redes,Monitoring Server,Mantenimiento,2026-05-07,2026-04-01
+768,linux-srv-0768,78.221.115.96,a0:6b:9b:cd:a5:2f,Ubuntu 20.04 LTS,128,8,Operaciones,DNS Server,Mantenimiento,2020-04-22,2026-01-21
+769,linux-srv-0769,166.109.21.215,ae:30:57:23:a1:80,Ubuntu 22.04 LTS,128,4,Operaciones,Application Server,Apagado,2022-11-14,2026-04-15
+770,WIN-SRV-0770,4.116.25.155,fc:40:21:e1:ac:07,Windows Server 2019,128,8,Base de Datos,Mail Server,Mantenimiento,2026-05-03,2026-02-21
+771,linux-srv-0771,64.128.61.124,34:28:83:a3:bc:c2,Debian 11,4,2,Seguridad,Backup Server,Activo,2025-01-16,2026-04-08
+772,linux-srv-0772,19.59.165.36,24:34:f0:b3:32:50,Ubuntu 20.04 LTS,2,16,Redes,File Server,Apagado,2022-01-06,2026-03-20
+773,WIN-SRV-0773,150.107.166.139,c2:95:ac:79:a7:a8,Windows Server 2019,8,4,Infraestructura,DNS Server,Apagado,2025-02-09,2026-03-03
+774,linux-srv-0774,172.55.247.177,0a:57:06:b9:95:7d,Ubuntu 20.04 LTS,32,2,RRHH,Application Server,Activo,2022-06-05,2026-04-08
+775,linux-srv-0775,124.83.30.137,3e:e4:0b:b9:0a:12,Ubuntu 22.04 LTS,4,32,Desarrollo,Database Server,Mantenimiento,2021-02-19,2026-01-10
+776,linux-srv-0776,5.123.190.138,20:cb:91:09:74:46,Ubuntu 20.04 LTS,32,8,Finanzas,Mail Server,Activo,2024-04-02,2026-05-19
+777,WIN-SRV-0777,56.43.117.53,ba:33:5e:1f:65:03,Windows Server 2022,32,8,RRHH,Monitoring Server,Activo,2020-05-08,2026-02-11
+778,linux-srv-0778,46.83.139.249,6a:e0:49:31:4d:fa,Ubuntu 20.04 LTS,16,4,Infraestructura,Database Server,Activo,2025-05-29,2026-05-18
+779,linux-srv-0779,7.157.205.34,58:f9:7d:78:67:1c,Ubuntu 20.04 LTS,16,16,Seguridad,DNS Server,Apagado,2024-05-05,2026-04-24
+780,linux-srv-0780,157.205.85.188,2c:18:09:62:31:b7,CentOS 7,4,4,Redes,Database Server,Apagado,2025-09-20,2026-02-20
+781,linux-srv-0781,123.247.152.117,0c:18:5e:60:8e:af,CentOS 7,4,4,Base de Datos,DNS Server,Apagado,2024-01-09,2026-01-23
+782,linux-srv-0782,199.64.125.237,2a:47:d6:5d:0d:0d,Debian 11,2,8,Base de Datos,DNS Server,Apagado,2025-10-05,2026-05-21
+783,WIN-SRV-0783,65.127.194.106,e0:8a:95:c6:a1:6f,Windows Server 2022,8,2,Redes,File Server,Apagado,2023-03-22,2026-05-24
+784,WIN-SRV-0784,36.231.178.206,d0:49:7f:dc:ef:56,Windows Server 2019,2,4,Base de Datos,Monitoring Server,Apagado,2021-03-09,2026-02-28
+785,WIN-SRV-0785,25.22.47.179,4e:3a:70:fd:48:3f,Windows Server 2019,64,4,Base de Datos,Web Server,Apagado,2020-01-01,2026-04-18
+786,linux-srv-0786,143.42.58.58,d2:f9:0c:fe:b1:3e,CentOS 7,128,32,Infraestructura,Mail Server,Mantenimiento,2020-10-10,2026-05-23
+787,linux-srv-0787,169.37.197.66,6a:59:88:0d:a9:89,Ubuntu 20.04 LTS,8,2,Operaciones,Backup Server,Mantenimiento,2023-05-18,2026-03-08
+788,linux-srv-0788,130.18.45.157,9a:38:2a:b0:81:3b,Red Hat Enterprise Linux 8,16,4,Redes,Mail Server,Activo,2024-01-04,2026-04-20
+789,WIN-SRV-0789,57.241.136.249,aa:e4:f4:87:9c:ea,Windows Server 2022,4,2,Operaciones,Database Server,Activo,2025-05-12,2026-04-22
+790,WIN-SRV-0790,69.72.219.202,f4:1a:1d:ec:a6:50,Windows Server 2019,8,4,Operaciones,DNS Server,Activo,2022-11-20,2026-04-05
+791,linux-srv-0791,71.177.154.18,52:36:aa:c2:06:af,CentOS 7,32,2,RRHH,Monitoring Server,Mantenimiento,2024-04-12,2026-01-11
+792,WIN-SRV-0792,98.152.156.199,84:ef:19:d1:8d:8b,Windows Server 2019,32,32,Finanzas,Monitoring Server,Activo,2021-03-26,2026-01-29
+793,linux-srv-0793,23.41.4.68,28:d8:34:f1:a1:d2,Debian 11,64,16,Seguridad,Mail Server,Activo,2020-04-22,2026-02-23
+794,linux-srv-0794,17.38.236.229,6a:06:e3:6d:b5:db,Ubuntu 20.04 LTS,16,2,Finanzas,Monitoring Server,Apagado,2025-07-11,2026-01-19
+795,linux-srv-0795,176.37.183.197,f4:25:75:36:36:7a,Debian 11,32,16,Desarrollo,DNS Server,Activo,2021-10-06,2026-04-19
+796,WIN-SRV-0796,75.111.114.222,5c:ab:0c:35:79:dd,Windows Server 2022,8,16,Infraestructura,File Server,Activo,2024-10-24,2026-04-08
+797,linux-srv-0797,98.219.208.62,1c:61:19:63:77:07,Ubuntu 20.04 LTS,4,8,RRHH,File Server,Mantenimiento,2025-06-26,2026-01-29
+798,linux-srv-0798,47.54.253.123,ec:46:44:27:36:50,Ubuntu 20.04 LTS,32,4,Seguridad,Backup Server,Apagado,2020-12-20,2026-01-08
+799,WIN-SRV-0799,9.50.231.44,42:91:9a:de:dd:fc,Windows Server 2019,8,4,Infraestructura,Monitoring Server,Mantenimiento,2024-01-06,2026-02-17
+800,linux-srv-0800,2.46.34.139,da:4c:23:5c:40:da,Ubuntu 22.04 LTS,64,4,Desarrollo,Monitoring Server,Apagado,2025-06-25,2026-03-22
+801,WIN-SRV-0801,149.182.46.180,de:ea:bc:97:95:ed,Windows Server 2022,128,32,Base de Datos,Backup Server,Mantenimiento,2020-02-06,2026-03-06
+802,WIN-SRV-0802,77.232.102.67,9a:5b:5a:a0:ba:ed,Windows Server 2019,4,2,RRHH,Mail Server,Mantenimiento,2023-11-02,2026-05-01
+803,linux-srv-0803,60.121.228.247,7a:d4:36:ca:58:9d,Ubuntu 22.04 LTS,32,16,Desarrollo,File Server,Activo,2026-02-11,2026-02-25
+804,linux-srv-0804,149.5.83.126,dc:94:8e:57:f4:d7,Ubuntu 20.04 LTS,2,16,Operaciones,Database Server,Activo,2021-05-25,2026-04-23
+805,linux-srv-0805,51.106.189.73,14:e3:25:08:1a:25,Ubuntu 20.04 LTS,16,2,Redes,DNS Server,Apagado,2021-04-07,2026-05-12
+806,linux-srv-0806,6.201.129.7,cc:e0:78:2b:03:62,Ubuntu 20.04 LTS,32,32,RRHH,Backup Server,Apagado,2023-08-02,2026-01-18
+807,linux-srv-0807,177.56.145.123,b6:57:5b:19:db:2e,Debian 11,16,8,Base de Datos,File Server,Activo,2026-04-22,2026-01-28
+808,linux-srv-0808,41.115.140.233,64:3c:4a:d0:48:4f,CentOS 7,8,4,Operaciones,Database Server,Apagado,2022-09-20,2026-03-12
+809,linux-srv-0809,112.91.173.64,68:63:6c:56:43:12,Ubuntu 22.04 LTS,64,8,Seguridad,DNS Server,Mantenimiento,2025-12-18,2026-02-19
+810,linux-srv-0810,75.168.2.123,ea:64:e5:8e:ab:3e,Ubuntu 22.04 LTS,8,8,Finanzas,Database Server,Activo,2021-01-05,2026-01-25
+811,WIN-SRV-0811,198.96.96.217,da:b3:71:23:12:ed,Windows Server 2022,32,16,Infraestructura,Mail Server,Apagado,2021-09-20,2026-04-10
+812,linux-srv-0812,144.138.83.122,6c:2c:72:9f:36:29,CentOS 7,2,4,Redes,Database Server,Mantenimiento,2026-01-04,2026-01-10
+813,linux-srv-0813,159.75.16.215,3c:9e:3f:c7:82:ed,CentOS 7,4,16,RRHH,File Server,Apagado,2024-09-06,2026-01-22
+814,linux-srv-0814,151.213.56.237,90:42:7c:32:17:26,Ubuntu 22.04 LTS,8,4,RRHH,Backup Server,Activo,2022-01-05,2026-01-07
+815,linux-srv-0815,145.22.140.253,bc:b6:50:77:ba:00,Debian 11,8,16,Desarrollo,Database Server,Mantenimiento,2026-05-12,2026-05-13
+816,WIN-SRV-0816,101.186.216.131,f0:2e:38:c6:20:26,Windows Server 2022,4,16,Base de Datos,Web Server,Apagado,2026-05-24,2026-02-24
+817,linux-srv-0817,6.57.122.156,7c:29:eb:36:4d:27,Ubuntu 22.04 LTS,64,8,Desarrollo,Application Server,Activo,2020-10-03,2026-01-14
+818,linux-srv-0818,3.167.130.39,16:a2:94:17:3e:49,Ubuntu 20.04 LTS,64,2,Desarrollo,Mail Server,Mantenimiento,2023-04-09,2026-01-03
+819,linux-srv-0819,29.11.129.210,7c:95:17:a7:03:38,Ubuntu 20.04 LTS,4,4,RRHH,Application Server,Apagado,2021-01-05,2026-02-04
+820,WIN-SRV-0820,105.19.37.60,4c:9a:c3:a2:95:cc,Windows Server 2022,32,2,Desarrollo,Monitoring Server,Mantenimiento,2020-09-03,2026-03-17
+821,WIN-SRV-0821,218.155.24.90,34:f6:41:16:6b:87,Windows Server 2019,8,32,Seguridad,Mail Server,Apagado,2021-03-22,2026-03-05
+822,linux-srv-0822,176.204.88.185,f4:41:91:83:bb:6a,Red Hat Enterprise Linux 8,2,16,Seguridad,Monitoring Server,Activo,2025-05-20,2026-03-03
+823,WIN-SRV-0823,19.100.14.73,30:21:84:9f:e1:9c,Windows Server 2019,32,16,RRHH,File Server,Activo,2021-07-19,2026-04-11
+824,WIN-SRV-0824,124.93.227.76,14:ac:8e:2f:c4:11,Windows Server 2019,64,32,Base de Datos,Application Server,Mantenimiento,2021-08-15,2026-04-06
+825,linux-srv-0825,119.254.97.149,f6:31:f2:0b:25:de,Red Hat Enterprise Linux 8,16,4,Finanzas,DNS Server,Mantenimiento,2020-07-20,2026-01-17
+826,WIN-SRV-0826,18.128.162.215,50:18:ce:09:49:87,Windows Server 2019,2,8,Redes,DNS Server,Activo,2024-01-07,2026-01-21
+827,linux-srv-0827,48.89.113.73,6c:a5:95:66:9e:d2,Ubuntu 20.04 LTS,8,32,Operaciones,Monitoring Server,Apagado,2026-01-23,2026-01-13
+828,linux-srv-0828,169.119.77.172,5a:26:24:46:e8:8a,Ubuntu 20.04 LTS,2,2,Finanzas,Application Server,Mantenimiento,2021-04-25,2026-04-16
+829,linux-srv-0829,117.232.16.170,3a:d4:2b:a7:77:7b,Debian 11,32,32,Seguridad,Web Server,Activo,2022-12-22,2026-04-23
+830,linux-srv-0830,39.169.170.246,ae:6a:a8:b9:b5:ed,Debian 11,8,4,Seguridad,Monitoring Server,Mantenimiento,2021-08-16,2026-02-08
+831,WIN-SRV-0831,167.177.31.188,a4:be:1d:35:30:63,Windows Server 2019,128,4,Seguridad,Backup Server,Apagado,2024-05-09,2026-05-11
+832,linux-srv-0832,92.57.28.6,ee:fe:fe:87:43:cd,Ubuntu 20.04 LTS,8,32,Base de Datos,Database Server,Mantenimiento,2021-09-06,2026-04-03
+833,WIN-SRV-0833,195.176.49.214,6c:7a:62:77:f8:50,Windows Server 2019,4,4,Redes,File Server,Activo,2020-03-15,2026-02-20
+834,linux-srv-0834,52.77.236.140,c0:9f:41:10:19:07,CentOS 7,64,4,Redes,DNS Server,Apagado,2024-02-02,2026-04-23
+835,linux-srv-0835,2.153.38.85,94:de:fa:dd:4d:2e,Ubuntu 22.04 LTS,128,8,RRHH,Web Server,Mantenimiento,2023-04-25,2026-02-06
+836,linux-srv-0836,134.25.133.17,00:dd:20:89:ad:d1,CentOS 7,16,16,Seguridad,Application Server,Activo,2020-03-22,2026-01-24
+837,WIN-SRV-0837,158.13.115.57,3e:02:b7:2a:92:c9,Windows Server 2019,8,4,RRHH,Mail Server,Apagado,2026-04-05,2026-01-01
+838,linux-srv-0838,67.185.16.29,de:fc:a0:7f:7d:f5,Ubuntu 22.04 LTS,8,4,Operaciones,DNS Server,Apagado,2020-07-05,2026-01-10
+839,WIN-SRV-0839,210.153.255.183,f2:0f:fb:75:22:5b,Windows Server 2019,4,8,Finanzas,File Server,Apagado,2026-05-19,2026-04-26
+840,linux-srv-0840,88.85.138.50,40:91:27:0b:ca:7f,Ubuntu 22.04 LTS,8,8,Desarrollo,Backup Server,Activo,2020-03-20,2026-04-14
+841,linux-srv-0841,35.249.255.202,18:e2:b1:77:db:2d,Red Hat Enterprise Linux 8,4,2,Base de Datos,DNS Server,Activo,2023-04-27,2026-02-05
+842,linux-srv-0842,115.128.65.51,aa:4d:b2:e5:66:e8,CentOS 7,16,16,RRHH,Mail Server,Apagado,2025-01-15,2026-01-08
+843,linux-srv-0843,189.103.148.117,04:82:e9:89:93:b8,Ubuntu 20.04 LTS,128,2,Infraestructura,Application Server,Activo,2024-12-16,2026-03-26
+844,linux-srv-0844,213.30.199.155,b0:43:dd:13:ea:2e,CentOS 7,64,2,Seguridad,File Server,Activo,2022-11-03,2026-02-15
+845,WIN-SRV-0845,38.20.134.202,76:87:d0:94:81:31,Windows Server 2022,32,2,Desarrollo,File Server,Mantenimiento,2025-06-22,2026-02-04
+846,linux-srv-0846,100.56.143.154,ec:b4:10:8e:06:48,CentOS 7,2,4,Finanzas,Backup Server,Activo,2022-11-21,2026-02-14
+847,WIN-SRV-0847,117.171.134.219,3c:62:c2:16:d7:c1,Windows Server 2019,64,16,Redes,Application Server,Mantenimiento,2022-05-13,2026-03-30
+848,linux-srv-0848,42.48.133.93,b8:fb:34:94:1f:61,Ubuntu 20.04 LTS,8,4,Redes,Monitoring Server,Mantenimiento,2025-10-13,2026-01-01
+849,linux-srv-0849,179.82.254.168,24:a8:7f:a3:57:e5,Ubuntu 22.04 LTS,8,2,Desarrollo,Web Server,Activo,2024-09-14,2026-03-08
+850,linux-srv-0850,143.170.0.38,18:34:9a:26:37:79,Ubuntu 22.04 LTS,64,32,Finanzas,Monitoring Server,Mantenimiento,2026-04-08,2026-03-29
+851,linux-srv-0851,51.68.192.246,08:66:83:57:af:5f,Red Hat Enterprise Linux 8,4,2,Seguridad,File Server,Mantenimiento,2024-08-25,2026-05-06
+852,WIN-SRV-0852,13.164.124.162,d8:bf:b7:8c:a9:e1,Windows Server 2019,8,16,Infraestructura,DNS Server,Apagado,2025-06-17,2026-02-06
+853,linux-srv-0853,135.168.10.157,8c:4f:95:ac:42:a9,Ubuntu 22.04 LTS,64,32,Redes,Application Server,Mantenimiento,2020-10-30,2026-05-21
+854,linux-srv-0854,120.106.111.89,7e:6d:9f:15:36:60,Ubuntu 20.04 LTS,4,2,RRHH,DNS Server,Mantenimiento,2020-03-18,2026-03-17
+855,linux-srv-0855,34.227.20.178,dc:c0:30:f9:4e:d8,Red Hat Enterprise Linux 8,8,2,RRHH,DNS Server,Activo,2021-12-05,2026-02-04
+856,linux-srv-0856,108.92.57.136,1a:9c:38:fe:05:d7,Red Hat Enterprise Linux 8,4,2,Finanzas,File Server,Mantenimiento,2024-02-22,2026-01-19
+857,linux-srv-0857,83.205.33.11,98:51:44:e8:30:42,Red Hat Enterprise Linux 8,64,4,Base de Datos,File Server,Apagado,2024-04-10,2026-03-01
+858,linux-srv-0858,16.75.240.74,aa:b9:e3:75:50:c7,Red Hat Enterprise Linux 8,2,4,Seguridad,DNS Server,Activo,2022-04-10,2026-03-02
+859,linux-srv-0859,219.26.180.23,16:bb:f2:37:9a:66,Ubuntu 20.04 LTS,128,16,Seguridad,Application Server,Activo,2022-12-29,2026-01-06
+860,linux-srv-0860,80.139.181.53,5e:ca:5b:66:41:47,Ubuntu 20.04 LTS,4,2,Desarrollo,Web Server,Apagado,2022-09-28,2026-03-31
+861,WIN-SRV-0861,125.133.194.215,92:20:7b:b1:e9:22,Windows Server 2019,2,4,Desarrollo,File Server,Mantenimiento,2026-05-20,2026-04-05
+862,linux-srv-0862,103.93.38.131,a0:1c:9f:42:f2:0e,Debian 11,32,16,Base de Datos,Web Server,Mantenimiento,2025-07-25,2026-04-02
+863,WIN-SRV-0863,53.20.48.219,0e:83:d5:7a:f6:09,Windows Server 2019,8,16,Base de Datos,Monitoring Server,Activo,2023-04-20,2026-04-23
+864,WIN-SRV-0864,154.10.175.190,b0:b4:ff:28:94:16,Windows Server 2019,32,16,Desarrollo,Application Server,Activo,2021-11-29,2026-03-29
+865,WIN-SRV-0865,187.238.47.147,60:43:33:50:18:ef,Windows Server 2022,16,4,Base de Datos,Web Server,Apagado,2024-11-18,2026-02-15
+866,WIN-SRV-0866,16.139.246.207,8e:1a:65:fc:b7:3a,Windows Server 2022,16,32,Desarrollo,File Server,Mantenimiento,2024-12-01,2026-01-20
+867,linux-srv-0867,190.126.115.236,70:47:94:00:76:3b,CentOS 7,64,4,Base de Datos,DNS Server,Apagado,2020-07-20,2026-03-30
+868,linux-srv-0868,14.15.67.187,3e:68:53:0f:1e:6f,Red Hat Enterprise Linux 8,4,4,Finanzas,Database Server,Mantenimiento,2020-06-21,2026-02-13
+869,WIN-SRV-0869,114.72.44.227,00:f4:09:b2:f4:54,Windows Server 2022,4,16,Infraestructura,Monitoring Server,Mantenimiento,2020-07-26,2026-05-12
+870,linux-srv-0870,78.211.114.100,84:5b:02:41:ca:0b,Red Hat Enterprise Linux 8,8,8,Operaciones,File Server,Activo,2024-08-09,2026-03-18
+871,WIN-SRV-0871,68.66.255.27,e2:9e:ca:45:74:c1,Windows Server 2019,32,32,Infraestructura,Database Server,Activo,2022-02-20,2026-05-11
+872,linux-srv-0872,6.212.235.168,da:c9:78:b0:b2:af,Ubuntu 22.04 LTS,32,4,RRHH,DNS Server,Activo,2022-09-25,2026-01-11
+873,linux-srv-0873,76.7.111.25,e2:e4:d7:d2:08:97,Red Hat Enterprise Linux 8,16,8,Finanzas,Monitoring Server,Apagado,2022-04-30,2026-05-08
+874,linux-srv-0874,179.94.83.142,1c:4a:d9:1c:52:5b,Ubuntu 20.04 LTS,2,32,RRHH,Monitoring Server,Apagado,2024-05-01,2026-05-07
+875,linux-srv-0875,160.99.180.207,ec:90:16:13:15:7b,Ubuntu 20.04 LTS,32,4,Finanzas,Web Server,Mantenimiento,2021-09-14,2026-04-25
+876,linux-srv-0876,164.148.112.5,8a:e9:55:e6:e9:7f,Red Hat Enterprise Linux 8,16,16,Infraestructura,File Server,Apagado,2020-10-23,2026-05-17
+877,linux-srv-0877,103.123.160.224,22:16:f7:12:c7:27,Ubuntu 20.04 LTS,2,2,Infraestructura,Backup Server,Mantenimiento,2023-04-14,2026-01-04
+878,WIN-SRV-0878,95.125.172.182,d8:7a:90:38:86:fd,Windows Server 2019,8,4,Infraestructura,Backup Server,Apagado,2021-01-17,2026-02-27
+879,WIN-SRV-0879,97.55.22.36,0e:14:e2:70:fc:58,Windows Server 2019,64,8,Finanzas,Database Server,Activo,2023-11-14,2026-02-02
+880,linux-srv-0880,91.160.117.9,b4:e8:a7:01:0b:bc,Ubuntu 22.04 LTS,2,8,Finanzas,DNS Server,Apagado,2024-01-11,2026-04-16
+881,linux-srv-0881,48.75.43.147,a6:5e:19:20:5d:b3,Red Hat Enterprise Linux 8,64,8,Operaciones,Mail Server,Apagado,2020-04-11,2026-04-07
+882,linux-srv-0882,62.2.128.37,a8:59:10:1c:5e:3d,Red Hat Enterprise Linux 8,8,8,RRHH,File Server,Apagado,2023-10-26,2026-03-26
+883,linux-srv-0883,212.112.47.175,40:45:00:76:1c:e0,Ubuntu 22.04 LTS,2,16,Operaciones,Application Server,Mantenimiento,2025-01-11,2026-04-20
+884,linux-srv-0884,13.124.253.27,9c:1e:f9:d6:29:2f,Ubuntu 22.04 LTS,128,4,Redes,Backup Server,Apagado,2020-02-29,2026-05-08
+885,linux-srv-0885,220.185.89.231,38:f7:5b:dc:60:89,Ubuntu 22.04 LTS,16,32,Base de Datos,Monitoring Server,Apagado,2022-08-23,2026-03-19
+886,linux-srv-0886,10.55.238.216,4c:1a:b2:09:9a:c0,Debian 11,16,8,Seguridad,DNS Server,Apagado,2021-03-19,2026-02-15
+887,linux-srv-0887,210.71.1.154,6c:ed:e3:15:56:53,Ubuntu 22.04 LTS,128,16,Base de Datos,DNS Server,Activo,2020-03-03,2026-04-05
+888,linux-srv-0888,71.136.105.66,98:90:a5:b1:f5:df,CentOS 7,4,2,Seguridad,Mail Server,Mantenimiento,2024-09-08,2026-05-04
+889,WIN-SRV-0889,141.125.21.79,82:2a:8b:a9:72:eb,Windows Server 2019,128,8,RRHH,Mail Server,Apagado,2023-06-15,2026-02-15
+890,linux-srv-0890,177.232.91.203,2e:0a:07:27:a7:26,Debian 11,32,32,Redes,Backup Server,Mantenimiento,2022-05-31,2026-02-16
+891,WIN-SRV-0891,58.232.161.120,f8:00:8a:18:d2:df,Windows Server 2019,32,4,Redes,Mail Server,Apagado,2022-12-17,2026-03-29
+892,linux-srv-0892,37.56.70.24,4a:c8:4b:dd:a8:aa,Ubuntu 20.04 LTS,128,8,Seguridad,DNS Server,Mantenimiento,2023-05-06,2026-03-31
+893,linux-srv-0893,83.76.20.66,b0:bf:cf:99:52:26,CentOS 7,16,8,RRHH,Application Server,Mantenimiento,2022-05-02,2026-02-21
+894,linux-srv-0894,149.178.178.238,38:bf:fe:34:18:6b,Ubuntu 20.04 LTS,64,16,Redes,Backup Server,Activo,2020-12-09,2026-03-15
+895,linux-srv-0895,111.193.223.253,90:76:bd:99:4e:b0,Red Hat Enterprise Linux 8,2,32,Desarrollo,Database Server,Activo,2022-02-07,2026-05-07
+896,linux-srv-0896,95.136.52.38,d6:2f:87:3e:bd:c9,Ubuntu 20.04 LTS,2,32,Desarrollo,Application Server,Mantenimiento,2025-11-11,2026-04-04
+897,linux-srv-0897,196.73.215.33,3e:9a:5f:e4:91:ca,Red Hat Enterprise Linux 8,4,8,Seguridad,Application Server,Activo,2020-12-24,2026-05-13
+898,linux-srv-0898,27.215.9.156,b6:9d:70:f9:e8:31,Debian 11,2,2,Desarrollo,Database Server,Mantenimiento,2022-06-30,2026-05-09
+899,linux-srv-0899,155.124.91.31,6e:2b:ad:96:ac:af,Debian 11,16,32,Seguridad,File Server,Apagado,2024-01-29,2026-01-10
+900,WIN-SRV-0900,189.22.245.68,08:b2:19:2d:2c:ef,Windows Server 2022,8,16,Operaciones,Backup Server,Activo,2020-07-05,2026-02-15
+901,linux-srv-0901,162.245.243.255,90:34:32:73:ef:f2,CentOS 7,32,4,Desarrollo,Mail Server,Activo,2024-01-14,2026-03-09
+902,linux-srv-0902,168.148.253.161,80:5c:20:db:cc:77,CentOS 7,8,2,Base de Datos,Monitoring Server,Apagado,2025-12-05,2026-03-23
+903,linux-srv-0903,50.155.172.212,18:d7:af:42:b7:32,Ubuntu 22.04 LTS,32,2,Redes,Mail Server,Mantenimiento,2022-03-03,2026-02-07
+904,linux-srv-0904,106.200.5.123,f0:66:89:68:68:d4,Ubuntu 22.04 LTS,8,16,Finanzas,Application Server,Apagado,2022-02-16,2026-05-10
+905,linux-srv-0905,173.17.60.53,d8:ed:14:2e:63:27,Red Hat Enterprise Linux 8,2,8,Finanzas,File Server,Apagado,2020-02-06,2026-05-11
+906,linux-srv-0906,6.181.12.91,cc:e5:68:95:73:95,CentOS 7,128,32,RRHH,Monitoring Server,Apagado,2020-05-24,2026-03-17
+907,linux-srv-0907,34.124.116.161,8e:9a:d3:d9:d9:c2,Debian 11,8,32,Redes,Monitoring Server,Activo,2024-12-07,2026-03-27
+908,linux-srv-0908,132.69.109.231,f0:54:a8:d3:0f:ce,Ubuntu 22.04 LTS,8,32,Finanzas,Database Server,Activo,2025-01-28,2026-02-13
+909,linux-srv-0909,218.110.143.15,22:ac:e0:20:ae:e2,Red Hat Enterprise Linux 8,4,16,Desarrollo,Database Server,Apagado,2020-04-30,2026-04-13
+910,WIN-SRV-0910,48.48.68.229,0c:8c:7d:9b:f6:ac,Windows Server 2022,16,2,Redes,Monitoring Server,Apagado,2021-01-29,2026-01-26
+911,linux-srv-0911,183.119.176.43,cc:0f:a2:c5:e1:07,Debian 11,4,4,Seguridad,Backup Server,Activo,2023-03-20,2026-04-17
+912,linux-srv-0912,138.59.189.87,1c:24:d6:7f:1f:a8,Debian 11,32,2,Finanzas,Mail Server,Activo,2024-11-29,2026-02-08
+913,WIN-SRV-0913,217.160.139.245,e0:75:61:7a:77:76,Windows Server 2019,4,16,Desarrollo,Application Server,Apagado,2021-03-05,2026-02-17
+914,WIN-SRV-0914,102.213.107.59,e2:6a:6c:10:c1:3c,Windows Server 2022,32,8,Infraestructura,Application Server,Activo,2023-09-02,2026-01-10
+915,linux-srv-0915,18.249.192.169,08:ee:6e:1b:2d:c3,Ubuntu 20.04 LTS,128,16,Finanzas,Backup Server,Mantenimiento,2020-11-17,2026-03-30
+916,WIN-SRV-0916,187.234.114.128,c4:e0:e0:85:f0:ef,Windows Server 2019,4,2,Finanzas,File Server,Activo,2024-11-09,2026-05-11
+917,linux-srv-0917,67.214.15.41,fa:51:75:0d:13:84,CentOS 7,128,16,Finanzas,Mail Server,Apagado,2022-03-06,2026-05-12
+918,WIN-SRV-0918,91.43.37.192,a6:71:2c:b6:cb:0e,Windows Server 2019,2,16,RRHH,Database Server,Apagado,2023-05-08,2026-05-15
+919,linux-srv-0919,129.61.95.208,44:52:c3:a1:4b:cd,CentOS 7,128,32,Base de Datos,Mail Server,Apagado,2025-07-13,2026-04-26
+920,WIN-SRV-0920,210.53.41.169,d0:a0:30:c4:e9:6f,Windows Server 2019,8,8,Infraestructura,File Server,Activo,2022-05-05,2026-01-14
+921,WIN-SRV-0921,222.239.43.24,c6:d1:78:21:82:a0,Windows Server 2019,128,16,Redes,Backup Server,Apagado,2024-06-25,2026-03-31
+922,WIN-SRV-0922,61.197.68.99,9e:69:cc:82:fe:c4,Windows Server 2019,128,32,Operaciones,Application Server,Mantenimiento,2020-06-22,2026-01-17
+923,linux-srv-0923,106.81.189.71,b6:5c:6e:64:12:15,Red Hat Enterprise Linux 8,32,16,Infraestructura,Monitoring Server,Activo,2023-08-14,2026-01-15
+924,linux-srv-0924,135.61.167.147,4a:9e:d7:a5:9f:94,CentOS 7,2,32,Seguridad,Web Server,Activo,2023-06-19,2026-02-11
+925,linux-srv-0925,128.248.253.200,8a:02:d2:0f:e6:36,Red Hat Enterprise Linux 8,8,4,Redes,Mail Server,Apagado,2023-09-29,2026-02-03
+926,linux-srv-0926,59.117.182.75,94:f8:44:aa:26:76,Red Hat Enterprise Linux 8,64,16,Finanzas,DNS Server,Activo,2024-04-17,2026-01-29
+927,linux-srv-0927,30.39.57.253,4e:49:9b:98:45:49,Ubuntu 22.04 LTS,4,2,Base de Datos,Application Server,Mantenimiento,2023-05-05,2026-01-18
+928,WIN-SRV-0928,218.214.248.45,7e:f2:7d:68:ea:66,Windows Server 2019,32,4,Redes,Application Server,Apagado,2022-12-28,2026-03-30
+929,linux-srv-0929,162.109.60.160,2a:a9:60:f7:75:33,Ubuntu 22.04 LTS,128,8,Operaciones,Backup Server,Activo,2021-03-08,2026-05-17
+930,linux-srv-0930,43.137.246.162,2a:99:4f:30:8d:b1,Ubuntu 22.04 LTS,2,8,Desarrollo,File Server,Apagado,2021-04-05,2026-05-15
+931,linux-srv-0931,141.8.227.68,c0:ce:9e:17:62:34,Ubuntu 22.04 LTS,64,16,Infraestructura,Backup Server,Activo,2026-05-01,2026-03-30
+932,linux-srv-0932,117.30.140.110,52:8c:78:b9:16:b2,Ubuntu 22.04 LTS,2,32,Desarrollo,Web Server,Apagado,2023-09-03,2026-04-01
+933,linux-srv-0933,55.144.60.82,6c:c0:f1:0d:35:9a,Ubuntu 22.04 LTS,4,16,Redes,Application Server,Activo,2020-06-27,2026-01-03
+934,linux-srv-0934,8.63.12.176,d0:f1:b4:8c:07:6e,Ubuntu 20.04 LTS,2,2,Base de Datos,Mail Server,Activo,2021-06-29,2026-02-07
+935,WIN-SRV-0935,76.144.209.6,de:4e:2c:c8:5a:8e,Windows Server 2019,2,32,Seguridad,Application Server,Activo,2024-06-27,2026-05-07
+936,linux-srv-0936,126.61.4.149,6e:5a:19:50:6d:b5,CentOS 7,128,32,Desarrollo,DNS Server,Mantenimiento,2020-06-29,2026-01-22
+937,linux-srv-0937,46.187.213.188,6c:ba:8f:fa:0a:be,CentOS 7,128,32,Finanzas,Monitoring Server,Mantenimiento,2024-04-22,2026-02-06
+938,linux-srv-0938,9.217.236.142,12:41:4e:f9:87:c4,Ubuntu 22.04 LTS,2,2,Desarrollo,File Server,Activo,2022-10-04,2026-04-24
+939,WIN-SRV-0939,190.79.186.191,56:3b:1c:fe:e7:04,Windows Server 2022,128,4,Finanzas,Monitoring Server,Activo,2023-09-07,2026-04-21
+940,linux-srv-0940,162.12.75.120,28:44:4b:3d:74:35,Debian 11,32,2,Redes,Monitoring Server,Activo,2023-04-22,2026-05-13
+941,linux-srv-0941,101.139.64.98,d0:91:7c:93:21:16,Ubuntu 20.04 LTS,64,32,RRHH,Database Server,Activo,2022-12-21,2026-03-15
+942,linux-srv-0942,132.63.42.119,0e:07:7f:ae:f5:9f,Red Hat Enterprise Linux 8,4,2,Seguridad,Mail Server,Mantenimiento,2021-06-20,2026-03-15
+943,linux-srv-0943,198.26.23.148,cc:3f:48:92:d2:7d,Ubuntu 20.04 LTS,16,16,Redes,DNS Server,Apagado,2025-01-30,2026-05-08
+944,WIN-SRV-0944,41.240.51.108,e2:bc:cf:7c:fc:7b,Windows Server 2019,128,16,Finanzas,DNS Server,Apagado,2021-08-27,2026-05-03
+945,linux-srv-0945,66.83.69.217,7a:01:c4:c5:8c:7c,Ubuntu 22.04 LTS,64,32,Seguridad,File Server,Apagado,2024-05-22,2026-01-16
+946,linux-srv-0946,125.66.226.195,72:6a:01:39:ef:c5,Ubuntu 20.04 LTS,2,2,RRHH,File Server,Apagado,2024-07-31,2026-01-14
+947,WIN-SRV-0947,50.0.182.233,50:9e:86:8a:16:a7,Windows Server 2019,16,8,Operaciones,Web Server,Apagado,2020-09-26,2026-05-21
+948,linux-srv-0948,98.130.134.92,10:49:f1:59:dd:94,Debian 11,16,4,Infraestructura,Application Server,Activo,2024-05-02,2026-01-18
+949,linux-srv-0949,133.204.227.177,70:7b:7b:25:9c:43,Red Hat Enterprise Linux 8,64,4,Seguridad,Mail Server,Activo,2025-03-02,2026-05-24
+950,linux-srv-0950,217.200.108.52,e0:69:31:1a:af:04,CentOS 7,64,16,Finanzas,DNS Server,Activo,2022-10-09,2026-04-23
+951,linux-srv-0951,190.67.88.169,aa:02:24:30:f5:15,Debian 11,8,32,Base de Datos,Backup Server,Activo,2024-01-24,2026-01-29
+952,WIN-SRV-0952,30.57.13.233,b8:d9:a1:94:82:6e,Windows Server 2022,8,8,Operaciones,Application Server,Mantenimiento,2022-12-25,2026-02-10
+953,WIN-SRV-0953,59.18.13.237,9a:cf:7e:60:7c:65,Windows Server 2019,64,4,RRHH,Mail Server,Activo,2024-06-16,2026-05-11
+954,linux-srv-0954,76.75.227.132,a6:e5:3f:ff:8f:c4,Red Hat Enterprise Linux 8,128,4,Infraestructura,Application Server,Apagado,2026-04-29,2026-05-03
+955,linux-srv-0955,202.145.64.160,18:4f:f7:03:80:b5,Debian 11,2,8,Operaciones,Application Server,Activo,2020-11-05,2026-05-19
+956,WIN-SRV-0956,56.233.209.247,ec:00:db:94:f4:37,Windows Server 2019,16,4,Operaciones,Application Server,Mantenimiento,2022-05-03,2026-04-05
+957,linux-srv-0957,20.243.112.137,a0:4f:62:10:de:c8,Ubuntu 22.04 LTS,8,32,Operaciones,Backup Server,Activo,2026-03-20,2026-04-23
+958,linux-srv-0958,185.137.195.104,60:53:b2:d0:b1:5f,Debian 11,2,4,RRHH,DNS Server,Mantenimiento,2022-08-21,2026-05-17
+959,linux-srv-0959,14.165.149.116,fa:1c:bc:97:ff:19,Debian 11,64,16,Desarrollo,Database Server,Apagado,2024-04-28,2026-03-30
+960,WIN-SRV-0960,1.91.123.244,2c:e1:e1:13:ef:1e,Windows Server 2019,4,8,Seguridad,Backup Server,Mantenimiento,2021-12-20,2026-05-12
+961,WIN-SRV-0961,114.89.132.44,9e:e4:b2:e3:d7:39,Windows Server 2019,4,4,Redes,Application Server,Activo,2022-08-18,2026-05-19
+962,WIN-SRV-0962,154.150.78.111,8c:1d:92:04:f4:1a,Windows Server 2019,64,32,Base de Datos,Application Server,Apagado,2024-09-07,2026-02-21
+963,linux-srv-0963,136.194.64.200,70:68:67:35:5b:62,Ubuntu 22.04 LTS,128,8,Redes,Web Server,Mantenimiento,2023-11-20,2026-05-10
+964,linux-srv-0964,171.106.80.54,e2:fe:e4:a0:4f:a9,Ubuntu 22.04 LTS,8,32,Seguridad,Mail Server,Apagado,2023-11-14,2026-01-25
+965,WIN-SRV-0965,168.122.191.237,92:79:5e:56:87:9c,Windows Server 2022,4,32,Seguridad,Application Server,Apagado,2022-04-15,2026-03-06
+966,WIN-SRV-0966,218.237.161.190,a2:bc:a4:0b:27:9d,Windows Server 2019,8,32,Redes,Database Server,Mantenimiento,2022-08-02,2026-05-12
+967,linux-srv-0967,40.19.101.99,76:52:4a:33:cf:9a,Ubuntu 20.04 LTS,64,8,Seguridad,Monitoring Server,Apagado,2021-01-24,2026-04-05
+968,linux-srv-0968,26.198.38.174,9e:c5:fd:7f:cc:56,Ubuntu 22.04 LTS,128,8,Desarrollo,Database Server,Apagado,2022-06-16,2026-02-21
+969,linux-srv-0969,57.220.246.72,c8:26:61:39:20:ca,Debian 11,2,8,Infraestructura,Backup Server,Apagado,2024-07-24,2026-04-01
+970,linux-srv-0970,157.219.150.79,40:1f:0e:d3:06:e2,Debian 11,128,2,Finanzas,DNS Server,Mantenimiento,2024-10-09,2026-02-20
+971,linux-srv-0971,106.93.68.71,30:e6:43:4e:a3:21,Ubuntu 20.04 LTS,128,4,Desarrollo,DNS Server,Apagado,2020-12-11,2026-01-30
+972,linux-srv-0972,112.113.173.243,8a:98:61:45:8a:cf,CentOS 7,2,32,Redes,File Server,Apagado,2021-01-23,2026-02-28
+973,linux-srv-0973,168.162.191.35,b8:6f:1e:58:c1:1d,CentOS 7,8,8,Operaciones,Application Server,Apagado,2024-03-05,2026-03-18
+974,WIN-SRV-0974,171.78.125.158,52:74:e1:db:c2:a7,Windows Server 2022,2,8,Infraestructura,Database Server,Apagado,2021-03-24,2026-04-17
+975,WIN-SRV-0975,79.246.236.192,5e:91:6b:d3:a0:03,Windows Server 2022,16,8,RRHH,Database Server,Activo,2023-06-14,2026-01-15
+976,linux-srv-0976,221.106.85.80,40:08:68:d0:44:ff,Red Hat Enterprise Linux 8,2,32,Infraestructura,Web Server,Apagado,2020-07-10,2026-03-09
+977,WIN-SRV-0977,15.239.251.255,74:6b:ae:bf:23:0d,Windows Server 2022,128,2,Finanzas,DNS Server,Mantenimiento,2020-11-15,2026-03-16
+978,WIN-SRV-0978,64.182.12.177,28:a3:45:16:78:57,Windows Server 2019,32,32,Seguridad,Backup Server,Mantenimiento,2023-12-12,2026-01-24
+979,linux-srv-0979,31.100.95.28,3e:f0:46:35:4b:0f,CentOS 7,16,32,Seguridad,File Server,Apagado,2024-10-15,2026-03-15
+980,linux-srv-0980,176.234.194.119,02:e9:f7:cc:cb:e2,Red Hat Enterprise Linux 8,4,16,Operaciones,File Server,Apagado,2025-07-11,2026-02-28
+981,WIN-SRV-0981,47.153.126.49,78:cf:b5:1b:96:30,Windows Server 2019,64,2,Infraestructura,Application Server,Apagado,2025-06-01,2026-04-30
+982,linux-srv-0982,214.185.227.255,68:28:5d:ff:50:00,Ubuntu 22.04 LTS,4,32,Operaciones,Monitoring Server,Activo,2023-07-05,2026-05-20
+983,linux-srv-0983,126.154.63.223,3c:4a:c4:f0:08:7d,Ubuntu 22.04 LTS,128,8,Operaciones,Web Server,Mantenimiento,2021-09-08,2026-03-05
+984,WIN-SRV-0984,42.202.136.78,6a:76:08:dd:7c:15,Windows Server 2022,32,2,Base de Datos,Database Server,Apagado,2021-03-06,2026-01-03
+985,linux-srv-0985,223.53.147.28,ee:01:35:ca:a8:69,Debian 11,64,8,Seguridad,Application Server,Mantenimiento,2022-01-30,2026-05-10
+986,WIN-SRV-0986,66.213.25.164,7c:8e:9d:37:bc:d4,Windows Server 2019,2,8,Infraestructura,Backup Server,Mantenimiento,2021-08-09,2026-03-18
+987,linux-srv-0987,113.169.196.83,00:ec:98:22:1a:1a,Ubuntu 22.04 LTS,2,16,Infraestructura,Web Server,Mantenimiento,2025-08-23,2026-04-18
+988,linux-srv-0988,98.146.186.103,7a:70:7e:47:64:9a,Red Hat Enterprise Linux 8,2,8,Redes,File Server,Activo,2024-06-16,2026-03-17
+989,WIN-SRV-0989,118.100.162.247,8c:b0:2a:e5:fd:51,Windows Server 2019,128,2,RRHH,Web Server,Apagado,2025-01-29,2026-02-13
+990,linux-srv-0990,74.13.155.174,74:36:6a:fa:68:7d,Ubuntu 20.04 LTS,128,16,Operaciones,File Server,Mantenimiento,2023-06-26,2026-03-21
+991,linux-srv-0991,159.22.204.33,e6:c3:47:72:c6:09,CentOS 7,2,8,Base de Datos,Database Server,Activo,2024-01-07,2026-04-11
+992,WIN-SRV-0992,24.205.211.208,e0:71:cf:29:ad:14,Windows Server 2022,64,8,Seguridad,DNS Server,Apagado,2022-03-27,2026-02-10
+993,linux-srv-0993,33.151.124.187,de:a5:45:5f:9f:c4,Red Hat Enterprise Linux 8,8,8,Finanzas,Backup Server,Apagado,2025-02-17,2026-05-23
+994,WIN-SRV-0994,157.171.16.44,1a:98:64:2a:01:08,Windows Server 2022,2,8,Finanzas,Web Server,Mantenimiento,2020-10-28,2026-04-06
+995,linux-srv-0995,10.138.101.87,0c:98:5c:07:a7:5a,Debian 11,16,4,Operaciones,Mail Server,Mantenimiento,2021-11-14,2026-02-07
+996,linux-srv-0996,39.118.207.137,ca:96:62:cb:ee:54,Ubuntu 22.04 LTS,32,2,Base de Datos,Mail Server,Apagado,2020-05-16,2026-05-23
+997,linux-srv-0997,80.255.166.176,36:ab:e1:05:6e:1c,Ubuntu 22.04 LTS,128,32,Desarrollo,File Server,Activo,2023-09-29,2026-03-09
+998,linux-srv-0998,184.253.206.124,46:92:55:84:ff:e6,Ubuntu 20.04 LTS,64,16,RRHH,Database Server,Apagado,2024-08-27,2026-03-26
+999,linux-srv-0999,72.21.144.166,18:d9:65:63:25:0c,CentOS 7,4,16,Redes,File Server,Activo,2025-09-09,2026-05-13
+1000,linux-srv-1000,28.206.224.33,12:d1:c5:01:8b:10,Ubuntu 22.04 LTS,128,32,Seguridad,Backup Server,Activo,2021-11-22,2026-04-09
