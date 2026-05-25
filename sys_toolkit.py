@@ -7,6 +7,7 @@ Menú interactivo CLI.
 import network_models
 import os_utils
 import log_parser
+import threat_intel
 import sys
 
 # ── CONSTANTES ───────────────────────────────────────────
@@ -35,9 +36,10 @@ def mostrar_menu() -> None:
     print("  2.  Auditor de seguridad SSH")
     print("  3.  Analizador de logs SSH")
     print("  4.  Modelos de red (POO)")
-    print("  5.  Procesador de inventario CSV → Excel")
-    print("  6.  Geolocalizador de IPs sospechosas")
-    print("  7.  Acerca de este toolkit")
+    print("  5.  Inteligencia de amenazas (API)")
+    print("  6.  Procesador de inventario CSV → Excel")
+    print("  7.  Geolocalizador de IPs sospechosas")
+    print("  8.  Acerca de este toolkit")
     print("  0.  Salir")
     print("──────────────────────────────────────────────")
 
@@ -67,6 +69,11 @@ def ejecutar_log_parser() -> None:
 def ejecutar_network_models() -> None:
     """Módulo 4 – Modelos de red con POO."""
     network_models.menu_network_models()
+
+
+def ejecutar_threat_intel() -> None:
+    """Módulo 5 – Inteligencia de amenazas."""
+    threat_intel.menu_threat_intel()
 
 
 def ejecutar_procesador_csv() -> None:
@@ -113,12 +120,15 @@ def main() -> None:
             ejecutar_network_models()
 
         elif opcion == "5":
-            ejecutar_procesador_csv()
+            ejecutar_threat_intel()
 
         elif opcion == "6":
-            ejecutar_geoip()
+            ejecutar_procesador_csv()
 
         elif opcion == "7":
+            ejecutar_geoip()
+
+        elif opcion == "8":
             mostrar_info()
 
         elif opcion == "0":
