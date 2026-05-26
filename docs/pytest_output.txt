@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-9.0.3, pluggy-1.6.0 -- /home/ubuntu/sys-toolkit/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/ubuntu/sys-toolkit
+plugins: Faker-40.19.1
+collecting ... collected 13 items
+
+test_toolkit.py::TestLogParser::test_detecta_ips_correctamente PASSED    [  7%]
+test_toolkit.py::TestLogParser::test_cuenta_intentos_correctamente PASSED [ 15%]
+test_toolkit.py::TestLogParser::test_log_sin_fallos_devuelve_vacio PASSED [ 23%]
+test_toolkit.py::TestLogParser::test_fichero_inexistente_no_explota PASSED [ 30%]
+test_toolkit.py::TestLogParser::test_fichero_vacio_no_explota PASSED     [ 38%]
+test_toolkit.py::TestLogParser::test_no_cuenta_logins_exitosos PASSED    [ 46%]
+test_toolkit.py::TestOsUtils::test_ping_localhost_responde PASSED        [ 53%]
+test_toolkit.py::TestOsUtils::test_ping_ip_inexistente_devuelve_false PASSED [ 61%]
+test_toolkit.py::TestOsUtils::test_ping_devuelve_bool PASSED             [ 69%]
+test_toolkit.py::TestEstructurasDatos::test_set_elimina_duplicados PASSED [ 76%]
+test_toolkit.py::TestEstructurasDatos::test_diccionario_conteo_manual PASSED [ 84%]
+test_toolkit.py::TestManejoErrores::test_parsear_log_maneja_ruta_invalida PASSED [ 92%]
+test_toolkit.py::TestManejoErrores::test_parsear_log_maneja_fichero_vacio PASSED [100%]
+
+============================== 13 passed in 5.07s ==============================
