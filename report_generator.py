@@ -222,7 +222,7 @@ def ejecutar_mensualmente() -> None:
     print("  El informe se generará el día 1 de cada mes.")
     print("  Pulsa Ctrl+C para detener.\n")
 
-    schedule.every().month.do(generar_informe_excel)
+    schedule.every(30).days.do(generar_informe_excel)
     generar_informe_excel()
 
     try:
