@@ -16,7 +16,7 @@ from faker import Faker
 
 
 # ─── CONSTANTES ──────────────────────────────────────────────
-RUTA_CSV: str = "data\\inventory.csv"
+RUTA_CSV: str = "data/inventory.csv"
 TOTAL_SERVIDORES: int = 1000
 
 # Datos realistas para generar el inventario

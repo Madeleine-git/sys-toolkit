@@ -21,7 +21,7 @@ import os
 # ─── CONSTANTES ──────────────────────────────────────────────
 # Ruta al fichero de log.
 # En Windows usamos la barra invertida doble \\.
-RUTA_LOG: str = "logs\\auth.log"
+RUTA_LOG: str = "logs/auth.log"
 
 # Texto que identifica un intento fallido en el log
 PATRON_FALLO: str = "Failed password"
@@ -58,7 +58,7 @@ def parsear_log(ruta: str = RUTA_LOG) -> dict[str, int]:
     # Verificamos que el fichero existe antes de abrirlo
     if not os.path.exists(ruta):
         print(f"  [!] Error: no se encontró el fichero '{ruta}'")
-        print(f"  [!] Asegúrate de que logs\\auth.log existe.")
+        print(f"  [!] Asegúrate de que logs/auth.log existe.")
         return conteo_ips  # devuelve diccionario vacío
 
     # ── EL GESTOR DE CONTEXTO with open ──────────────────

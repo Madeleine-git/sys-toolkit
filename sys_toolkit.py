@@ -9,6 +9,7 @@ import os_utils
 import log_parser
 import threat_intel
 import inventory_manager
+import report_generator
 import sys
 
 # ── CONSTANTES ───────────────────────────────────────────
@@ -39,7 +40,7 @@ def mostrar_menu() -> None:
     print("  4.  Modelos de red (POO)")
     print("  5.  Inteligencia de amenazas (API)")
     print("  6.  Gestión de inventarios")
-    print("  7.  Procesador de inventario CSV → Excel")
+    print("  7.  Generador de informes Excel")
     print("  8.  Geolocalizador de IPs sospechosas")
     print("  9.  Acerca de este toolkit")
     print("  0.  Salir")
@@ -83,6 +84,11 @@ def ejecutar_inventory_manager() -> None:
     inventory_manager.menu_inventory_manager()
 
 
+def ejecutar_report_generator() -> None:
+    """Módulo 7 – Generador de informes Excel."""
+    report_generator.menu_report_generator()
+
+
 def ejecutar_procesador_csv() -> None:
     """Módulo 2 – CSV → Excel (se implementa en el paso 3)."""
     print("\n  [MÓDULO 2] Procesador de inventario")
@@ -112,7 +118,7 @@ def main() -> None:
 
         # input() SIEMPRE devuelve str
         # por eso comparamos con "1" y no con el número 1
-        opcion: str = input("\n  Elige una opción [0-4]: ").strip()
+        opcion: str = input("\n  Elige una opción [0-9]: ").strip()
 
         if opcion == "1":
             ejecutar_os_utils()
@@ -133,7 +139,7 @@ def main() -> None:
             ejecutar_inventory_manager()
 
         elif opcion == "7":
-            ejecutar_procesador_csv()
+            ejecutar_report_generator()
 
         elif opcion == "8":
             ejecutar_geoip()

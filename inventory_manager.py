@@ -14,7 +14,7 @@ import pandas as pd
 
 
 # ─── CONSTANTES ──────────────────────────────────────────────
-RUTA_CSV: str = "data\\inventory.csv"
+RUTA_CSV: str = "data/inventory.csv"
 
 
 # ─── FUNCIÓN 1: CARGAR EL INVENTARIO ─────────────────────────

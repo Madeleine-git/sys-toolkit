@@ -1,30 +1,54 @@
-May 19 03:21:01 servidor sshd[1234]: Accepted password for admin from 192.168.1.10 port 22 ssh2
-May 19 03:21:04 servidor sshd[1235]: Failed password for root from 185.220.101.45 port 22 ssh2
-May 19 03:21:05 servidor sshd[1236]: Failed password for root from 185.220.101.45 port 22 ssh2
-May 19 03:21:06 servidor sshd[1237]: Failed password for admin from 185.220.101.45 port 22 ssh2
-May 19 03:21:07 servidor sshd[1238]: Failed password for root from 185.220.101.45 port 22 ssh2
-May 19 03:21:08 servidor sshd[1239]: Failed password for ubuntu from 45.33.32.156 port 22 ssh2
-May 19 03:21:09 servidor sshd[1240]: Failed password for root from 45.33.32.156 port 22 ssh2
-May 19 03:21:10 servidor sshd[1241]: Accepted password for madeleine from 192.168.1.15 port 22 ssh2
-May 19 03:21:11 servidor sshd[1242]: Failed password for root from 45.33.32.156 port 22 ssh2
-May 19 03:21:12 servidor sshd[1243]: Failed password for admin from 91.241.19.77 port 22 ssh2
-May 19 03:21:13 servidor sshd[1244]: Failed password for root from 91.241.19.77 port 22 ssh2
-May 19 03:21:14 servidor sshd[1245]: Failed password for user from 91.241.19.77 port 22 ssh2
-May 19 03:21:15 servidor sshd[1246]: Failed password for root from 91.241.19.77 port 22 ssh2
-May 19 03:21:16 servidor sshd[1247]: Failed password for root from 91.241.19.77 port 22 ssh2
-May 19 03:21:17 servidor sshd[1248]: Accepted password for admin from 192.168.1.10 port 22 ssh2
-May 19 03:21:18 servidor sshd[1249]: Failed password for root from 193.32.126.150 port 22 ssh2
-May 19 03:21:19 servidor sshd[1250]: Failed password for admin from 193.32.126.150 port 22 ssh2
-May 19 03:21:20 servidor sshd[1251]: Failed password for root from 193.32.126.150 port 22 ssh2
-May 19 03:21:21 servidor sshd[1252]: Failed password for ubuntu from 185.220.101.45 port 22 ssh2
-May 19 03:21:22 servidor sshd[1253]: Failed password for root from 185.220.101.45 port 22 ssh2
-May 19 03:21:23 servidor sshd[1254]: Accepted password for madeleine from 192.168.1.15 port 22 ssh2
-May 19 03:21:24 servidor sshd[1255]: Failed password for root from 45.33.32.156 port 22 ssh2
-May 19 03:21:25 servidor sshd[1256]: Failed password for admin from 45.33.32.156 port 22 ssh2
-May 19 03:21:26 servidor sshd[1257]: Failed password for root from 91.241.19.77 port 22 ssh2
-May 19 03:21:27 servidor sshd[1258]: Failed password for root from 193.32.126.150 port 22 ssh2
-May 19 03:21:28 servidor sshd[1259]: Failed password for ubuntu from 185.220.101.45 port 22 ssh2
-May 19 03:21:29 servidor sshd[1260]: Accepted password for admin from 10.0.0.5 port 22 ssh2
-May 19 03:21:30 servidor sshd[1261]: Failed password for root from 91.241.19.77 port 22 ssh2
-May 19 03:21:31 servidor sshd[1262]: Failed password for admin from 193.32.126.150 port 22 ssh2
-May 19 03:21:32 servidor sshd[1263]: Failed password for root from 185.220.101.45 port 22 ssh2
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: new group: name=ubuntu, GID=1000
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: new user: name=ubuntu, UID=1000, GID=1000, home=/home/ubuntu, shell=/bin/bash, from=none
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'adm'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'dialout'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'cdrom'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'floppy'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'sudo'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'audio'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'dip'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'video'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'plugdev'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'netdev'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to group 'lxd'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'adm'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'dialout'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'cdrom'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'floppy'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'sudo'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'audio'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'dip'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'video'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'plugdev'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'netdev'
+May 26 08:42:14 ip-172-31-26-52 useradd[387]: add 'ubuntu' to shadow group 'lxd'
+May 26 08:42:14 ip-172-31-26-52 passwd[395]: password for 'ubuntu' changed by 'root'
+May 26 08:42:14 ip-172-31-26-52 systemd-logind[433]: New seat seat0.
+May 26 08:42:14 ip-172-31-26-52 systemd-logind[433]: Watching system buttons on /dev/input/event0 (Power Button)
+May 26 08:42:14 ip-172-31-26-52 systemd-logind[433]: Watching system buttons on /dev/input/event1 (Sleep Button)
+May 26 08:42:14 ip-172-31-26-52 systemd-logind[433]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+May 26 08:42:15 ip-172-31-26-52 sshd[611]: Server listening on 0.0.0.0 port 22.
+May 26 08:42:15 ip-172-31-26-52 sshd[611]: Server listening on :: port 22.
+May 26 08:42:19 ip-172-31-26-52 useradd[949]: new user: name=lxd, UID=999, GID=100, home=/var/snap/lxd/common/lxd, shell=/bin/false, from=none
+May 26 08:45:48 ip-172-31-26-52 ec2-instance-connect[1350]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:XmVEEOnljzhIEzVHgaoXVBAmQMgukiNhOYWMehv7HEA
+May 26 08:45:48 ip-172-31-26-52 ec2-instance-connect[1382]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:XmVEEOnljzhIEzVHgaoXVBAmQMgukiNhOYWMehv7HEA, request-id: ba4ff6c2-530e-4cb5-8aa1-2ce13d8bd965, for IAM principal: arn:aws:iam::749185461088:root
+May 26 08:45:48 ip-172-31-26-52 ec2-instance-connect[1499]: Querying EC2 Instance Connect keys for matching fingerprint: SHA256:XmVEEOnljzhIEzVHgaoXVBAmQMgukiNhOYWMehv7HEA
+May 26 08:45:48 ip-172-31-26-52 ec2-instance-connect[1531]: Providing ssh key from EC2 Instance Connect with fingerprint: SHA256:XmVEEOnljzhIEzVHgaoXVBAmQMgukiNhOYWMehv7HEA, request-id: ba4ff6c2-530e-4cb5-8aa1-2ce13d8bd965, for IAM principal: arn:aws:iam::749185461088:root
+May 26 08:45:48 ip-172-31-26-52 sshd[1241]: Accepted publickey for ubuntu from 13.48.4.203 port 63212 ssh2: ED25519 SHA256:XmVEEOnljzhIEzVHgaoXVBAmQMgukiNhOYWMehv7HEA
+May 26 08:45:48 ip-172-31-26-52 sshd[1241]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+May 26 08:45:48 ip-172-31-26-52 systemd-logind[433]: New session 1 of user ubuntu.
+May 26 08:45:48 ip-172-31-26-52 systemd: pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by (uid=0)
+May 26 08:46:41 ip-172-31-26-52 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+May 26 08:46:41 ip-172-31-26-52 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+May 26 08:47:28 ip-172-31-26-52 sudo: pam_unix(sudo:session): session closed for user root
+May 26 08:47:28 ip-172-31-26-52 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+May 26 08:47:28 ip-172-31-26-52 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+May 26 08:47:55 ip-172-31-26-52 sshd[611]: Received signal 15; terminating.
+May 26 08:47:56 ip-172-31-26-52 sshd[3748]: Server listening on 0.0.0.0 port 22.
+May 26 08:47:56 ip-172-31-26-52 sshd[3748]: Server listening on :: port 22.
+May 26 08:53:24 ip-172-31-26-52 sudo: pam_unix(sudo:session): session closed for user root
+May 26 08:55:59 ip-172-31-26-52 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install python3 python3-pip python3-venv git -y
+May 26 08:55:59 ip-172-31-26-52 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+May 26 08:57:24 ip-172-31-26-52 sudo: pam_unix(sudo:session): session closed for user root
+May 26 09:07:14 ip-172-31-26-52 sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/sys-toolkit ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log logs/auth.log
+May 26 09:07:14 ip-172-31-26-52 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
