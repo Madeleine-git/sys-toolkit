@@ -1,0 +1,41 @@
+2026-05-29 08:47:51 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpf33teyiq.log
+2026-05-29 08:47:51 - log_parser      - INFO     - Análisis completado: 3 IPs únicas, 7 intentos fallidos
+2026-05-29 08:47:51 - log_parser      - INFO     - Iniciando análisis de /tmp/tmp37iin4dc.log
+2026-05-29 08:47:51 - log_parser      - INFO     - Análisis completado: 3 IPs únicas, 7 intentos fallidos
+2026-05-29 08:47:51 - log_parser      - INFO     - Iniciando análisis de /tmp/tmp0ch36dl7.log
+2026-05-29 08:47:51 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 08:47:51 - log_parser      - ERROR    - No se encontró el fichero 'fichero_que_no_existe.log'
+2026-05-29 08:47:51 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpqmmqz1il.log
+2026-05-29 08:47:51 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 08:47:51 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpg6if7n51.log
+2026-05-29 08:47:51 - log_parser      - INFO     - Análisis completado: 1 IPs únicas, 1 intentos fallidos
+2026-05-29 08:47:56 - log_parser      - ERROR    - No se encontró el fichero '/ruta/invalida/auth.log'
+2026-05-29 08:47:56 - log_parser      - INFO     - Iniciando análisis de /tmp/tmp_dbmx09g.log
+2026-05-29 08:47:56 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 08:58:42 - log_parser      - INFO     - Iniciando análisis de logs/auth.log
+2026-05-29 08:58:42 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 08:58:49 - log_parser      - INFO     - Iniciando análisis de logs/auth.log
+2026-05-29 08:58:49 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 09:00:05 - log_parser      - INFO     - Iniciando análisis de logs/auth.log
+2026-05-29 09:00:05 - log_parser      - INFO     - Análisis completado: 4 IPs únicas, 25 intentos fallidos
+2026-05-29 09:00:05 - log_parser      - WARNING  - IP peligrosa detectada: 185.220.101.45 (8 intentos)
+2026-05-29 09:00:05 - log_parser      - WARNING  - IP peligrosa detectada: 91.241.19.77 (7 intentos)
+2026-05-29 09:00:05 - log_parser      - WARNING  - IP peligrosa detectada: 45.33.32.156 (5 intentos)
+2026-05-29 09:00:05 - log_parser      - WARNING  - IP peligrosa detectada: 193.32.126.150 (5 intentos)
+2026-05-29 09:06:08 - log_parser      - INFO     - Iniciando análisis de /tmp/tmp6neqykcy.log
+2026-05-29 09:06:08 - log_parser      - INFO     - Análisis completado: 3 IPs únicas, 7 intentos fallidos
+2026-05-29 09:06:08 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpvrd0mqd4.log
+2026-05-29 09:06:08 - log_parser      - INFO     - Análisis completado: 3 IPs únicas, 7 intentos fallidos
+2026-05-29 09:06:08 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpfvuiuo6h.log
+2026-05-29 09:06:08 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 09:06:08 - log_parser      - ERROR    - No se encontró el fichero 'fichero_que_no_existe.log'
+2026-05-29 09:06:08 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpjhnpjo3q.log
+2026-05-29 09:06:08 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 09:06:08 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpdci2lnxn.log
+2026-05-29 09:06:08 - log_parser      - INFO     - Análisis completado: 1 IPs únicas, 1 intentos fallidos
+2026-05-29 09:06:13 - log_parser      - ERROR    - No se encontró el fichero '/ruta/invalida/auth.log'
+2026-05-29 09:06:13 - log_parser      - INFO     - Iniciando análisis de /tmp/tmpfgzq4y7v.log
+2026-05-29 09:06:13 - log_parser      - INFO     - Análisis completado: 0 IPs únicas, 0 intentos fallidos
+2026-05-29 09:07:11 - network_models  - INFO     - Auditoría de router: router-core-01 (192.168.1.1)
+2026-05-29 09:07:11 - network_models  - INFO     - Auditoría de servidor: server-web-01 (192.168.1.10)
+2026-05-29 09:07:11 - network_models  - INFO     - Auditoría de servidor: server-db-01 (192.168.1.11)
