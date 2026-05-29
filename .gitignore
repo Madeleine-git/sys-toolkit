@@ -17,3 +17,4 @@ desktop.ini
 .mypy_cache/venv/
 __pycache__/
 .pytest_cache/
+logs/toolkit.log
