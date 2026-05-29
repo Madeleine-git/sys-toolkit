@@ -4,107 +4,73 @@ log_parser.py
 =============
 Módulo de análisis de logs SSH.
 
-Lee auth.log línea a línea, extrae IPs que han fallado
-al autenticarse y genera un reporte de amenazas.
-
-Mejora aplicada (sugerencia profesor):
-  - Usa collections.Counter en lugar de diccionario manual
-    para contar intentos por IP de forma más pythónica.
-
-Conceptos:
-  - with open     → abrir ficheros de forma segura
-  - .split()      → dividir texto en partes
-  - .strip()      → limpiar espacios y saltos de línea
-  - Counter       → conteo automático sin if/else manual
-  - set           → colección sin duplicados
+Mejoras aplicadas:
+  01 - collections.Counter en lugar de diccionario manual
+  02 - logging en lugar de print() para mensajes del sistema
 """
 
 import os
 from collections import Counter
+from logger import configurar_logger
+
+
+# ─── LOGGER DEL MÓDULO ───────────────────────────────────────
+logger = configurar_logger("log_parser")
 
 
 # ─── CONSTANTES ──────────────────────────────────────────────
-RUTA_LOG: str = "logs/auth.log"
-PATRON_FALLO: str = "Failed password"
+RUTA_LOG: str      = "logs/auth.log"
+PATRON_FALLO: str  = "Failed password"
 UMBRAL_ATAQUES: int = 5
 
 
-# ─── FUNCIÓN 1: LEER Y PARSEAR EL LOG ────────────────────────
+# ─── FUNCIÓN 1: PARSEAR EL LOG ───────────────────────────────
 
 def parsear_log(ruta: str = RUTA_LOG) -> Counter[str]:
     """
-    Lee auth.log línea a línea y cuenta los intentos
-    fallidos por IP usando collections.Counter.
-
-    Devuelve:
-      Counter[str] → {ip: numero_de_intentos}
-      Ejemplo: Counter({"185.220.101.45": 8, "45.33.32.156": 5})
-
-    MEJORA — collections.Counter:
-      Antes contábamos manualmente con if/else:
-        if ip in conteo: conteo[ip] += 1
-        else: conteo[ip] = 1
-
-      Ahora recopilamos todas las IPs en una lista
-      y Counter las cuenta automáticamente en una línea.
-      Es más legible, más pythónico y menos propenso a errores.
+    Lee auth.log línea a línea y cuenta intentos fallidos por IP.
+    Usa Counter para contar y logging para mensajes del sistema.
     """
 
-    # Verificamos que el fichero existe antes de abrirlo
     if not os.path.exists(ruta):
-        print(f"  [!] Error: no se encontró el fichero '{ruta}'")
-        print(f"  [!] Asegúrate de que logs/auth.log existe.")
-        return Counter()  # devuelve Counter vacío
+        logger.error(f"No se encontró el fichero '{ruta}'")
+        return Counter()
 
-    # Lista donde acumulamos cada IP que falla
-    # Al final Counter la cuenta de golpe
     ips_fallidas: list[str] = []
+
+    logger.info(f"Iniciando análisis de {ruta}")
 
     with open(ruta, "r", encoding="utf-8") as fichero:
         for linea in fichero:
-
             linea = linea.strip()
 
-            # Solo nos interesan líneas con "Failed password"
             if PATRON_FALLO not in linea:
                 continue
 
-            # Dividimos la línea por espacios
-            # La IP está siempre justo después de "from"
             partes: list[str] = linea.split()
 
             if len(partes) > 10 and "from" in partes:
                 indice_from: int = partes.index("from")
                 ip: str = partes[indice_from + 1]
-
-                # Añadimos la IP a la lista (con duplicados)
-                # Counter se encarga de contar al final
                 ips_fallidas.append(ip)
 
-    # Counter cuenta cuántas veces aparece cada IP
-    # Counter(["1.2.3.4", "1.2.3.4", "5.6.7.8"])
-    # → Counter({"1.2.3.4": 2, "5.6.7.8": 1})
-    return Counter(ips_fallidas)
+    conteo: Counter[str] = Counter(ips_fallidas)
+    logger.info(f"Análisis completado: {len(conteo)} IPs únicas, {len(ips_fallidas)} intentos fallidos")
+
+    return conteo
 
 
-# ─── FUNCIÓN 2: OBTENER IPs ÚNICAS CON SET ───────────────────
+# ─── FUNCIÓN 2: IPs ÚNICAS ───────────────────────────────────
 
 def obtener_ips_sospechosas(conteo: Counter[str]) -> set[str]:
-    """
-    Devuelve un Set con las IPs únicas que han fallado.
-    Counter tiene .keys() igual que un diccionario normal.
-    """
+    """Devuelve un Set con las IPs únicas que han fallado."""
     return set(conteo.keys())
 
 
-# ─── FUNCIÓN 3: MOSTRAR EL REPORTE ───────────────────────────
+# ─── FUNCIÓN 3: MOSTRAR REPORTE ──────────────────────────────
 
 def mostrar_reporte(conteo: Counter[str]) -> None:
-    """
-    Muestra el reporte completo de intentos fallidos.
-    Counter es compatible con .items(), .values() y sorted()
-    igual que un diccionario normal.
-    """
+    """Muestra el reporte en pantalla. Usa print() para la UI."""
 
     if not conteo:
         print("\n  [INFO] No se encontraron intentos fallidos.")
@@ -112,11 +78,10 @@ def mostrar_reporte(conteo: Counter[str]) -> None:
 
     ips_unicas: set[str] = obtener_ips_sospechosas(conteo)
     total_intentos: int = sum(conteo.values())
-
-    # Counter tiene método .most_common() que ordena
-    # automáticamente de mayor a menor sin necesidad de sorted()
     ips_ordenadas = conteo.most_common()
 
+    # La UI sigue usando print() — logging es para el sistema
+    # print() es para el usuario, logging es para el servidor
     print("\n  " + "═" * 52)
     print("  REPORTE DE SEGURIDAD SSH")
     print("  " + "═" * 52)
@@ -130,8 +95,10 @@ def mostrar_reporte(conteo: Counter[str]) -> None:
     for ip, intentos in ips_ordenadas:
         if intentos >= UMBRAL_ATAQUES:
             estado: str = "⚠  PELIGROSA"
+            logger.warning(f"IP peligrosa detectada: {ip} ({intentos} intentos)")
         else:
             estado = "●  Revisar"
+
         print(f"  {ip:<20} {intentos:>10}   {estado}")
 
     print("  " + "═" * 52)
